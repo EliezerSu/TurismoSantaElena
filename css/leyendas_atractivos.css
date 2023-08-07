@@ -1,0 +1,150 @@
+.color_Texto{
+    text-align: justify;
+    color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .titumodal {
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 533px) {
+    .titumodal {    
+        font-size: 24px;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+    .titumodal {
+        font-size: 22px;
+    }   
+}
+
+
+
+
+
+    
+.Texto_Intro{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.Parrafos{
+    text-align: justify;
+    color: black;
+    font-size: 16px;
+    margin: 30px;
+}
+
+ 
+.slider-frame {
+    width: 100%;
+    height: auto;
+    margin:50px auto 2px ;
+    overflow: hidden;
+    margin-top: 2px;
+    
+    }
+        
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    
+            
+    animation: slide 25s infinite alternate ease-in-out;
+    }
+        
+.slider-frame li {
+        width: 100%;
+        list-style: none;
+        
+        }
+        
+.slider-frame img {
+        width: 100%;
+       
+        }
+        
+        @keyframes slide {
+            0% {margin-left: 0;}
+            20% {margin-left: 0;}
+            
+            25% {margin-left: -100%;}
+            45% {margin-left: -100%;}
+            
+            50% {margin-left: -200%;}
+            100% {margin-left: -200%;}
+            
+            
+        }
+
+        .span12 {
+            width: 97%;
+        }
+        
+        
+        .gallery-post-grid li {
+            list-style: none; 
+            float: left; 
+            margin-bottom: 30px;
+        }
+        
+        .span3 {
+            width: 23%;
+        }
+        
+        .gallery-item { 
+            margin-bottom:15px; 
+            margin-top:15px; 
+        }
+        
+        .project-details {
+            background:#f8f8f8;
+            display: block;
+            padding:10px;
+            border-bottom: 1px dotted #a9a9a9;
+            font-family: Georgia;
+            font-style: italic;
+            width: auto\9;
+            height: auto;
+            max-width: 100%;
+        }
+        
+        .project-details {
+            color: #6f6f6f;
+        }
+        
+        .project-details a {
+            color: #333333;
+        }
+        
+        .project-details a:hover {
+            color:blue; 
+            text-decoration: none;
+        }
+        
+        
+        
+        .row {
+            margin-left: -20px;
+            *zoom: 1;
+        }
+        
+        
+        [class*="span"] {
+            
+            min-height: 1px;
+            margin-left: 20px;
+        }
+        
+        
+        
+        

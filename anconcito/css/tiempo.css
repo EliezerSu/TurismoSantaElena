@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: "Mega Fresh";
+    src: url("./fonts/fonts-meds/52fc208a45b0ba23c86a7e911f266901.eot");
+    src: url("./fonts/fonts-meds/52fc208a45b0ba23c86a7e911f266901.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/fonts-meds/52fc208a45b0ba23c86a7e911f266901.woff2") format("woff2"),
+    url("./fonts/fonts-meds/52fc208a45b0ba23c86a7e911f266901.woff") format("woff"),
+    url("./fonts/fonts-meds/52fc208a45b0ba23c86a7e911f266901.ttf") format("truetype"),
+    url("./fonts//fonts-meds/52fc208a45b0ba23c86a7e911f266901.svg#Mega Fresh") format("svg");
+}
+
+
+
+
+/*-- POSICION Y MARGENES DE LA IMAGEN--*/
+
+.banner-tiempo {
+     background-image: url("imagenes/anconcito/0154_tiempo.jpg");
+     width: 100%;
+     height: 460px;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-size: cover;
+     line-height: 50px;
+     text-align: center;
+}
+
+
+/*-- TITULO DENTRO DE LA IMANGEN*/
+.titulo-llegar {
+    background-image: linear-gradient(#ffffff);
+    color: #ffffff;
+    font-family: 'Mega Fresh';
+    font-size: 155px;
+    font-weight: 500;
+    line-height: 160px;
+    padding: 0px 0px;
+    text-align: center;
+    text-shadow: #000000 0px 2px 4px;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .titulo-llegar {
+        font-size: 100px;
+    }
+}
+
+
+/* Estilos de mi tabla tiempo */
+th,
+td {
+    padding: 2px;
+    font-size: 19px
+}

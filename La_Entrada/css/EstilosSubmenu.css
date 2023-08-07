@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+   
+}
+
+body{
+    background: white ;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+/* Header superior */
+
+.Header__Principal{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+}
+
+.search input{
+    width: 300px;
+    padding: 10px;
+}
+.lupa{
+    margin-left: 30px;
+    width: 30px;
+    position: fixed;
+    left: auto;
+    
+}
+
+/* Menu */
+
+.container__menu{
+    width: 100%;
+    height: 70px;
+    background: #0aa13c;
+    padding: 0px 200px;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+.Container__Lista{
+    height: 100%;
+}
+.Lista {
+    height: 100%;
+    display: flex;
+}
+.fondo{
+    margin: 0 auto;
+    width:980%;
+    /* height: 800px;  */   
+    display:grid;
+    grid-template-columns: 5% repeat(3, 1fr) 5%;
+    grid-template-rows: 5% repeat(2,1fr) 5%;
+    grid-gap: 1%;
+} 
+
+
+.Opcion__Principal {
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.Direccion__1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20;
+    transition: all 300ms ease;
+
+}
+.Direccion__1:hover{
+    transform: scale(1.1);
+    background: #2FB55C;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+}
+
+
+
+/* diseño de Submenus  */
+
+.Lista__SubMenu{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background: #fff ;
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+.Opcion__Principal:hover .Lista__SubMenu {
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+
+}
+
+.Lista__SubMenu:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
+.Direccion__2{
+    display: block;
+    color: #2BA654 ;
+    padding: 6px;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+
+.Direccion__2:hover {
+    background: #35B54A;
+    color: #fff;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.icon__menu{
+    font-size: 26px;
+    color: black;
+    width: 26px;
+    height: 100%;
+    align-items: center;
+    display: none;
+    padding: 15px;
+}
+#label__check{
+    width: 26px;
+    height: 100%;
+    display: none;
+}
+#check__menu{
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    .container__menu{
+        padding: 0px;
+    }
+
+    .search input{
+        display: none;
+    }
+
+    .Header__Principal{
+        padding: 10px;
+
+    }
+
+    .Lista{
+        
+       
+        flex-direction: column;
+        position: fixed;
+        top: 180px;
+        left: 0;
+        z-index: 10;
+        transition: all 300ms ease;
+        background:#39DB6F ;
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .Direccion__1:hover {
+        transform: scale(1);
+    }
+
+    .Lista__SubMenu{
+        left: 180px;
+        width: 150px;
+        
+    }
+    .Opcion__Principal:hover>.Lista__SubMenu{
+        top: 50px;
+    }
+
+    #label__check{
+        display: block;
+
+    }
+
+    .icon__menu{
+        display: flex;
+    }
+
+    #check__menu:checked~ .Container__Lista>.Lista{
+        height: 350px;
+        visibility: visible;
+        opacity: 1;
+
+    } 
+
+    .Primera__Seccion{
+        display: none;
+      }
+      .Segunda__Seccion{
+        display: none;
+      }
+      .Tercer__Seccion{
+        display: none;
+      }
+      .Cuerpo{
+        display: none;
+      }
+      .Container__Separador{
+        display: none;
+      }
+      .fondo{   
+        display: none;
+    
+      }
+
+ 
+
+}

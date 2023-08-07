@@ -1,0 +1,240 @@
+#contenedor-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.3);
+    width: 500px;
+  }
+  
+  #buscador {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+  }
+  
+  #boton-buscar {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #1E88E5;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #boton-buscar:hover {
+    background-color: #0D47A1;
+  }
+  
+  #listaArticulos {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 40%;
+    
+    justify-content: center;
+    max-height: 250px;
+    overflow-y: auto;
+    margin-top: 7.9977rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5rem;
+  }
+  #listaArticulos li {
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+    transition:  200ms ease-in-out;
+  }
+  
+  .articulo {
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .articulo:hover {
+    background-color: #d3d3d3;
+  }
+  
+  .filtro {
+    display: none;
+  }
+
+  #altura{
+    height: 350px;
+  }
+.titulo__busqueda{
+    font-size: 35px;
+    color: white;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 2.5);;
+
+  }
+
+@media screen  and (max-width:942px){
+    .input-wrapper{
+        width: 250px;
+    }
+    #listaArticulos{
+        margin-top: 4.624rem;
+    }
+    .base{ 
+        margin-top:2.5rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .input-wrapper{
+        width: 250px;
+        margin-top: 2rem;
+    }
+    #listaArticulos {
+        width:  40%; /* ajustar el ancho al 80% para tabletas */
+        max-height: 20vh; /* cambiar la altura máxima al 40% de la altura de la pantalla */
+        margin-top: 6.6542rem; /* ajustar el margen superior para tabletas */
+    }
+    #buscador{
+        width:50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+      .input-wrapper{
+        width: 250px;
+        margin-top: 2rem;
+    }
+    #listaArticulos {
+        width: 40%; /* ajustar el ancho al 90% para teléfonos */
+        max-height: 30vh; /* cambiar la altura máxima al 30% de la altura de la pantalla */
+        margin-top: 12.6542rem; /* ajustar el margen superior para teléfonos */
+    }
+}
+@media screen and (max-width: 414px) {
+    .input-wrapper{
+      width: 250px;
+      margin-top: 2rem;
+  }
+  #listaArticulos {
+      width: 40%; /* ajustar el ancho al 90% para teléfonos */
+      max-height: 30vh; /* cambiar la altura máxima al 30% de la altura de la pantalla */
+      margin-top: 9.7542rem; /* ajustar el margen superior para teléfonos */
+  }
+}
+@media screen and (max-width: 412px) {
+    .input-wrapper{
+      width: 250px;
+      margin-top: 2rem;
+  }
+  #listaArticulos {
+      width: 40%; /* ajustar el ancho al 90% para teléfonos */
+      max-height: 30vh; /* cambiar la altura máxima al 30% de la altura de la pantalla */
+      margin-top: 7.6542rem; /* ajustar el margen superior para teléfonos */
+  }
+}
+@media screen and (max-width: 375px) {
+    .input-wrapper{
+      width: 250px;
+      margin-top: 2rem;
+  }
+  #listaArticulos {
+      width: 40%; /* ajustar el ancho al 90% para teléfonos */
+      max-height: 30vh; /* cambiar la altura máxima al 30% de la altura de la pantalla */
+      margin-top: 20.6542rem; /* ajustar el margen superior para teléfonos */
+  }
+  .image{ 
+      margin-top:48rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .input-wrapper{
+      width: 250px;
+      margin-top: 3.2rem;
+  }
+  #listaArticulos {
+      width: 40%; /* ajustar el ancho al 90% para teléfonos */
+      max-height: 30vh; /* cambiar la altura máxima al 30% de la altura de la pantalla */
+      margin-top: 20.6542rem; /* ajustar el margen superior para teléfonos */
+  }
+}
+
+
+
+
+@media screen and (max-width: 428px) {
+    .base{
+        margin-top: 900px;
+    }
+    .input-wrapper{
+      width: 250px;
+      margin-top: 1.2rem;
+  }
+  #listaArticulos {
+      width: 40%; /* ajustar el ancho al 90% para teléfonos */
+      max-height: 30vh; /* cambiar la altura máxima al 30% de la altura de la pantalla */
+      margin-top: 12.6542rem; /* ajustar el margen superior para teléfonos */
+  }
+}
+
+@media screen and (max-width: 280px) {
+    .base{
+        margin-top: 900px;
+    }
+    .input-wrapper{
+      width: 150px;
+      margin-top: 1.2rem;
+  }
+  #listaArticulos {
+      width: 60%; /* ajustar el ancho al 90% para teléfonos */
+      max-height: 30vh; /* cambiar la altura máxima al 30% de la altura de la pantalla */
+      margin-top: 28.6542rem; /* ajustar el margen superior para teléfonos */
+
+  }
+  .contenedor-main{
+    margin-bottom: 8.6rem;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .base{
+      margin-top: 900px;
+  }
+  .input-wrapper{
+    width: 150px;
+    margin-top: 1.2rem;
+  }
+  #listaArticulos {
+      width: 60%; /* ajustar el ancho al 90% para teléfonos */
+      max-height: 30vh; /* cambiar la altura máxima al 30% de la altura de la pantalla */
+      margin-top: 35.8542rem; /* ajustar el margen superior para teléfonos */
+
+  }
+  .contenedor-main{
+      max-width:450px;
+    margin-bottom: 8.6rem;
+  }
+}
+

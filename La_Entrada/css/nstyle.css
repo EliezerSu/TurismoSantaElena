@@ -1,0 +1,48 @@
+*{
+    margin: 10;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background: yellow;
+    height: 70px;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+
+.logo{
+    width: 30%;
+    height: 70px; 
+    background: blue;   
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    width: 70%;
+    height: 70px;
+    background: olive;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: red;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}

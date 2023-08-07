@@ -1,0 +1,301 @@
+.spanfiesta {
+    width: 99%;
+}
+
+.gallery-post-grid-1 li {
+    position: relative;
+    left: 35.5%;
+    list-style: none; 
+    float: left; 
+    margin-bottom: 5%;
+    background: #000;
+}
+
+.gallery-post-grid-2 li {
+    position: relative;
+    left: 22%;
+    list-style: none; 
+    float: left; 
+    margin-bottom: 5%;
+    background: #000;
+}
+
+.gallery-post-grid-3 li {
+    position: relative;
+    left: 8%;
+    list-style: none; 
+    float: left; 
+    margin-bottom: 5%;
+    background: #000;
+}
+
+.gallery-post-grid-4 li {
+    list-style: none; 
+    float: left; 
+    margin-bottom: 5%;
+    background: #000;
+}
+
+.gallery-post-grid-6 li {
+    position: relative;
+    left: 9.4%;
+    list-style: none; 
+    float: left; 
+    margin-bottom: 0.5%;
+    background: #000;
+}
+
+.gallery-post-grid-fiesta li {
+    list-style: none; 
+    float: left; 
+    margin-bottom: 0.5%;
+    background: #000;
+}
+
+.span3 {
+    width: 23%;
+}
+
+.span4 {
+    width: 32.3%;
+  
+}
+
+.gallery-item { 
+    margin-bottom:15px; 
+    margin-top:15px; 
+}
+
+.span3 a img{
+    width: 100%;
+}
+
+.span3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.span4 a img{
+    width: 100%;
+}
+
+.span4 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.project-details {
+	background: #f5f5f5;;
+	display: block;
+	padding:10px;
+	border-bottom: 1px dotted #a9a9a9;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	width: auto\9;
+    height: auto;
+    max-width: 100%;
+}
+
+.project-details {
+    color: #6f6f6f;
+}
+
+.project-details a {
+    color: #333333;
+}
+
+.project-details a:hover {
+    color:blue; 
+    text-decoration: none;
+}
+
+
+.separacion1 {
+    min-height: 1px;
+    margin-left: 2%;
+}
+
+.separacion2 {
+    min-height: 1px;
+    margin-left: 1%;
+}
+
+.galeriafiestas {
+    min-height: 1px;
+    margin-left: 3%;
+}
+
+.galeriafiestas4 {
+    min-height: 1px;
+    margin-left: 1.5%;
+}
+
+.principalfiestas {
+	color: rgb(59 61 66);
+    font-size: 3.313rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 800; 
+    padding: .5rem  1rem; 
+    line-height: 1;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.regresar {
+    display: block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #162E44;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.divisorfiestas {
+	width: 440px;
+	border-top: 1% solid #0088cc;
+	margin-top: 33%;
+	margin-bottom: 50px;
+	margin-left: 450px;
+}
+
+.texto_fiestas {
+    position: relative;
+    margin-top: 2%;
+	width: 83.3%;
+    bottom: 4%;
+	font-size: 21px;
+    margin: 0 9%;
+    line-height : 30px;
+    text-align: justify;
+}
+
+.contenedor_fiestas {
+	display: flex;
+	justify-content: 0;
+	width: 100%;
+	height: 35vh;
+	align-items: center;
+}
+
+.titulo_comunas{
+    position:relative;
+    margin-top: 0;
+    margin-left: 40%;
+	color: rgb(59 61 66);
+    font-size: 3.310rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+	margin-bottom: 45px;
+}
+
+.titulo_comunas1{
+    position:relative;
+    margin-top: 0;
+    margin-left: 30%;
+	color: rgb(59 61 66);
+    font-size: 3.310rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+	margin-bottom: 45px;
+}
+
+.titulo_fiestas{
+    position: relative;
+    margin-bottom: 1%;
+    margin-left: 10%;
+	color: rgb(59 61 66);
+    font-size: 2.20rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+}
+.titulo_fiestas1{
+    position: relative;
+    margin-bottom: 1%;
+    margin-left: 15%;
+	color: rgb(59 61 66);
+    font-size: 2.05rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+}
+.titulo_fiestas2 {
+    position: relative;
+    margin-bottom: 1%;
+    margin-left: 20%;
+	color: rgb(59 61 66);
+    font-size: 1.70rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+}
+.titulo_fiestas3{
+    position: relative;
+    margin-bottom: 1%;
+    margin-left: 20%;
+	color: rgb(59 61 66);
+    font-size: 1.50rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+}
+
+.titulo_fiestas4{
+    position: relative;
+    margin-bottom: 1%;
+    margin-left: 20%;
+	color: rgb(59 61 66);
+    font-size: 1.80rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+}
+
+.titulo_fiestas5{
+    position: relative;
+    margin-bottom: 1%;
+    margin-left: 15%;
+	color: rgb(59 61 66);
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+}
+
+.titulo_fiestas6{
+    position: relative;
+    margin-bottom: 1%;
+    margin-left: 20%;
+	color: rgb(59 61 66);
+    font-size: 1.40rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+}
+
+.titulo_fiestas7{
+    position: relative;
+    margin-bottom: 100%;
+    margin-left:15%;
+	color: rgb(59 61 66);
+    font-size: 1.90rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    line-height: 1;
+}
+
+[class*='titulo_fiestas'] span, [class*='titulo_fiestas'] span span {
+    position: relative;
+    margin-bottom: 1%;
+}
+

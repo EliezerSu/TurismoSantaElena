@@ -1,0 +1,725 @@
+#Wrapper{
+position: absolute;
+top: 0;
+display: flex;
+}
+
+#Wrapper .Card__Wrapper{
+display: flex;
+flex-shrink: 0;
+width: 18vw;
+height: 20vh;
+gap:0rem;
+position: relative;
+top: 300px;
+ left: -600px; 
+right: 0    ; 
+}
+
+#Wrapper .Card__Wrapper img{
+width:100%;
+height: 20vh;
+object-fit: cover;
+}
+
+.contenido{
+background: #000;
+position: absolute;
+top: 0px;
+left: 0;
+width: 100%;
+height: 20vh;
+}
+
+.imagen_map{ 
+    position:absolute;
+}
+
+.controles{
+top: 480px;
+width:250px; 
+display:flex; 
+justify-content:space-between;
+background: none;
+}
+
+.btn_control{
+font-size: 18px;
+color: black;
+border-top: 2px solid  ;
+background-color: #fff;
+}
+
+.btn_control span{
+    color: white;text-shadow: 2px 2px #000;
+}
+
+.Texto{
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+
+#number1{
+font-size: 18px;
+font-weight: bolder;
+    padding: 0 50px;
+color: white;
+
+}
+
+.base{
+max-width: 9040px;
+margin-top: 750px;
+}
+
+.MapaInteractivo{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.MapaInteractivo .Mapa{
+position: relative;
+top: 0;
+right: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.MapaInteractivo__Localizador{
+position: absolute;
+    top: 8px;
+    left: -140px;
+}
+
+.C7__Mapa{
+    top: 20.8rem;
+    left: 19rem;
+}
+
+.C8__Mapa{
+    top: 21.5rem;
+}
+
+@media screen and (max-width:1408px){
+
+    .menu{
+        width: 300px;
+        height: 100vh;
+        position: absolute;
+        top: 70px;
+        right: -950px;
+        background-color: #222;
+        transition:  all 300ms;
+    }
+        .MapaInteractivo__Localizador{
+        top: 15px;
+       
+    }
+    
+}
+
+@media screen and (max-width:1390px){
+        .MapaInteractivo__Localizador{
+        top: 45px;
+          left: -180px;
+    }
+
+
+.C7__Mapa{
+    top: 17.8rem;
+    left: 19.5rem;
+}
+
+.C8__Mapa{
+    top: 17.9rem;
+}
+
+
+
+}
+
+@media screen and (max-width:1024px){
+    #Wrapper{
+      position: absolute;
+      top: 0;
+      display: flex;
+      width: 10%;
+    }
+
+    #Wrapper .Card__Wrapper{
+      width: 15vw;
+      top: 280px;
+      left: -360px;
+    } 
+.btn_control span{
+        color: #000;
+        text-shadow:  0px 0px;
+    }
+#number1{
+        color: #000;
+    }
+    .MapaInteractivo__Localizador{
+    /* position: absolute; */
+        top: 5px;
+        left: -198px;
+    }
+
+    .C7__Mapa{
+        top: 15.8rem;
+        left: 20.1rem;
+    }
+
+    .C8__Mapa{
+        top: 16.5rem;
+    }
+
+    .Text7__Mapa{
+        top: 16rem;
+    }
+
+    .Text8__Mapa{
+        top: 17rem;
+        
+    }
+
+}
+@media screen and (max-width:1192px){
+   
+    .MapaInteractivo__Localizador{
+    position: absolute; 
+        top: 88px;
+        left: -200px;
+    }
+
+    .C7__Mapa{
+        top: 15.8rem;
+        left: 20.1rem;
+    }
+
+    .C8__Mapa{
+        top: 16.5rem;
+    }
+
+    .Text7__Mapa{
+        top: 16rem;
+    }
+
+    .Text8__Mapa{
+        top: 17rem;
+        
+    }
+
+}
+
+@media screen and (max-width:1353px){
+   
+    .MapaInteractivo__Localizador{
+    /* position: absolute; */
+        top: 40px;
+        left: -180px;
+    }
+    .C7__Mapa{
+        top: 18.8rem;
+        left: 20.1rem;
+    }
+
+    .C8__Mapa{
+        top: 18.5rem;
+    }
+
+    .Text7__Mapa{
+        top: 18rem;
+    }
+
+    .Text8__Mapa{
+        top: 18rem;
+        
+    }
+   
+
+}
+
+@media screen and (max-width:912px){
+.btn_control span{
+        color: whitesmoke;
+        text-shadow:  0px 0px;
+    }
+#number1{
+        color: whitesmoke;
+        text-shadow: 2px 2px #000;
+    }
+
+    .Mapa{
+        margin-top:8.8rem;  
+        margin-right:2rem;
+        height:80vh;
+    }
+    
+    .base{
+        margin-top: 70rem;
+    } 
+
+
+    #Wrapper .Card__Wrapper{
+        width: 20.2vw;
+
+        top: 620px;
+        left: -400px;
+    }
+
+    .controles{
+        top: 930px;
+    }
+
+   .MapaInteractivo{
+    height: 20vh;
+   }
+
+    .MapaInteractivo__Localizador{
+        top: -10px;
+        left: -252px;
+    }
+
+      .C7__Mapa{
+        top: 11.8rem;
+        left: 20.8rem;
+    }
+
+    .C8__Mapa{
+        top: 12.8rem;
+        left: 22.8rem;
+    }
+
+    .Text7__Mapa{
+        top: 11rem;
+        left: 14.8rem;
+    }
+
+    .Text8__Mapa{
+        top: 12rem;
+        
+    }
+} 
+
+@media screen and (max-width:820px){
+.btn_control span{
+        color: whitesmoke;
+        text-shadow:  0px 0px;
+    }
+#number1{
+        color: whitesmoke;
+        text-shadow: 2px 2px #000;
+    }
+
+    #Wrapper .Card__Wrapper{
+        top: 520px;
+        left: -330px;
+    }
+
+    .controles{
+        top: 700px;
+    }
+
+    .MapaInteractivo {
+        height: 40vh;
+    }
+
+    .base{
+        margin-top: 54rem;
+    }
+
+     .MapaInteractivo__Localizador{
+        top: 80px;
+        left: -252px;
+    }
+    
+      .C7__Mapa{
+        top: 11.8rem;
+        left: 20.8rem;
+    }
+
+    .C8__Mapa{
+        top: 12.8rem;
+        left: 22.8rem;
+    }
+
+    .Text7__Mapa{
+        top: 11rem;
+        left: 14.8rem;
+    }
+
+    .Text8__Mapa{
+        top: 12rem;
+        
+    }
+  
+
+}
+
+@media screen and (max-width:768px){
+#Wrapper .Card__Wrapper{
+    top: 520px;
+    left: -330px;
+}
+.base{
+    margin-top: 54rem;
+}
+.controles{
+    top: 750px;
+}
+.MapaInteractivo__Localizador{
+        top: 35px;
+        left: -252px;
+    }
+
+}
+
+@media screen and (max-width:572px){
+ .Mapa{
+     margin-bottom:150px;
+ }
+.base{
+     margin-top: 40rem; 
+    margin-left: 50px;
+    
+}
+    #Wrapper .Card__Wrapper{
+    width: 18vw;
+
+    top: 280px;
+    left: -220px; 
+}
+
+    .controles{
+    top: 500px;
+    }
+
+    .MapaInteractivo{
+        height: 50vh;
+    }
+  .MapaInteractivo__Localizador{
+        top: -20px;
+        left: -195px;
+    }
+
+      .C7__Mapa{
+        top: 15.8rem;
+        left: 20.5rem;
+    }
+
+    .C8__Mapa{
+        top: 15.8rem;
+        left: 22.5rem;
+    }
+
+    .Text7__Mapa{
+        top: 15.8rem;
+        left: 14.8rem;
+    }
+
+    .Text8__Mapa{
+        top: 15rem;
+        
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+ .base{
+        margin-top: 50rem;
+    } 
+
+.btn_control span{
+        color: whitesmoke;
+        text-shadow:  0px 0px;
+    }
+#number1{
+        color: whitesmoke;
+        text-shadow: 2px 2px #000;
+    }
+
+    #Wrapper .Card__Wrapper{
+        top: 380px;
+        left: -220px; 
+    }
+    .controles{
+        margin-top: 68px;
+        top: 500px;
+        width: 200px;
+    }
+
+    .base{
+        margin-left: 0px;
+    }
+
+    
+    .MapaInteractivo__Localizador{
+        top: 25px;
+        left: -225px;
+    }
+
+    .C2  {
+    top: 2.6rem;
+    left:  22.8rem;
+
+}
+.C3__map  {
+    top: 3.4rem;
+    left: 23rem;
+
+}
+.C4__map  {
+    top: -2.1rem;
+    left:  2.5rem;
+    
+}
+.C5  {
+    top: 5.8rem;
+    left:  23.8rem;
+    
+}
+.C6  {
+    top: 7.3rem;
+    left:  24rem;
+  
+}
+
+.Text1,.Text2 ,.Text3, .Text4, .Text5, .Text6 , .Text7, .Text8{
+   
+    font-size: 9px;
+    width:58px;
+    height: 15px;
+}
+
+.Text1{
+     top: 1.5rem;
+    left:  23.8rem;
+}
+.Text2{
+    top: 2.5rem;
+    left:  19rem;
+
+  
+}
+.Text3{
+    top: 3.1rem;
+    left:  24.5rem;
+  
+}
+.Text4{
+    top: 4rem;
+    left:  19rem;
+}
+.Text5{
+    top: 5rem;
+    left:  24.5rem;
+  
+}
+.Text6{
+    top: 6rem;
+    left:  19rem;
+}
+
+     .C1,.C2, .C3, .C4 ,.C5 ,.C6,.C7__Mapa, .C8__Mapa{
+    width: 18px;
+        height: 8px;
+    }
+    
+      .C7__Mapa{
+        top: 13.8rem;
+        left: 20.2rem;
+    }
+
+    .C8__Mapa{
+        top: 14.5rem;
+        left: 22.2rem;
+    }
+
+    .Text7__Mapa{
+        top: 13.5rem;
+        left: 16.2rem;
+    }
+
+    .Text8__Mapa{
+        top: 14.5rem;
+        
+    }
+
+    .C4  {
+    top: 4.2rem;
+    left:  23.3rem;
+    
+}
+    .C5  {
+    top: 5rem;
+    left:  23.5rem;
+    
+}
+.C6  {
+    top: 6rem;
+    left:  23.5rem;
+  
+}
+
+}
+
+
+
+@media screen and (max-width:375px){
+.btn_control span{
+        color: black;
+        text-shadow:  0px 0px;
+    }
+#number1{
+        color: black;
+    }
+
+
+ .MapaInteractivo .Mapa{
+        top: 42px;
+        left:10px;
+    }
+}
+
+@media screen and (max-width:393px){
+
+
+    .MapaInteractivo__Localizador{
+        top: 50px;
+        left: -230px;
+    }
+
+    .C2  {
+    top: 2.6rem;
+    left:  22.8rem;
+
+}
+.C3__map  {
+    top: 3.4rem;
+    left: 23rem;
+
+}
+.C4__map  {
+    top: 4.1rem;
+}
+    
+.C5  {
+    top: 5rem;
+}
+    
+.C6  {
+    top: 6rem;
+    left: 23.8rem;
+}
+
+    .C1,.C2, .C3, .C4 ,.C5 ,.C6,.C7__Mapa, .C8__Mapa{
+    width: 21px;
+        height: 10px;
+    }
+    
+      .C7__Mapa{
+        top: 12.8rem;
+        left: 20.5rem;
+    }
+        
+
+    .C8__Mapa{
+        top: 13rem;
+        left: 22.5rem;
+    }
+
+    .Text7__Mapa{
+        top: 13rem;
+        left: 16.8rem;
+    }
+
+    .Text8__Mapa{
+        top: 13rem;
+        
+    }
+.Text1,.Text2 ,.Text3, .Text4, .Text5, .Text6 , .Text7, .Text8{
+   
+    font-size: 9px;
+    width:58px;
+    height: 15px;
+}
+
+.Text1{
+     top: 1.5rem;
+    left:  23.8rem;
+}
+.Text2{
+    top: 2.5rem;
+    left:  19rem;
+
+  
+}
+.Text3{
+    top: 3.1rem;
+    left:  24.5rem;
+  
+}
+.Text4{
+    top: 4rem;
+    left:  19rem;
+}
+.Text5{
+    top: 5rem;
+    left:  24.5rem;
+  
+}
+.Text6{
+    top: 6rem;
+    left:  19rem;
+}
+
+
+}
+
+@media screen and (max-width:360px){
+
+.btn_control span{
+        color: whitesmoke;
+        text-shadow:  0px 0px;
+    }
+#number1{
+        color: whitesmoke;
+        text-shadow: 2px 2px #000;
+    }
+
+    .MapaInteractivo__Localizador{
+        top: 70px;
+        left: -235px;
+      }
+      }
+@media screen and (max-width:280px){
+.btn_control span{
+        color: black;
+        text-shadow:  0px 0px;
+    }
+#number1{
+        color: black;
+        text-shadow: 0px 0px;
+    }
+
+
+    #Wrapper .Card__Wrapper{
+    top: 380px;
+    left: -180px; 
+}
+
+    .MapaInteractivo__Localizador,
+    .MapaInteractivo .Mapa,
+    .MapaInteractivo{
+        display: none;
+    }
+
+}

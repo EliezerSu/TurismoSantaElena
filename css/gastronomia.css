@@ -1,0 +1,51 @@
+.card .card-body-1{
+    height: 39vh;
+}
+.card .card-body-2{
+    height: 38vh;
+}
+
+.card .card-body-3{
+    height: 25vh;
+}
+
+@media screen and (max-width: 1151px) {
+    
+  .card .card-body-1{
+    height: 48vh;
+}
+
+
+  
+}
+
+
+
+@media screen and (max-width: 983px) {
+    .card .card-body-3{
+    height: 35vh;
+}
+
+
+.card .card-body-2{
+    height: 50vh;
+}
+ 
+    .card .card-body-1{
+    height: 62vh;
+}
+  
+}
+
+  
+@media screen and (max-width: 452px) {
+    .card .card-body-1,
+    .card .card-body-2,
+    .card .card-body-3{
+    height: auto;
+}
+ 
+
+}
+
+

@@ -1,0 +1,101 @@
+.Pie__pagina{
+    width: 100%;
+    background-color: #122638;
+    height: 350px;
+    
+}
+.Elemetos__1{
+    width: 100%;
+    height: 100%;
+}
+
+.Logo__piP{
+    width: 90px;
+    height: 90px;
+   
+   
+    
+}
+
+
+.separador__1{
+    border-top: 3px solid #F5DE39;
+    height: 2px;
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 246px; 
+    top: 123px;
+}
+
+.separador__2{
+    border-top: 3px solid #F5DE39;
+    height: 2px;
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 250px;
+    top: 120px;
+}
+
+.icono1{
+   
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-left: 600px;
+    top: 85px;
+    padding-bottom: 85px;
+    
+ 
+}
+.icono2{
+   
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-inline-start: 10px;
+    top: 85px;
+ 
+}
+
+.icono3{
+   
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    line-height: 45px;
+    color: white;
+    margin-inline-start: 10px;
+    top: 85px;
+ 
+}
+.icono4{
+   
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    line-height: 45px;
+    color: white;
+    margin-inline-start: 10px;
+    top: 85px;
+    
+ 
+}
+.Elemetos__2{
+    width: 100%;
+    height: 100%;
+}
+.derecho{
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    margin-left: 450px;
+}
+

@@ -1,0 +1,179 @@
+.imgaling1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+#imgaling1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.gastronomia{
+    margin-top: 50px;
+}
+.gastro p{
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.comida{
+    background-color: #D4A27F;
+    width: 380px;
+    height: 280px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin: 5px;
+}
+#imcom{
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+}
+.com p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.comida .com{
+    position: relative;
+    height:280px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+.com img{
+    width: 100%;
+    height:100%;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #d4a27faf;
+    width: 100%;
+    height: 0%;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay h2{
+    color: #fff;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.com:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+
+#langostino_manjar_tagua h1, #tagua h1{
+    font-weight: 400px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+.linea{
+    background-color: #550b51;
+    height: 5px;
+    width: 80%;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* p{
+    font-size: 17px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+} */
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 200px;
+    object-fit: cover;
+    transition:  transform 0.5s;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    width: 80%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+}
+.galeria a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+
+
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+}
+
+.light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    margin-top: 16vh;
+    height: 84vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+.light-box img{
+    width: 75vw;
+    max-height: 70vh;
+}
+.light-box:target{
+    transform: scale(1);
+}
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: #851919;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.next{
+    font-size: 20px;
+    display: block;
+    background-color: #851919;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,0 +1,146 @@
+.container__slider{
+    max-width: 1000px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerb1 input[type=radio]{
+    display: none;
+}
+
+.containerb1{
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 340px;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cards img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+#a-2:checked ~ .cards #aa-1,
+#a-1:checked ~ .cards #aa-3,
+#a-3:checked ~ .cards #aa-2{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#a-3:checked ~ .cards #aa-1,
+#a-1:checked ~ .cards #aa-2,
+#a-2:checked ~ .cards #aa-3{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#a-1:checked ~ .cards #aa-1,
+#a-2:checked ~ .cards #aa-2,
+#a-3:checked ~ .cards #aa-3{
+    transform: translateX(0) scale(1);
+    z-index: 1;
+}
+
+
+
+#b-2:checked ~ .cards #bb-1,
+#b-1:checked ~ .cards #bb-3,
+#b-3:checked ~ .cards #bb-2{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#b-3:checked ~ .cards #bb-1,
+#b-1:checked ~ .cards #bb-2,
+#b-2:checked ~ .cards #bb-3{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#b-1:checked ~ .cards #bb-1,
+#b-2:checked ~ .cards #bb-2,
+#b-3:checked ~ .cards #bb-3{
+    transform: translateX(0) scale(1);
+    z-index: 1;
+}
+
+
+
+#c-2:checked ~ .cards #cc-1,
+#c-1:checked ~ .cards #cc-3,
+#c-3:checked ~ .cards #cc-2{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#c-3:checked ~ .cards #cc-1,
+#c-1:checked ~ .cards #cc-2,
+#c-2:checked ~ .cards #cc-3{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#c-1:checked ~ .cards #cc-1,
+#c-2:checked ~ .cards #cc-2,
+#c-3:checked ~ .cards #cc-3{
+    transform: translateX(0) scale(1);
+    z-index: 1;
+}
+
+
+
+#d-2:checked ~ .cards #dd-1,
+#d-1:checked ~ .cards #dd-3,
+#d-3:checked ~ .cards #dd-2{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#d-3:checked ~ .cards #dd-1,
+#d-1:checked ~ .cards #dd-2,
+#d-2:checked ~ .cards #dd-3{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#d-1:checked ~ .cards #dd-1,
+#d-2:checked ~ .cards #dd-2,
+#d-3:checked ~ .cards #dd-3{
+    transform: translateX(0) scale(1);
+    z-index: 1;
+}

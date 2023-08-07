@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body{
+  font-size: 1.2rem;
+  text-align: justify;
+    overflow-x: hidden;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+p{
+  line-height: 2rem;
+}
+
+.usuario{
+    color: aliceblue;
+    margin-right: 18px;
+}
+
+
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a{
+  margin: auto 1.2rem;
+  
+}
+
+h1{
+  text-align: center;
+  line-height: 8rem;
+  font-size: 2rem;
+}
+
+.carrusel__img{
+    width: 100%;
+    height: 60vh;
+}
+/* main */
+.main{
+  margin-top:7.5rem;
+}
+
+.Encabezado{
+    text-align: center;
+    width: 450px;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #000;
+    margin-top: 8rem;
+}
+
+.Encabezado h3{
+    font-size: 28px;
+}
+
+.linea{
+    width: 80px;
+    height: 4px;
+    background-color: #000;
+    margin-left: 50px;
+}
+
+.menu__item--active{
+    --transform: rotate(0);
+    --background: #5e7094;
+}
+
+/* mapa del contenedor */
+.Contenedor__Flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      width: 85%;
+  max-width: 950px;
+  margin: 0 auto;
+    gap: 8rem;
+}
+
+.cards{
+    background: tomato;
+    flex:1 1  40%;
+    height: 50vh;
+    position: relative;
+}
+
+.Contenido{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+}
+
+#DescripcionComuna{
+    text-align: justify;
+}
+
+.ImgCambiante{
+    width: 100%;
+    height: inherit;
+
+    object-fit: cover;
+}
+
+/* .MapaInteractivo{
+    flex:2 2 50%;
+    height: 50vh;
+                position: relative;
+}
+
+.Mapa{
+        max-width: 950px;
+
+    height: inherit;
+} */
+
+
+
+/* cards */
+
+.Contenedor__Cards{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
+.Card_info{
+    background: #000;
+    width: 350px;
+    height: 50vh;
+      position: relative;
+    margin: 10px 30px 50px 0px;
+    cursor: pointer;
+}
+
+.Contenedor__info{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+}
+
+.Contenedor__info p{
+    color: var(--light);
+    font-size: 18px;
+    text-align: center;
+}
+
+.Img_card_Info{
+    width: 100%;
+    height: 50vh;
+}
+
+.Mapa{
+  height: 80px;
+}
+
+   
+
+
+h1 , h2 ,h3, h4,h5,h6{
+        font-family: 'Montserrat', sans-serif;
+
+}
+
+a , p , button , span {
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+
+.usuario{
+  font-size: 15px;
+      font-family: 'Montserrat',sans-serif;
+font-weight: lighter;
+}
+
+.cerrar{
+  color: #fff;
+  text-decoration: none;
+}
+
+.cerrar:hover{
+color: green;
+}
+
+.Menu_ico:hover {
+  color: #FAF8F1;
+} 
+
+
+
+@media screen  and (max-width:1159px)  {
+  .Contenedor__Flex{
+          width: 100%;
+   
+  }
+}
+
+@media screen  and (max-width:942px)  {
+  .Contenedor__Flex{
+    width: 100%;
+    gap: 0;
+  }
+}
+
+@media screen  and (min-width:979px)  {
+.Contenedor__Flex{
+width: 100%;
+}
+}
+
+
+
+
+@media screen and (max-width:784px) {
+  
+.usuario{
+  font-size: 15px;
+      font-family: 'Montserrat',sans-serif;
+font-weight: lighter;
+}
+
+.cerrar{
+  color: #fff;
+  text-decoration: none;
+}
+
+.cerrar:hover{
+color: green;
+}
+
+
+
+
+
+}

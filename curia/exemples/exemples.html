@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<title>FlipPage</title>
+		<link href="../css/estilosgastro.css" rel="stylesheet"/>
+		
+		<!-- jQuery -->
+		<script src="../jquery.min.js"></script>
+		
+		<!--  Flippage -->
+		<script src="../jquery.flippage.min.js"></script>
+		<link href="../jquery.flippage.css" type="text/css" rel="stylesheet" />
+		
+		<style >
+			
+			body > div {
+				display: block;
+				margin-left: 20px;
+				margin-top: 10px;
+				
+			}
+
+			
+			.exemples > div {
+				background-color: white;
+			}
+		</style>
+		<script >
+			(function($){
+				$(document).ready(function(){
+					$('.exemples:eq(0)').flippage({
+						width: 900,
+						height: 550
+						
+					});
+					
+					$('.exemples:eq(1)').flippage({
+						width: 300,
+						height: 250
+					});
+				});
+			})(jQuery);
+		</script>
+	</head>
+	<body>
+		
+		<div>
+			<center>
+			<h2>Menú</h2>
+			
+			<div class="exemples" >
+				<div><img src="img/Publicación2.png" style="margin-left: 0px; width: 900px; height: 550px;" /></div>
+				<div><img src="img/Publicación2.png" style="margin-left: -450px; width: 900px; height: 550px;" /></div>
+				<div><img src="img/01.png" style="margin-left: 0px; width: 900px; height:550px;" /></div>
+				<div><img src="img/01.png" style="margin-left: -450px; width: 900px; height:550px;" /></div>
+				<div><img src="img/02.png" style="margin-left: 0px; width: 900px; height:550px;" /></div>
+				<div><img src="img/02.png" style="margin-left: -450px; width: 900px; height:550px;" /></div>
+				<div><img src="img/03.png"style="margin-left: 0px; width: 900px; height:550px;" /></div>
+				<div><img src="img/03.png" style="margin-left: -450px;width: 900px; height:550px;" /></div>
+				<div><img src="img/04.png" style="margin-left: 0px;width: 900px; height:550px;" /></div>
+				<div><img src="img/04.png" style="margin-left: -450px;width: 900px; height:550px;" /></div>
+				
+			</div>
+			<div><a href="#" onclick="$('.exemples:eq(0)').trigger('previous'); return false;">&#9668</a>&nbsp<a href="#" onclick="javascript:$('.exemples:eq(0)').trigger('next'); return false;">&#9658</a></div></center>
+		</div>	
+		
+		
+		
+	</body>
+</html>

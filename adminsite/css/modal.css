@@ -1,0 +1,12 @@
+/* Ajustar tamaño del modal */
+.modal-content {
+    width: 90%;
+    max-width: 800px; /* ajusta el valor para cambiar el ancho máximo del modal */
+  }
+  
+  /* Ajustar tamaño de la imagen dentro del modal */
+  #imagen-modal {
+    max-width: 100%; /* ajusta el valor para cambiar el ancho máximo de la imagen */
+    height: auto;
+  }
+  
