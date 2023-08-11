@@ -1,7 +1,6 @@
-
-.Text  {
+.Text {
     border-radius: 50px;
-    box-shadow:  6px 6px 12px #b8b1b1,  -6px -6px 12px #ffffff;                
+    box-shadow: 6px 6px 12px #b8b1b1, -6px -6px 12px #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,48 +9,29 @@
     left: 0;
     width: auto;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px ;
-    font-weight: bolder ;  
+    font-size: 12px;
+    font-weight: bolder;
     text-decoration: none;
 }
 
-.Circle{
+.Circle {
     position: absolute;
     clip-path: circle(26.4% at 44% 52%);
     cursor: pointer;
     transition: width height.4s ease-in-out;
 }
 
-.C1  {
-    top: 1.8rem;
-    left:  22.5rem;
+.C1 {
+    top: 8.8rem;
+    left: 25.5rem;
     width: 1.5rem;
     height: 1.5rem;
     background-color: #FA7D09;
 }
 
-.Text1{
-    top: 1.5rem;
-    left:  23.8rem;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    font-size: 12px;
-    color: #082032;
-    width: 90px;
-    height: 22px;
-    transition: all 2s ease;  
-}
-
-.C2  {
-    top: 2.8rem;
-    left:  23.1rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #041C32;
-}
-
-.Text2{
-    top: 2.5rem;
-    left:  17rem;
+.Text1 {
+    top: 8.8rem;
+    left: 26.8rem;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     font-size: 12px;
     color: #082032;
@@ -60,7 +40,26 @@
     transition: all 2s ease;
 }
 
-.C3  {
+.C2 {
+    top: 2.8rem;
+    left: 23.1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #041C32;
+}
+
+.Text2 {
+    top: 2.5rem;
+    left: 17rem;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    font-size: 12px;
+    color: #082032;
+    width: 90px;
+    height: 22px;
+    transition: all 2s ease;
+}
+
+.C3 {
     top: 4rem;
     left: 23.5rem;
     width: 1.5rem;
@@ -68,9 +67,9 @@
     background-color: #f5f;
 }
 
-.Text3{
+.Text3 {
     top: 4rem;
-    left:  25rem;
+    left: 25rem;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     font-size: 12px;
     color: #082032;
@@ -79,17 +78,17 @@
     transition: all 2s ease;
 }
 
-.C4  {
+.C4 {
     top: 5rem;
-    left:  24rem;
+    left: 24rem;
     width: 1.5rem;
     height: 1.5rem;
     background-color: #f54;
 }
 
-.Text4{
+.Text4 {
     top: 5rem;
-    left:  19rem;
+    left: 19rem;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     font-size: 12px;
     color: #082032;
@@ -98,17 +97,17 @@
     transition: all 2s ease;
 }
 
-.C5  {
+.C5 {
     top: 6.1rem;
-    left:  24.2rem;
+    left: 24.2rem;
     width: 1.5rem;
     height: 1.5rem;
     background-color: #B45;
 }
 
-.Text5{
+.Text5 {
     top: 6.2rem;
-    left:  25.5rem;
+    left: 25.5rem;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     font-size: 12px;
     color: #082032;
@@ -117,17 +116,17 @@
     transition: all 2s ease;
 }
 
-.C6  {
+.C6 {
     top: 7.3rem;
-    left:  24.2rem;
+    left: 24.2rem;
     width: 1.5rem;
     height: 1.5rem;
     background-color: #f54;
 }
 
-.Text6{
+.Text6 {
     top: 7.8rem;
-    left:  19rem;
+    left: 19rem;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     font-size: 12px;
     color: #082032;
@@ -136,15 +135,15 @@
     transition: all 2s ease;
 }
 
-.C7  {
+.C7 {
     top: 16.4rem;
-    left:  20.2rem;
+    left: 20.2rem;
     width: 1.2rem;
     height: 1.2rem;
     background-color: #f5f;
 }
 
-.Text7{
+.Text7 {
     font-size: 12px;
     top: 16rem;
     left: 15rem;
@@ -156,19 +155,20 @@
 }
 
 
-.Text7__Mapa{
+.Text7__Mapa {
     top: 20rem;
     left: 14rem;
 }
-.C8  {
+
+.C8 {
     top: 17rem;
-    left:  22rem;
+    left: 22rem;
     background-color: #B45;
     width: 1.5rem;
-    height: 1.5rem;                        
+    height: 1.5rem;
 }
 
-.Text8{
+.Text8 {
     font-size: 12px;
     font-weight: 600;
     width: 58px;
@@ -182,9 +182,8 @@
 
 
 
-.Text8__Mapa{
+.Text8__Mapa {
     top: 22rem;
     left: 23.8rem;
     width: 70px;
 }
-
