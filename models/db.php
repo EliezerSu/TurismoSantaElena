@@ -1,9 +1,9 @@
 <?php
 
-$servername = 'host.docker.internal';
+$servername = 'localhost';
 $username = "root";
-$password = "root";
-$dbname = 'santaelenap';
+$password = "";
+$dbname = 'santaelenav';
 $port = 3306;
 //    set the PDO error mode to exception
 $conexion = mysqli_connect($servername, $username, $password, $dbname, $port);

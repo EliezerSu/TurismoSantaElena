@@ -143,8 +143,8 @@
     </div>
   </div>
   <div class="col-sm-6">
-    <figure class="MapaInteractivo">
-      <img src="./imagenes/Map.svg" alt="mapa de santa elena" class="Mapa " style="width:100%;height:100vh;">
+    <div class="MapaInteractivo">
+      <img src="./imagenes/Map.svg" alt="mapa de santa elena" class="Mapa" style="width:100%; height:100vh;">
       <ul class="MapaInteractivo__Localizador">
         <li id="PuntoNunez" onmousemove="Ver__Comuna__E()">
           <span class="Circle C1"></span>
