@@ -97,6 +97,9 @@
                         </ul>
                     </li>
                 </ul>
+                <br>
+                <a href="javascript:history.back();">Regresar</a>
+                <br>
 
                 <hr style="background-color: #082032;" class="d-md-none text-white-50">
                     <ul class="list-inline list-inline-md rd-navbar-corporate-list-social mx-auto text-center pt-4 pb-4">
