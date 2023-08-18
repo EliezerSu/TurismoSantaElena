@@ -131,64 +131,83 @@
 </h3>
 <div class="row">
   <div class="col-sm-6">
-    <div class="card shadow p-3 mb-5 " style="max-width: 25rem;border:none;">
-      <div class="card-header">
-        <h5 class="card-title text-center fs-3" id="NombreComuna">Montañita</h5>
-
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="card shadow p-3 mb-5 " style="max-width: 38rem;border:none;">
+          <div class="card-header">
+            <h5 class="card-title text-center fs-3" id="NombreComuna">Montañita</h5>
+          </div>
+          <img class="card-img-top" style="width: 100%; height:40vh;" alt="ImgCambiante" id="ImgCambiante">
+          <div class="card-body text-bg-light">
+            <p class="card-text text-dark" id="DescripcionComuna">sitio turístico que atrae a miles de turistas mensualmente, por su encanto en las olas para realizar surfing y todo tipo de deportes extremos, cuenta con excelentes hoteles, restaurantes, bares y discotecas.</p>
+          </div>
+        </div>
       </div>
-      <img src="imagenes/montanita.jpg" class="card-img-top" style="width: 100%; height:40vh;" alt="ImgCambiante" id="ImgCambiante">
-      <div class="card-body text-bg-light">
-        <p class="card-text text-dark" id="DescripcionComuna">sitio turístico que atrae a miles de turistas mensualmente, por su encanto en las olas para realizar surfing y todo tipo de deportes extremos, cuenta con excelentes hoteles, restaurantes, bares y discotecas.</p>
-      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+    <script>
+      // Array de objetos con la información de cada slide
+      const slides = [{
+          nombre: "Montañita",
+          descripcion: "Sitio turístico que atrae...",
+          imagen: "imagenes/montanita.jpg"
+        },
+        {
+          nombre: "La Nuñez",
+          descripcion: "Punto turístico para disfrutar con amigos y familias.",
+          imagen: "imagenes/nunez.jpg"
+        },
+        {
+          nombre: "La Entrada",
+          descripcion: "cantón perfecto para los artistas que buscan inspiración para su arte, donde todos los murales del cantón están plasmados el arte de todos sus habitantes.",
+          imagen: "imagenes/imagen.jpg"
+        },
+        {
+          nombre: "Curia",
+          descripcion: "perfecto para las personas que le guste la naturaleza, es recomendado por sus hermosos paisajes, donde es el único punto de todo santa llena donde crece una rara planta llamada curia.",
+          imagen: "imagenes/curia.jpg"
+        },
+        {
+          nombre: "San jose",
+          descripcion: "Un gran crecimiento por sus playas, Caracterizado por la amabilidad de sus habitantes.",
+          imagen: "imagenes/sanjose.jpg"
+        },
+      ];
+
+      // Función para cambiar el contenido del slide
+      function cambiarContenido(slide) {
+        document.querySelector("#NombreComuna").textContent = slide.nombre;
+        document.querySelector("#DescripcionComuna").textContent = slide.descripcion;
+        document.querySelector("#ImgCambiante").src = slide.imagen;
+      }
+
+      let currentIndex = 0; // Índice actual del slide
+
+      // Función para avanzar al siguiente slide
+      function mostrarSiguienteSlide() {
+        currentIndex = (currentIndex + 1) % slides.length; // Avanzar al siguiente, y volver al principio si es el último
+        cambiarContenido(slides[currentIndex]);
+      }
+
+      // Agregar evento de click al botón Next para mostrar el siguiente slide
+      document.querySelector(".carousel-control-next").addEventListener("click", mostrarSiguienteSlide);
+
+      // Cambiar el contenido al primer slide al cargar la página
+      cambiarContenido(slides[currentIndex]);
+    </script>
   </div>
   <div class="col-sm-6">
     <div class="MapaInteractivo">
-      <img src="./imagenes/Map.svg" alt="mapa de santa elena" class="Mapa" style="width:100%; height:100vh;">
-      <ul class="MapaInteractivo__Localizador">
-        <li id="PuntoNunez" onmousemove="Ver__Comuna__E()">
-          <span class="Circle C1"></span>
-          <a href="La_Entrada/la_entrada.php" class="Text Text1"> La Entrada</a>
-        </li>
-
-        <li id="PuntoEntrada" onmousemove="Ver__Comuna__N()">
-          <span class="Circle  C2"></span>
-          <a href="lasnunez/lasnunez.php" class="Text Text2"> Las Núñez </a>
-        </li>
-
-        <li id="PuntoCuria" onmousemove="Ver__Comuna__SJ()">
-          <span class="Circle C3 C3__map"></span>
-          <a href="sanjose/sanjose.php" class="Text Text3"> San José </a>
-        </li>
-
-        <li id="PuntoSanJose" onmousemove="Ver__Comuna__C()">
-          <span class="Circle C4 C4__map"></span>
-          <a href="curia/curia.php" class="Text Text4">Curía </a>
-        </li>
-
-        <li id="PuntoOlon" onmousemove="Ver__Comuna__O()">
-          <span class="Circle C5"></span>
-          <a href="olon/olon.php" class="Text Text5"> Olón</a>
-        </li>
-
-        <li id="PuntoMontanita" onmousemove="Ver__Comuna__M()">
-          <span class="Circle C6"></span>
-          <a href="#" class="Text Text6"> Montañita</a>
-        </li>
-
-        <li id="PuntoAconcito" onmousemove="Ver__Comuna__AC()">
-          <span class="Circle  C7 C7__Mapa"></span>
-          <a href="anconcito/anconcito.php" class="Text Text7 Text7__Mapa"> Aconcito</a>
-        </li>
-
-        <li id="PuntoAcon" onmousemove="Ver__Comuna__A()">
-          <span class="Circle  C8 C8__Mapa"></span>
-          <a href="ancon/ancon.php" class="Text Text8 Text8__Mapa"> Ancón</a>
-        </li>
-      </ul>
-    </figure>
+      <img src="./imagenes/NuevoMapaSantaElena.png" alt="mapa de santa elena" class="Mapa">
+    </div>
   </div>
-</div>
 </div>
 
 <div class="card mb-3  ">
