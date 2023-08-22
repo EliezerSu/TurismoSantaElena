@@ -1,9 +1,10 @@
 .pie-pagina {
+  display: flex;
   width: 100%;
   background-color: rgb(8, 32, 50);
 }
 
-.red-social{
+.red-social {
   font-size: 21px;
 }
 
@@ -27,13 +28,13 @@
 
 .pie-pagina .grupo-1 .box h2 {
   color: #fff;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
 .pie-pagina .grupo-1 .box p {
   color: #efefef;
-  margin-bottom: 10px;
+
 }
 
 .pie-pagina .grupo-1 .red-social a {
@@ -55,9 +56,9 @@
 
 .pie-pagina .grupo-2 {
   background-color: #0a1a2a;
-  padding: 15px 10px;
   text-align: center;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .pie-pagina .grupo-2 small {
@@ -71,8 +72,8 @@
     grid-gap: 30px;
     padding: 35px 0px;
   }
+
   .pie-pagina .grupo-2 small {
     font-size: 13px;
   }
 }
-
