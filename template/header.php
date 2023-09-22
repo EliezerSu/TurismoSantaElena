@@ -1,5 +1,7 @@
 <?php session_start();
 
+include_once("./language/script.php");
+$texto_traducido = GetTextoTraducido("home");
 ?>
 <!doctype html>
 <html lang="en">
@@ -44,7 +46,9 @@
         <nav class="menu" style="    background-color: #082032;
 ">
           <ul>
-            <li> Dónde ir <span class="fa-solid fa-caret-down"> </span>
+            <li>
+              <?php echo $texto_traducido["header"][0] ?>
+              <span class="fa-solid fa-caret-down"> </span>
               <!-- aqui va el codigo del submenu del mapa -->
               <div class=" menu_map submenu">
                 <ul class="list_show ">
@@ -120,9 +124,9 @@
 
             </li>
 
-            <li class="nav-item"><span> </span><a class="nav-link" href="agenda_fiestas.php">Agenda de Fiesta</a></li>
+            <li class="nav-item"><span> </span><a class="nav-link" href="agenda_fiestas.php"><?php echo $texto_traducido["header"][1] ?></a></li>
 
-            <li>Galeria Turística <span class="fa-solid fa-caret-down"> </span>
+            <li><?php echo $texto_traducido["header"][2] ?> <span class="fa-solid fa-caret-down"> </span>
               <ul class=" submenu submenu2">
                 <li><span class="fa-solid fa-caret-right"></span><a href="galeria_turistica_santa_elena.php"> Atractivos Turísticos</a></li>
                 <li><span class="fa-solid fa-caret-right"></span><a href="tradiciones_santa_elena.php">Leyendas y tradiciones</a></li>
@@ -130,7 +134,7 @@
               </ul>
             </li>
 
-            <li>Planifica tu viaje <span class="fa-solid fa-caret-down"> </span>
+            <li><?php echo $texto_traducido["header"][3] ?> <span class="fa-solid fa-caret-down"> </span>
 
               <ul class=" submenu submenu2">
                 <li><span class="fa-solid fa-caret-right"></span><a href="home_como_llegar.php"> ¿Cómo llegar? </a></li>
@@ -166,6 +170,10 @@
 
             </li>
 
+            <li>
+              <?php GetSelectLanguage() ?>
+            </li>
+            <?php GetScriptSelectLanguage() ?>
           </ul>
         </nav>
       </div>
