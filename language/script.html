@@ -1,0 +1,38 @@
+<script>
+  function changeLanguage() {
+    const language = document.getElementById("languageSelect").value;
+    $.ajax({
+      type: "POST",
+      url: "/language/script.php",
+      data: {
+        function: "OnChangeLanguage",
+        request: {
+          languageSelected: language,
+        },
+      },
+      success: function (response) {
+        location.reload();
+      },
+      error: function (error) {
+        console.log("error en changeLanguage", error);
+      },
+    });
+  }
+  function getCookie(nombre) {
+    var nombreEQ = nombre + "=";
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i];
+      while (cookie.charAt(0) == " ") {
+        cookie = cookie.substring(1);
+      }
+      if (cookie.indexOf(nombreEQ) == 0) {
+        return cookie.substring(nombreEQ.length, cookie.length);
+      }
+    }
+    return null;
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("languageSelect").value = getCookie("idioma");
+  });
+</script>
