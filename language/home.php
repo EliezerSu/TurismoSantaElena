@@ -32,6 +32,28 @@ $texto = [
             "Un gran crecimiento por sus playas, Caracterizado por la amabilidad de sus habitantes.",
 
         ],
+        "gastronomia-card" => [
+            "Gastronomía Anconcito",
+            "Venga a degustar los platos a la carta, ofrece los locales de Anconcito",
+            "Gastronomía San José",
+            "Venga a degustar los platos a la carta, ofrece los locales de san josé",
+            "Gastronomía Curia",
+            "Venga a degustar los platos típicos que ofrece la comuna curia.",
+            "Gastronomía Montañita",
+            "Venga a degustar los platos típicos que ofrece la comuna Montañita."
+        ],
+        "articulos" => [
+            "Gastronomía",
+            "Turismo",
+            "Cultura",
+            "Deporte",
+            "Como llegar a",
+            "Hoteles",
+            "Fiestas",
+            "Restaurantes",
+            "Folletos",
+            "Itinerario"
+        ]
     ],
     "en" =>
     [
@@ -63,6 +85,28 @@ $texto = [
             "perfect canton for artists looking for inspiration for their art, where all the murals in the canton reflect the art of all its inhabitants.",
             "Perfect for people who like nature, it is recommended for its beautiful landscapes, where it is the only point in all of Santa Full where a rare plant called curia grows.",
             "A great growth for its beaches, Characterized by the friendliness of its inhabitants.",
+        ],
+        "gastronomia-card" => [
+            "Anconcito Gastronomy",
+            "Come and taste the à la carte dishes offered by the Anconcito establishments",
+            "Gastronomy San José",
+            "Come and taste the à la carte dishes offered by the locals of San José",
+            "Curia Gastronomy",
+            "Come and taste the typical dishes offered by the Curia commune.",
+            "Montañita Gastronomy",
+            "Come and taste the typical dishes offered by the Montañita commune."
+        ],
+        "articulos" => [
+            "Gastronomy",
+            "Tourism",
+            "Culture",
+            "Sport",
+            "How to get to",
+            "Hotels",
+            "Parties",
+            "Restaurants",
+            "Brochures",
+            "Itinerary"
         ]
     ]
 ];

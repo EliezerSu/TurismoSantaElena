@@ -64,10 +64,10 @@
 
         </div>
         <ul id="listaArticulos">
-          <li class="articulo"><a style="text-decoration: none; color:black" href="gastronomia_curia.php">Gastronomía Curía</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="galeria_turistica_santa_elena.php">Turismo Santa Elena</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="tradiciones_santa_elena.php">Cultura Santa Elena</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="galeria__gastronomia.php">Gastronomía Santa Elena</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="gastronomia_curia.php"><?php echo $texto_traducido["articulos"][0] ?> Curía</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="galeria_turistica_santa_elena.php"><?php echo $texto_traducido["articulos"][1] ?> Santa Elena</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="tradiciones_santa_elena.php"><?php echo $texto_traducido["articulos"][2] ?> Santa Elena</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="galeria__gastronomia.php"><?php echo $texto_traducido["articulos"][0] ?> Santa Elena</a></li>
           <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\ancon.php">Ancón</a></li>
           <li class="articulo"><a style="text-decoration: none; color:black" href="anconcito\anconcito.php">Anconcito</a></li>
           <li class="articulo"><a style="text-decoration: none; color:black" href="curia\curia.php">Curía</a></li>
@@ -76,47 +76,47 @@
           <li class="articulo"><a style="text-decoration: none; color:black" href="montanita\montanita.php">Montañita</a></li>
           <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunez.php">Las Nuñez</a></li>
           <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\la_entrada.php">La Entrada</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\deportes.php">Deportes en Ancón</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\gastronomia_laentrada.php">Gastronomia La Entrada</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\deportes.php">Deportes en Curía</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\deportes.php"><?php echo $texto_traducido["articulos"][3] ?> en Ancón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\gastronomia_laentrada.php"><?php echo $texto_traducido["articulos"][0] ?> La Entrada</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\deportes.php"><?php echo $texto_traducido["articulos"][3] ?> en Curía</a></li>
           <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunezgaleriasenderos.php">Rutas de las Nuñez</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\anconcomollegar.php">Como llegar a Ancón</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\comollegar_laentrada.php">Como llegar a La Entrada</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunez_planificatuviaje_comollegar.php">Como llegar a Las Nuñez</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\como_llegar_curia.php">Como llegar a Curía</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\olon\comollegarolon.php">Como llegar a Olón</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="sanjose\sanjosecomollegar.php">Como llegar a San José</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="montanita\comollegar.php">Como llegar a Montañita</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="anconcito\hotelesanconcito.php">Hoteles en Anconcito</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\hospedaje_la_entrada.php">Hoteles La Entrada</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\quedarse_curia.php">Hoteles de Curía</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunez_planificatuviaje_hoteles.php">Hoteles de Las Nuñez</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="montanita\hoteles.php">Hoteles de Montañita</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="olon\quedarseolon.php">Hoteles de Olón</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="sanjose\sanjosequedarse.php">Hoteles de San José</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\anconquedarse.php">Hoteles en Ancón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\anconcomollegar.php"><?php echo $texto_traducido["articulos"][4] ?> Ancón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\comollegar_laentrada.php"><?php echo $texto_traducido["articulos"][4] ?> La Entrada</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunez_planificatuviaje_comollegar.php"><?php echo $texto_traducido["articulos"][4] ?> Las Nuñez</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\como_llegar_curia.php"><?php echo $texto_traducido["articulos"][4] ?> Curía</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\olon\comollegarolon.php"><?php echo $texto_traducido["articulos"][4] ?> Olón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="sanjose\sanjosecomollegar.php"><?php echo $texto_traducido["articulos"][4] ?> San José</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="montanita\comollegar.php"><?php echo $texto_traducido["articulos"][4] ?> Montañita</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="anconcito\hotelesanconcito.php"><?php echo $texto_traducido["articulos"][5] ?> Anconcito</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\hospedaje_la_entrada.php"><?php echo $texto_traducido["articulos"][5] ?> La Entrada</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\quedarse_curia.php"><?php echo $texto_traducido["articulos"][5] ?> Curía</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunez_planificatuviaje_hoteles.php"><?php echo $texto_traducido["articulos"][5] ?> Las Nuñez</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="montanita\hoteles.php"><?php echo $texto_traducido["articulos"][5] ?> Montañita</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="olon\quedarseolon.php"><?php echo $texto_traducido["articulos"][5] ?> Olón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="sanjose\sanjosequedarse.php"><?php echo $texto_traducido["articulos"][5] ?> San José</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\anconquedarse.php"><?php echo $texto_traducido["articulos"][5] ?> Ancón</a></li>
 
-          <li class="articulo"><a style="text-decoration: none; color:black" href="fiestas_febrero.php">Fiestas en febrero</a></li>
-
-
-
-          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\cultura_laentrada.php">Fiestas La Entrada</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunezculturatradiciones.php">Fiestas en Las Nuñez</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\cultura.php">Fiestas en Curía</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\cultura.php">Fiestas en Ancón</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="anconcito\culturaanconcito.php">Fiestas en Anconcito</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="olon\cultura.php">Fiestas en Olón</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="montanita\cultura.php">Fiestas en Montañita</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="sanjose\sanjosecultura.php">Fiestas en San José</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="fiestas_febrero.php"><?php echo $texto_traducido["articulos"][6] ?> febrero</a></li>
 
 
-          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\restaurantes_laentrada.php">Restaurantes La Entrada</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunezreservadeexperiencias.php">Folletos de Las Nuñez</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon/anconfolletos.php">Folletos Ancón</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="anconcito/itinerariosanconcito.php">Itinerario de Anconcito</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="olon/reserva.php">Folletos de Olón</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="montanita/reservadeexperiencia.php">Iterinario de montañita</a></li>
-          <li class="articulo"><a style="text-decoration: none; color:black" href="sanjose/sanjoserestaurantes.php">Restaurantes en San José</a></li>
+
+          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\cultura_laentrada.php"><?php echo $texto_traducido["articulos"][6] ?> La Entrada</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunezculturatradiciones.php"><?php echo $texto_traducido["articulos"][6] ?> Las Nuñez</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="curia\cultura.php"><?php echo $texto_traducido["articulos"][6] ?> Curía</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon\cultura.php"><?php echo $texto_traducido["articulos"][6] ?> Ancón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="anconcito\culturaanconcito.php"><?php echo $texto_traducido["articulos"][6] ?> Anconcito</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="olon\cultura.php"><?php echo $texto_traducido["articulos"][6] ?> Olón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="montanita\cultura.php"><?php echo $texto_traducido["articulos"][6] ?> Montañita</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="sanjose\sanjosecultura.php"><?php echo $texto_traducido["articulos"][6] ?> San José</a></li>
+
+
+          <li class="articulo"><a style="text-decoration: none; color:black" href="La_Entrada\restaurantes_laentrada.php"><?php echo $texto_traducido["articulos"][7] ?> La Entrada</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="lasnunez\lasnunezreservadeexperiencias.php"><?php echo $texto_traducido["articulos"][8] ?> Las Nuñez</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="ancon/anconfolletos.php"><?php echo $texto_traducido["articulos"][8] ?> Ancón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="anconcito/itinerariosanconcito.php"><?php echo $texto_traducido["articulos"][9] ?> Anconcito</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="olon/reserva.php"><?php echo $texto_traducido["articulos"][8] ?> Olón</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="montanita/reservadeexperiencia.php"><?php echo $texto_traducido["articulos"][9] ?> montañita</a></li>
+          <li class="articulo"><a style="text-decoration: none; color:black" href="sanjose/sanjoserestaurantes.php"><?php echo $texto_traducido["articulos"][7] ?> San José</a></li>
 
 
 
@@ -278,7 +278,7 @@
   <img class="img-fluid" src="imagenes/complejo_deportivo.jpg" alt="3" style="width:25%; object-fit:cover;">
   <img class="img-fluid" src="imagenes/imagen.jpg" alt="4" style="width:25%; object-fit:cover;">
   <figcaption class="position-absolute " style="top:50px; left:0; right:0;">
-    <h5 class="text-center display-5 fw-semibold text-dark text-center">Rutas de Santa Elena</h5>
+    <h5 class="text-center display-5 fw-semibold text-dark text-center">Santa Elena</h5>
 
   </figcaption>
 </figure>
@@ -288,7 +288,7 @@
   <div class="card   h-100" style="border: none;">
     <img src="imagenes/imagenFondo.jpg" class="card-img" style="width:100%; height:230px; object-fit:cover">
     <div class="card-img-overlay" style="top:10px; left:0">
-      <h5 class="card-title fs-1 fw-semibold text-dark text-center">Disfruta los Atractivos Turísticos de Santa Elena</h5>
+      <h5 class="card-title fs-1 fw-semibold text-dark text-center">&nbsp;</h5>
     </div>
   </div>
   <div class="card-group   mb-5">
@@ -298,8 +298,8 @@
       <a class="card w-100 text-decoration-none text-dark " href="./gastronomia_anconcito.php">
         <img src="imagenes/Gastronomia/Anconcito/0826_arroz_marinero_2.jpg" class="card-img-top" style="width:100%; height:250px">
         <div class="card-body">
-          <h5 class="card-title">Gastronomía Anconcito</h5>
-          <p class="card-text" style="text-align: justify;">Venga a degustar los platos a la carta, ofrece los locales de san josé</p>
+          <h5 class="card-title"><?php echo $texto_traducido["gastronomia-card"][0] ?></h5>
+          <p class="card-text" style="text-align: justify;"><?php echo $texto_traducido["gastronomia-card"][1] ?></p>
         </div>
 
       </a>
@@ -309,8 +309,8 @@
       <a class="card w-100 text-decoration-none text-dark " href="./gastronomia_san_jose.php">
         <img src="imagenes/Arroz_con_mariscos.jpg" class="card-img-top" style="width:100%; height:250px; ">
         <div class="card-body">
-          <h5 class="card-title">Gastronomía San José</h5>
-          <p class="card-text" style="text-align: justify;">Venga a degustar los platos a la carta, ofrece los locales de san josé</p>
+          <h5 class="card-title"><?php echo $texto_traducido["gastronomia-card"][2] ?></h5>
+          <p class="card-text" style="text-align: justify;"><?php echo $texto_traducido["gastronomia-card"][3] ?></p>
         </div>
 
       </a>
@@ -320,8 +320,8 @@
       <a class="card w-100 text-decoration-none text-dark " href="./gastronomia_curia.php">
         <img src="imagenes/gastronomia_c.jpg" class="card-img-top" style="width:100%; height:250px; ">
         <div class="card-body">
-          <h5 class="card-title">Gastronomía Curia</h5>
-          <p class="card-text" style="text-align: justify;">Venga a degustar los platos típicos que ofrece la comuna curia.</p>
+          <h5 class="card-title"><?php echo $texto_traducido["gastronomia-card"][4] ?></h5>
+          <p class="card-text" style="text-align: justify;"><?php echo $texto_traducido["gastronomia-card"][5] ?></p>
         </div>
 
       </a>
@@ -331,8 +331,8 @@
       <a class="card w-100 text-decoration-none text-dark " href="./gastronomia_montanita.php">
         <img src="imagenes/Gastronomia/Montanita/0841_arroz_marinero_4.jpg" class="card-img-top" style="width:100%; height:250px; ">
         <div class="card-body">
-          <h5 class="card-title">Gastronomía Montañita</h5>
-          <p class="card-text" style="text-align: justify;">Venga a degustar los platos típicos que ofrece la comuna Montañita.</p>
+          <h5 class="card-title"><?php echo $texto_traducido["gastronomia-card"][6] ?></h5>
+          <p class="card-text" style="text-align: justify;"><?php echo $texto_traducido["gastronomia-card"][7] ?></p>
         </div>
 
       </a>
