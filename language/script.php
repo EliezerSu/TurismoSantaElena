@@ -39,7 +39,11 @@ function GetSelectLanguage(): void
  */
 function GetScriptSelectLanguage(): void
 {
-    $htmlScript = file_get_contents('./language/script.html');
+    if (file_exists("../language/script.html")) {
+        $htmlScript = file_get_contents('../language/script.html');
+    } elseif (file_exists("./language/script.html")) {
+        $htmlScript = file_get_contents('./language/script.html');
+    }
     echo $htmlScript;
 }
 /**
