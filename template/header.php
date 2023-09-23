@@ -128,21 +128,21 @@ $texto_traducido = GetTextoTraducido("home");
 
             <li><?php echo $texto_traducido["header"][2] ?> <span class="fa-solid fa-caret-down"> </span>
               <ul class=" submenu submenu2">
-                <li><span class="fa-solid fa-caret-right"></span><a href="galeria_turistica_santa_elena.php"> Atractivos Turísticos</a></li>
-                <li><span class="fa-solid fa-caret-right"></span><a href="tradiciones_santa_elena.php">Leyendas y tradiciones</a></li>
-                <li><span class="fa-solid fa-caret-right"></span><a href="galeria__gastronomia.php">Gastronomía</a></li>
+                <li><span class="fa-solid fa-caret-right"></span><a href="galeria_turistica_santa_elena.php"><?php echo $texto_traducido["subheader"][0] ?></a></li>
+                <li><span class="fa-solid fa-caret-right"></span><a href="tradiciones_santa_elena.php"><?php echo $texto_traducido["subheader"][1] ?></a></li>
+                <li><span class="fa-solid fa-caret-right"></span><a href="galeria__gastronomia.php"><?php echo $texto_traducido["subheader"][2] ?></a></li>
               </ul>
             </li>
 
             <li><?php echo $texto_traducido["header"][3] ?> <span class="fa-solid fa-caret-down"> </span>
 
               <ul class=" submenu submenu2">
-                <li><span class="fa-solid fa-caret-right"></span><a href="home_como_llegar.php"> ¿Cómo llegar? </a></li>
-                <li><span class="fa-solid fa-caret-right"></span><a href="home_donde_alojarse.php">¿Dónde alojarse? </a></li>
+                <li><span class="fa-solid fa-caret-right"></span><a href="home_como_llegar.php"><?php echo $texto_traducido["subheader"][3] ?></a></li>
+                <li><span class="fa-solid fa-caret-right"></span><a href="home_donde_alojarse.php"><?php echo $texto_traducido["subheader"][4] ?></a></li>
 
-                <li><span class="fa-solid fa-caret-right"></span><a href="home_itinerarios.php">Itinerario</a></li>
+                <li><span class="fa-solid fa-caret-right"></span><a href="home_itinerarios.php"><?php echo $texto_traducido["subheader"][5] ?></a></li>
 
-                <li><span class="fa-solid fa-caret-right"></span><a href="home_tiempo.php">Tiempo </a></li>
+                <li><span class="fa-solid fa-caret-right"></span><a href="home_tiempo.php"><?php echo $texto_traducido["subheader"][6] ?></a></li>
               </ul>
             </li>
 

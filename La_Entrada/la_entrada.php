@@ -12,8 +12,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta de los encantos de este hermoso paraiso</h6>
-                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow">Visita</span><span class="font-weight-bold text-shadow"> La Entrada y Rinconada</span></h2>
+                <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][0] ?></h6>
+                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow"><?php echo $texto_traducido["swapper"][1] ?></span><span class="font-weight-bold text-shadow"> La Entrada y Rinconada</span></h2>
               </div>
             </div>
           </div>
@@ -24,8 +24,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0">En La Entrada encontraras un lugar para disfrutar...</h6>
-                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow">Ven</span><span class="font-weight-bold text-shadow"> y disfruta</span></h2>
+                <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][2] ?>...</h6>
+                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow"><?php echo $texto_traducido["swapper"][3] ?></span><span class="font-weight-bold text-shadow"> <?php echo $texto_traducido["swapper"][4] ?></span></h2>
               </div>
             </div>
           </div>
@@ -37,8 +37,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta del encanto de nuestra hermosa playa</h6>
-                <h2 class="oh font-weight-light text-shadow " data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold">Disfruta</span><span class="font-weight-bold"> en familia</span></h2>
+                <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][5] ?></h6>
+                <h2 class="oh font-weight-light text-shadow " data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold"><?php echo $texto_traducido["swapper"][6] ?></span><span class="font-weight-bold"> <?php echo $texto_traducido["swapper"][7] ?></span></h2>
               </div>
             </div>
           </div>
@@ -67,12 +67,12 @@
           <p class="lead col-11 text-justify" style="font-size: 20px; ">
             <?php echo $texto_traducido["body"][0] ?>
             <br> <br>
-            La comuna La Entrada cuenta con una de las playas más increíbles de la provincia de Santa Elena, al estar rodeada de paisajes naturales emblemáticos, compuesta de arena y piedra de color grisácea y fina, posee aguas de fuerte oleaje. Por su ubicación no recibe una afluencia masiva de visitantes, al ser una playa aislada del entorno rural. Se puede acceder mediante vehículo desde la carretera vía E15 o llamada ruta del Spondylus. En la playa donde se puede practicar surf, bodyboard, pesca deportiva y pesca artesanal.
+            <?php echo $texto_traducido["body"][1] ?>
           </p>
           <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
         </div>
         <div class="col-lg-3 btn-acercade">
-          <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto " href="acerca_de_laentrada.php">Descubre un poco más</a>
+          <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto " href="acerca_de_laentrada.php"><?php echo $texto_traducido["button-A"] ?></a>
         </div>
 
       </div>

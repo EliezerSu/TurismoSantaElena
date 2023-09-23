@@ -3,7 +3,7 @@
   <figure class="figure position-absolute " style="top:0; left: 0; right:0; ">
     <img src="imagenes/imagen1.jpg" class="figure-img img-fluid rounded" style="width:100%; height:80vh; object-fit:cover;" id="logo">
     <figcaption class="position-absolute" style="top:200px; left: 40px;  ">
-      <h2 class="Texto  text-center">Vive la Experiencia... Turismo Santa Elena</h2>
+      <h2 class="Texto  text-center"><?php echo $texto_traducido["body"][0] ?></h2>
     </figcaption>
   </figure>
 
@@ -54,7 +54,7 @@
 <div class="base">
   <div class="imagen">
 
-    <h3 class="fw-bold    mt-5 text-center titulo__busqueda">Explora nuestro sitio
+    <h3 class="fw-bold    mt-5 text-center titulo__busqueda"><?php echo $texto_traducido["body"][1] ?>
     </h3>
     <section id="contenedor-main">
 
@@ -127,7 +127,7 @@
   </div>
 </div>
 
-<h3 class="fw-bold fs-1 mb-5 text-center mt-5">Descubre Nuestros Destinos
+<h3 class="fw-bold fs-1 mb-5 text-center mt-5"><?php echo $texto_traducido["body"][2] ?>
 </h3>
 <div class="row">
   <div class="col-sm-6">
@@ -139,7 +139,7 @@
           </div>
           <img class="card-img-top" style="width: 100%; height:40vh;" alt="ImgCambiante" id="ImgCambiante">
           <div class="card-body text-bg-light">
-            <p class="card-text text-dark" id="DescripcionComuna">sitio turístico que atrae a miles de turistas mensualmente, por su encanto en las olas para realizar surfing y todo tipo de deportes extremos, cuenta con excelentes hoteles, restaurantes, bares y discotecas.</p>
+            <p class="card-text text-dark" id="DescripcionComuna"><?php echo $texto_traducido["carousel"][0] ?></p>
           </div>
         </div>
       </div>
@@ -156,27 +156,27 @@
       // Array de objetos con la información de cada slide
       const slides = [{
           nombre: "Montañita",
-          descripcion: "Sitio turístico que atrae...",
+          descripcion: "<?php echo $texto_traducido["carousel"][0] ?>",
           imagen: "imagenes/montanita.jpg"
         },
         {
           nombre: "La Nuñez",
-          descripcion: "Punto turístico para disfrutar con amigos y familias.",
+          descripcion: "<?php echo $texto_traducido["carousel"][1] ?>",
           imagen: "imagenes/nunez.jpg"
         },
         {
           nombre: "La Entrada",
-          descripcion: "cantón perfecto para los artistas que buscan inspiración para su arte, donde todos los murales del cantón están plasmados el arte de todos sus habitantes.",
+          descripcion: "<?php echo $texto_traducido["carousel"][2] ?>",
           imagen: "imagenes/imagen.jpg"
         },
         {
           nombre: "Curia",
-          descripcion: "perfecto para las personas que le guste la naturaleza, es recomendado por sus hermosos paisajes, donde es el único punto de todo santa llena donde crece una rara planta llamada curia.",
+          descripcion: "<?php echo $texto_traducido["carousel"][3] ?>",
           imagen: "imagenes/curia.jpg"
         },
         {
           nombre: "San jose",
-          descripcion: "Un gran crecimiento por sus playas, Caracterizado por la amabilidad de sus habitantes.",
+          descripcion: "<?php echo $texto_traducido["carousel"][4] ?>",
           imagen: "imagenes/sanjose.jpg"
         },
       ];
@@ -231,7 +231,7 @@
   <div class="col">
     <a href="lasnunez/lasnunezrutasyexcursiones.php" class="card " style="text-decoration: none;">
       <div class="card-header bg-dark text-light">
-        <h5 class="card-title text-center fs-4"> Rutas y excursiones<h5>
+        <h5 class="card-title text-center fs-4"> <?php echo $texto_traducido["subheader"][7] ?><h5>
       </div>
       <img src="imagenes/senderos2.jpg" class="card-img" style="height:250px; object-fit:cover;">
 
@@ -241,7 +241,7 @@
   <div class="col ">
     <a href="./galeria__gastronomia.php" class="card " style="text-decoration: none;">
       <div class="card-header bg-dark text-light">
-        <h5 class="card-title text-center fs-4">Gastronomía<h5>
+        <h5 class="card-title text-center fs-4"><?php echo $texto_traducido["subheader"][2] ?><h5>
       </div>
       <img src="imagenes/naturaleza_olon.jpg" class="card-img" style="height:250px; object-fit:cover;">
 
@@ -252,7 +252,7 @@
   <div class="col">
     <a href="./montanita/montanita.php" class="card " style="text-decoration: none;">
       <div class="card-header bg-dark text-light">
-        <h5 class="card-title text-center fs-4">Deportes y Aventura<h5>
+        <h5 class="card-title text-center fs-4"><?php echo $texto_traducido["subheader"][8] ?><h5>
       </div>
       <img src="imagenes/surf.jpg" class="card-img" style="height:250px; object-fit:cover;">
 
@@ -262,7 +262,7 @@
   <div class="col mx-auto">
     <a href="./tradiciones_santa_elena.php" class="card " style="text-decoration: none;">
       <div class="card-header bg-dark text-light">
-        <h5 class="card-title text-center fs-4">Cultura y Tradiciones<h5>
+        <h5 class="card-title text-center fs-4"><?php echo $texto_traducido["subheader"][1] ?><h5>
       </div>
       <img src="imagenes/cultura_nunez.jpeg" class="card-img" style="height:100%">
 
