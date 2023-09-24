@@ -17,13 +17,9 @@
     <br><br><br><br>
   <section>
   <div class="container" style="margin-bottom: 40px;">
-          <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Cómo Llegar?</b></h1> 
+          <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["llegar"][0] ?></a></b></h1> 
           <br></br>
-          <p style="font-size: 17px; text-align: justify;"> La comuna San José cuenta con buena accesibilidad, con calles en buen estado y
-          señaléticas que facilitan el ingreso, por lo que se puede llegar en auto propio, taxis o por
-          medio de los diferentes buses que pasan por la comuna que son Cooperativa
-          Manglaralto y C.I.T.U.P. valor del pasaje desde el terminal terrestre SUMPA es de
-          $2,25</p>
+          <p style="font-size: 17px; text-align: justify;"> <?php echo $texto_traducido["llegar"][1] ?></a></p>
           <br></br>
           <div style="display: flex; justify-content: center;" >
   
@@ -35,7 +31,7 @@
   <section>
         <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
             <img style="vertical-align: text-left; width: 600; height: 100px;" src="imagenes/0045_bus.png">
-            <h2>Cooperativas</h2>
+            <h2><?php echo $texto_traducido["llegar"][2] ?></a></h2>
             <br>
         </div>
         <div class="container-card">
@@ -43,7 +39,7 @@
                 <div class="contenido-card">
                     <h3><b>Manglaralto</b></h3><br>
                     <p>
-                    Desde el terminal terrestre SUMPA/ Pasaje - $2.50   <br>
+                    <?php echo $texto_traducido["llegar"][3] ?></a><br>
                     </p>
                 </div>
             </div>
@@ -51,7 +47,7 @@
                 <div class="contenido-card">
                     <h3><b>C.I.T.U.P.</b></h3><br>
                     <p>
-                    Desde el terminal terrestre SUMPA/ Pasaje - $2.50 
+                    <?php echo $texto_traducido["llegar"][3] ?></a>
                     </p>
                 </div>
             </div>
@@ -60,38 +56,38 @@
   <section>
         <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
             <img style="vertical-align: text-left; width: 600; height: 100px;" src="imagenes/0046_auto.png">
-            <h2>Automóvil</h2>
+            <h2><?php echo $texto_traducido["llegar"][4] ?></a></h2>
             <br>
         </div>
         <div class="container-card">
             <div class="card">
                 <div class="contenido-card">
-                    <h3><b>Budget</b></h3>
+                    <h3><b><?php echo $texto_traducido["llegar"][5] ?></a></b></h3>
                     <br>
                     <p>
-                    Contacto: (02) 382-2340             <br>
-                    Precio: 1 día desde $50              <br>
+                    <?php echo $texto_traducido["llegar"][6] ?></a> (02) 382-2340             <br>
+                    <?php echo $texto_traducido["llegar"][7] ?></a> $50              <br>
                     </p>
-                    <a href="https://www.budget.com.ec/Inicio" target="_blank">Visitar</a>
+                    <a href="https://www.budget.com.ec/Inicio" target="_blank"><?php echo $texto_traducido["llegar"][8] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
-                    <h3><b>Rent cars</b></h3><br>
+                    <h3><b><?php echo $texto_traducido["llegar"][9] ?></a></b></h3><br>
                     <p>
-                    Precio: 1 día desde $37                      <br><br>
+                    <?php echo $texto_traducido["llegar"][7] ?></a> $37                      <br><br>
                     </p>
-                    <a href="https://www.rentcars.com/es/" target="_blank">Visitar</a>
+                    <a href="https://www.rentcars.com/es/" target="_blank"><?php echo $texto_traducido["llegar"][8] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Hertz</b></h3><br>
                     <p>
-                    Contacto: +593-2-3829559                    <br>
-                    Precio: 1 día desde $50 
+                    <?php echo $texto_traducido["llegar"][6] ?></a> +593-2-3829559                    <br>
+                    <?php echo $texto_traducido["llegar"][7] ?></a> $50 
                     </p>
-                    <a href="https://www.hertz.com/rentacar/reservation/" target="_blank">Visitar</a>
+                    <a href="https://www.hertz.com/rentacar/reservation/" target="_blank"><?php echo $texto_traducido["llegar"][8] ?></a></a>
                 </div>
             </div>
         </div>
@@ -101,19 +97,19 @@
                     <h3><b>Europcar</b></h3>
                     <br>
                     <p>
-                    Precio: 1 día desde $37                      <br>
-                    Contacto: 911 505 000                       <br>
+                    <?php echo $texto_traducido["llegar"][7] ?></a> $37                      <br>
+                    <?php echo $texto_traducido["llegar"][6] ?></a> 911 505 000                       <br>
                     </p>
-                    <a href="https://www.europcar.es/es-es" target="_blank">Visitar</a>
+                    <a href="https://www.europcar.es/es-es" target="_blank"><?php echo $texto_traducido["llegar"][8] ?></a></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Kayak</b></h3><br>
                     <p>
-                    Precio: 1 día desde $40                     <br><br>
+                    <?php echo $texto_traducido["llegar"][7] ?></a> $40                     <br><br>
                     </p>
-                    <a href="https://www.kayak.com.ec" target="_blank">Visitar</a>
+                    <a href="https://www.kayak.com.ec" target="_blank"><?php echo $texto_traducido["llegar"][8] ?></a>
                 </div>
             </div>
         </div>

@@ -1,4 +1,7 @@
-<?php session_start() ?>
+<?php
+include_once("../language/script.php");
+$texto_traducido = GetTextoTraducido("../language/montanita");
+?>
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
 <head>
@@ -57,40 +60,45 @@
                 <div style="background-color: #082032;" class="collapse navbar-collapse" id="menu">
                       <ul style="background-color: #082032;" class="navbar-nav d-flex mx-auto justify-content-between text-center">
                           <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="montanita.php">Acerca de</a>
+                              <a class="nav-link" aria-current="page" href="montanita.php"><?php echo $texto_traducido["header"][0] ?></a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="quevisitar.php">¿Qué visitar?</a>
+                              <a class="nav-link" href="quevisitar.php"><?php echo $texto_traducido["header"][1] ?></a>
                           </li>
 
 
                           <li class="nav-item dropdown">
                               <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  ¿Qué hacer?
+                              <?php echo $texto_traducido["header"][2] ?>
                               </a>
 
                               <ul class="dropdown-menu bg-secondary text-center" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="excursiones.php">Excursiones y rutas</a></li>
-                                  <li><a class="dropdown-item" href="deportes.php">Deportes y aventuras</a><li>
-                                  <li><a class="dropdown-item" href="gastronomia.php">Gastronomía</a><li>
-                                  <li><a class="dropdown-item" href="cultura.php">Cultura y tradiciones</a></li>
+                                  <li><a class="dropdown-item" href="excursiones.php"><?php echo $texto_traducido["header"]["subtitle-1"][0] ?></a></li>
+                                  <li><a class="dropdown-item" href="deportes.php"><?php echo $texto_traducido["header"]["subtitle-1"][1] ?></a><li>
+                                  <li><a class="dropdown-item" href="gastronomia.php"><?php echo $texto_traducido["header"]["subtitle-1"][2] ?></a><li>
+                                  <li><a class="dropdown-item" href="cultura.php"><?php echo $texto_traducido["header"]["subtitle-1"][3] ?></a></li>
                               </ul>
                           </li>
                           <li class="nav-item dropdown">
                               <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Planifica tu viaje
+                              <?php echo $texto_traducido["header"][3] ?>
                               </a>
 
                               <ul class="dropdown-menu bg-secondary text-center" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="comollegar.php">¿Cómo llegar?</a></li>
-                                  <li><a class="dropdown-item" href="hoteles.php">¿Dónde alojarse?</a>
-                                  <li><a class="dropdown-item" href="reservadeexperiencia.php">Itinerario</a></li>
-                                  <li><a class="dropdown-item" href="tiempo.php">Tiempo</a></li>
+                                  <li><a class="dropdown-item" href="comollegar.php"><?php echo $texto_traducido["header"]["subtitle-2"][0] ?></a></li>
+                                  <li><a class="dropdown-item" href="hoteles.php"><?php echo $texto_traducido["header"]["subtitle-2"][1] ?></a>
+                                  <li><a class="dropdown-item" href="reservadeexperiencia.php"><?php echo $texto_traducido["header"]["subtitle-2"][2] ?></a></li>
+                                  <li><a class="dropdown-item" href="tiempo.php"><?php echo $texto_traducido["header"]["subtitle-2"][3] ?></a></li>
 
                                   
                               </ul>
-                          </li>
-                      </ul>
+                              <li>
+                              <?php GetSelectLanguage() ?>
+                              </li>
+                              </ul>
+                              <?php GetScriptSelectLanguage() ?>
+                              </li>
+                              </ul>
 
                       <hr style="background-color: #082032;" class="d-md-none text-white-50">
                           <ul class="list-inline list-inline-md rd-navbar-corporate-list-social mx-auto text-center pt-4 pb-4">

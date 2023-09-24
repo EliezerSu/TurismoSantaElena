@@ -5,7 +5,7 @@
         <a href="javascript:history.back()"><button class="regresar" onclick="back()"><i class="fa-solid fa-arrow-left"></i></button></a>
     </section>
     <br>
-    <h2 style="color: #162e44;margin-top: 60;margin-top: 60px;">Excursiones y rutas</h2>
+    <h2 style="color: #162e44;margin-top: 60;margin-top: 60px;"><?php echo $texto_traducido["header"]["subtitle-1"][0] ?></h2>
   
         <section class="section section-sm section-first bg-default text-md-left">
           <div class="container">
@@ -29,8 +29,7 @@
                   <div class="tab-content">
                     <div class="tab-pane fade show active" id="tabs-4-1">
                       <div class="product-big-rating">
-                              <p style = "text-align: justify; font-size: 17px;"> Dentro de la comuna Montañita, se encuentra una operadora turística con el nombre de “Daily Tours Montañita” este establecimiento se encarga de prestar servicios de excursiones hacia otros lugares turísticos cerca de la comunidad. Hacia el sur en la comuna Dos Mangas se realizan cabalgata, para el norte se prestan servicios como ciclismo y senderismo en la comuna Olón. 
-                              Cabe mencionar que uno de las actividades de excursión que se puede realizar dentro de la comunidad es el camping un espacio donde los visitantes pueden llevar su carpa, poder descansar y convivir entre las demás personas que acuden hacia el lugar.
+                              <p style = "text-align: justify; font-size: 17px;"><?php echo $texto_traducido["hacer"][0] ?>
                               </p>
                     </div>
                   </div>  

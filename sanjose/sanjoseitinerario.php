@@ -11,107 +11,106 @@
   <body>
     <br></br>
     <br></br>   
-   <div class="container"> <p style="font-size: 17px; text-align: center;">Para planificar unas vacaciones sin complicaciones, necesitas un itinerario de viaje programado cuidadosamente.<br>
-   Aquí te dejamos una idea.</p>
+   <div class="container"> <p style="font-size: 17px; text-align: center;"><?php echo $texto_traducido["plani"][0] ?><br></p>
    <br></br></div> 
   
-<h3 style="justify-content: center; display: flex;" >Día 1 &#128197;</h3>
+<h3 style="justify-content: center; display: flex;" ><?php echo $texto_traducido["plani"][1] ?> &#128197;</h3>
 <br></br> 
 
 <table class="table-fill">
 <thead>
 <tr>
-<th class="text-left">Hora</th>
-<th class="text-left">Actividad</th>
+<th class="text-left"><?php echo $texto_traducido["plani"][2] ?></th>
+<th class="text-left"><?php echo $texto_traducido["plani"][3] ?></th>
 </tr>
 </thead>
 <tbody class="table-hover">
 <tr>
 <td class="text-left">7:30</td>
-<td class="text-left">Punto de partida hacia la Comuna San josé desde el Terminal Amantes de SUMPA</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][4] ?></td>
 </tr>
 <tr>
 <td class="text-left">9:00-10:00</td>
-<td class="text-left">Arribo en el Hotel Cuna Luna</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][5] ?></td>
 </tr>
 <tr>
 <td class="text-left">10:00-11:00</td>
-<td class="text-left">Desayuno en las cabañas frente a a playa</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][6] ?></td>
 </tr>
 <tr>
 <td class="text-left">11:00-14:30</td>
-<td class="text-left">Visita a la playa y tiempo de relajación</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][7] ?></td>
 </tr>
 <tr>
 <td class="text-left">14:30-15:30</td>
-<td class="text-left">Almuerzo en las cabañas</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][8] ?></td>
 </tr>
 <tr>
 <td class="text-left">15:30-17:00</td>
-<td class="text-left">Recorrido por la comunidad para realizar fotografía</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][9] ?></td>
 </tr>
 <tr>
 <td class="text-left">17:00</td>
-<td class="text-left">Regreso al hotel y tiempo libre</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][10] ?></td>
 </tr>
 </tbody>
 </table>
 
 <br></br>   
   
-<h3 style="justify-content: center; display: flex;" >Día 2 &#128197;</h3>
+<h3 style="justify-content: center; display: flex;" ><?php echo $texto_traducido["plani"][11] ?> &#128197;</h3>
 <br></br> 
 
 <table class="table-fill">
 <thead>
 <tr>
-<th class="text-left">Hora</th>
-<th class="text-left">Actividad</th>
+<th class="text-left"><?php echo $texto_traducido["plani"][2] ?></th>
+<th class="text-left"><?php echo $texto_traducido["plani"][3] ?></th>
 </tr>
 </thead>
 <tbody class="table-hover">
 <tr>
 <td class="text-left">7:30</td>
-<td class="text-left">Punto de partida hacia la Comuna San josé desde el Terminal Amantes de SUMPA</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][12] ?></td>
 </tr>
 <tr>
 <td class="text-left">7:30</td>
-<td class="text-left">Desayuno en el Hotel "Cuna Luna"</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][13] ?></td>
 </tr>
 <tr>
 <td class="text-left">7:30-8:00</td>
-<td class="text-left">Preparación para caminata: Se recomienda llevar agua y ropa apropiada para el recorrido</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][14] ?></td>
 </tr>
 <tr>
 <td class="text-left">8:00-13:00</td>
 <td class="text-left">
     <ul>
-        <li>&#10148; Recorrido a la montaña: se pude observar la flora y escuchar el sonido de las aves, ademas de realizar una buena caminata.</li>
-        <li>&#10148; Observación de plantaciones de caña de bambú.</li>
-        <li>&#10148; Observación de plantas de guayabas, durante el recorrido.</li>
+        <li>&#10148; <?php echo $texto_traducido["plani"][15] ?></li>
+        <li>&#10148; <?php echo $texto_traducido["plani"][16] ?></li>
+        <li>&#10148; <?php echo $texto_traducido["plani"][17] ?></li>
     </ul>
 </td>
 </tr>
 <tr>
 <td class="text-left">13:30-14:30</td>
-<td class="text-left">Almuerzo típico en las cabañas</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][18] ?></td>
 </tr>
 <tr>
 <td class="text-left">15:00</td>
-<td class="text-left">Recorrido al terminal</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][19] ?></td>
 </tr>
 <tr>
 <td class="text-left">17:00</td>
-<td class="text-left">Arribo al terminal Amantes de SUMPA</td>
+<td class="text-left"><?php echo $texto_traducido["plani"][20] ?></td>
 </tr>
 </tbody>
 </table>
 <br></br>
   
 <section style="display: flex; justify-content:space-evenly">
-<div style="margin-bottom: 40px;"><a class="button button-lg button-primary button-ujarak" href="imagenes/itinerario.pdf" target="_blank">Ver Folleto</a></div>
+<div style="margin-bottom: 40px;"><a class="button button-lg button-primary button-ujarak" href="imagenes/itinerario.pdf" target="_blank"><?php echo $texto_traducido["plani"][21] ?></a></div>
 
-<div><a class="button button-lg button-primary button-ujarak" href="imagenes/itinerario.pdf" download="itinerario_san_jose">Descargar</a></div>
+<div><a class="button button-lg button-primary button-ujarak" href="imagenes/itinerario.pdf" download="itinerario_san_jose"><?php echo $texto_traducido["plani"][22] ?></a></div>
 </section>
 </div>
       <!-- Page Footer-->

@@ -54,7 +54,7 @@
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-1">
                     <div class="product-big-rating">
-                            <p class="contente__font1" style="text-align: justify; font-size: 17px;">Dentro de esta comunidad se puede realizar trekking, es una actividad muy atrayente para los amantes de la naturaleza, ya que posee un sendero de aproximada de 5 kilómetros de distancia, en ella se podrá observar la vegetación de la zona, cruzar afluentes de agua y deleitarse con el cántico de las aves hasta llegar al final del recorrido donde se podrá encontrar con una fuente natural de agua sulfurosa.
+                            <p class="contente__font1" style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["ruta"][0] ?></a>
 
                             </p>
                   </div>

@@ -63,8 +63,8 @@ function OnChangeLanguage(string $languageSelected)
     setcookie("idioma", $languageSelected, time() + 3600, "/");
 }
 /* Ejecuto las peticiones  */
-$request = $_POST["request"];
-switch ($_POST["function"]) {
+$request = $_POST["request"] ?? "";
+switch ($_POST["function"] ?? "") {
     case 'OnChangeLanguage':
         OnChangeLanguage($request["languageSelected"]);
         break;

@@ -3,39 +3,39 @@
 
 <div >
         <section >
-          <h3 class="titulocarta" style="margin-top: 60px; margin-bottom: 0; color: #162e44; " >¿Qué hacer?</h3>
+          <h3 class="titulocarta" style="margin-top: 60px; margin-bottom: 0; color: #162e44; " ><?php echo $texto_traducido["header"][2] ?></a></h3>
             <div id="contenedor">
                 
                 <div class="tabla hover">
-                <h2>Culturas y tradiciones</h2>
+                <h2><?php echo $texto_traducido["header"]["subtitle-1"][0] ?></a></h2>
                     <img src="imagenes/sanjose/0299_culturasytradiciones.jpg" alt="" style="margin-bottom: 0;">
                     
-                    <p style="font-size: 17px;">Acércate a una experiencia transformadora
+                    <p style="font-size: 17px;"><?php echo $texto_traducido["carta"][0] ?></a>
                         <br><br>
                         
 
                     </p>
-                    <a href="sanjosecultura.php" class="boton">Leer más</a>
+                    <a href="sanjosecultura.php" class="boton"><?php echo $texto_traducido["body"][5] ?></a>
                 </div>
                 <div class="tabla">
-                <h2>Gastronomía</h2>
+                <h2><?php echo $texto_traducido["header"]["subtitle-1"][1] ?></a></h2>
                 <br>
                     <img src="imagenes/sanjose/0300_gastronomia.jpg" alt=""style="margin-bottom: 0;">
                     
-                    <p style="font-size: 17px;">Deleita tus sentidos con el olor y sabor <br>
+                    <p style="font-size: 17px;"><?php echo $texto_traducido["carta"][1] ?></a><br>
                     <br>
                     
                 </p>
-                    <a href="sanjosegastronomia.php" class="boton">Leer más</a>
+                    <a href="sanjosegastronomia.php" class="boton"><?php echo $texto_traducido["body"][5] ?></a>
                 </div>
                 <div class="tabla">
-                <h2>Rutas y excursiones</h2>
+                <h2><?php echo $texto_traducido["header"]["subtitle-1"][2] ?></a></h2>
                <br>
                     <img src="imagenes/sanjose/0301_rutasyexcursiones.jpg" alt=""style="margin-bottom: 0;">
-                    <p style="font-size: 17px;">Activa tu tiempo libre con actividades de ocio
+                    <p style="font-size: 17px;"><?php echo $texto_traducido["carta"][2] ?></a>
                     <br><br>
                     </p>
-                    <a href="sanjoserutas.php" class="boton">Leer más</a>
+                    <a href="sanjoserutas.php" class="boton"><?php echo $texto_traducido["body"][5] ?></a>
                 </div>
            
             </div>
