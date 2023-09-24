@@ -1,50 +1,66 @@
-    <?php include("head.php");?>
+    <?php include("head.php"); ?>
 
     <section>
       <Div class="banner-hoteles">
-          <img style="width:100%" src="imagenes\curia\0548_carretera_santa_elena.jpg" alt="Banner de una cama de hotel">
-          <div class="texto-encima centrado">
-            <h6 style="color:white" class="text-uppercase">Encuentra la mejor forma de llegar...</h6>
-            <h2 style="color:white" class="oh font-weight-light"><span>Visita</span><span class="font-weight-bold"> Curía</span></h2>
-          </div>
-        </Div>
-        <?php include('boton.php');?>
-    </section> 
-      <br>
-      <br>  
+        <img style="width:100%" src="imagenes\curia\0548_carretera_santa_elena.jpg" alt="Banner de una cama de hotel">
+        <div class="texto-encima centrado">
+          <h6 style="color:white" class="text-uppercase"><?php echo $texto_traducido["como llegar"][0] ?>...</h6>
+          <h2 style="color:white" class="oh font-weight-light"><span><?php echo $texto_traducido["como llegar"][1] ?></span><span class="font-weight-bold"> Curía</span></h2>
+        </div>
+      </Div>
+      <?php include('boton.php'); ?>
+    </section>
+    <br>
+    <br>
     <div class="container" style="text-align: center;">
       <img src="imagenes\icons8-autobus-100.png" alt="Imagen de Autobus">
-      <h2>¿Cómo Llegar?</h2> 
-      <p> 
-        La parroquia La Curía se encuentra ubicada en el Cantón Santa Elena. ¿No sabes cómo llegar? A continuación, te mostramos como arribar desde un autobús a la Parroquia San José de Ancón desde distintos sitios, las líneas, precios y tiempo de su viaje:
-      </p>    
+      <h2><?php echo $texto_traducido["como llegar"][2] ?></h2>
+      <p>
+        <?php echo $texto_traducido["como llegar"][3] ?>
+      </p>
     </div>
-        
-        
+
+
     <section class="contenedor-p">
       <table class="tablita">
         <thead>
           <tr>
-            <th>RUTA</th><th>FRECUENCIA</th><th>PRECIOS</th><th>EMPRESAS</th><th>TIEMPO APROXIMADO</th>
+            <th><?php echo $texto_traducido["como llegar"][4] ?></th>
+            <th><?php echo $texto_traducido["como llegar"][5] ?></th>
+            <th><?php echo $texto_traducido["como llegar"][6] ?></th>
+            <th><?php echo $texto_traducido["como llegar"][7] ?></th>
+            <th><?php echo $texto_traducido["como llegar"][8] ?></th>
           </tr>
         </thead>
         <tr>
-          <td data-titulo="Ruta">Quito- Curía</td><td data-titulo="Frecuencia">Cada 20 minutos aproximadamente</td><td data-titulo="Precios">12-15 USD</td><td data-titulo="Empresa">CLP- Transportes Ecuador</td><td data-titulo="Tiempo">9 horas 10 minutos</td>
+          <td data-titulo="Ruta">Quito- Curía</td>
+          <td data-titulo="Frecuencia"><?php echo $texto_traducido["como llegar"][9] ?> 20 <?php echo $texto_traducido["como llegar"][10] ?></td>
+          <td data-titulo="Precios">12-15 USD</td>
+          <td data-titulo="Empresa">CLP- Transportes Ecuador</td>
+          <td data-titulo="Tiempo">9 <?php echo $texto_traducido["como llegar"][11] ?> 10 <?php echo $texto_traducido["como llegar"][12] ?></td>
         </tr>
         <tr>
-          <td data-titulo="Ruta">Guayaquil- Curía</td><td data-titulo="Frecuencia">Cada 15 minutos aproximadamente</td><td data-titulo="Precios">5- 10 USD</td><td data-titulo="Empresa">CLP - Transporte Turístico</td><td data-titulo="Tiempo">3 horas 40 minutos</td>
+          <td data-titulo="Ruta">Guayaquil- Curía</td>
+          <td data-titulo="Frecuencia"><?php echo $texto_traducido["como llegar"][9] ?> 15 <?php echo $texto_traducido["como llegar"][10] ?></td>
+          <td data-titulo="Precios">5- 10 USD</td>
+          <td data-titulo="Empresa">CLP - Transporte Turístico</td>
+          <td data-titulo="Tiempo">3 <?php echo $texto_traducido["como llegar"][11] ?> 40 <?php echo $texto_traducido["como llegar"][12] ?></td>
         </tr>
         <tr>
-          <td data-titulo="Ruta">Santa Elena-Curía</td><td data-titulo="Frecuencia">Cada 30 minutos aproximadamente</td><td data-titulo="Precios">2,35 ctvs.</td><td data-titulo="Empresa">Cooperativa Citup.</td><td data-titulo="Tiempo">1 hora 20 minutos</td>
+          <td data-titulo="Ruta">Santa Elena-Curía</td>
+          <td data-titulo="Frecuencia"><?php echo $texto_traducido["como llegar"][9] ?> 30 <?php echo $texto_traducido["como llegar"][10] ?></td>
+          <td data-titulo="Precios">2,35 ctvs.</td>
+          <td data-titulo="Empresa">Cooperativa Citup.</td>
+          <td data-titulo="Tiempo">1 <?php echo $texto_traducido["como llegar"][11] ?> 20 <?php echo $texto_traducido["como llegar"][12] ?></td>
         </tr>
       </table>
-    </section>   
+    </section>
     <div class="container" style="text-align: center;">
-        <img src="imagenes\icons8-coche-100.png" alt="Imagen de Auto">
-        <h2>Si Viajas en Auto</h2> 
-          <p> 
-            Si realizas tu viaje en tu vehículo propio desde el cantón Santa Elena deberás tomar la ruta del Spondylus/E15, tendrá un aproximado de 1 hora 17 min de viaje segun las condiciones del trafico, como se muestra en el mapa a continuación.
-          </p>          
+      <img src="imagenes\icons8-coche-100.png" alt="Imagen de Auto">
+      <h2><?php echo $texto_traducido["como llegar"][13] ?></h2>
+      <p>
+        <?php echo $texto_traducido["como llegar"][14] ?>
+      </p>
     </div>
     <br>
 
@@ -53,62 +69,62 @@
 
     <section>
       <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
-          <h2>Alquiler de automóviles</h2>
-          <br>
+        <h2><?php echo $texto_traducido["como llegar"][15] ?></h2>
+        <br>
       </div>
       <div class="container-card">
-          <div class="card">
-              <div class="contenido-card">
-                  <h3><b>Budget</b></h3>
-                  <br>
-                  <p>
-                  Contacto: (02) 382-2340             <br>
-                  Precio: 1 día desde $50              <br>
-                  </p>
-                  <a href="https://www.budget.com.ec/Inicio" target="_blank">Visitar</a>
-              </div>
+        <div class="card">
+          <div class="contenido-card">
+            <h3><b>Budget</b></h3>
+            <br>
+            <p>
+              <?php echo $texto_traducido["como llegar"][16] ?>: (02) 382-2340 <br>
+              <?php echo $texto_traducido["como llegar"][17] ?>: 1 <?php echo $texto_traducido["como llegar"][20] ?> $50 <br>
+            </p>
+            <a href="https://www.budget.com.ec/Inicio" target="_blank"><?php echo $texto_traducido["como llegar"][19] ?></a>
           </div>
-          <div class="card">
-              <div class="contenido-card">
-                  <h3><b>Rent cars</b></h3><br>
-                  <p>
-                  Precio: 1 día desde $37                      <br><br>
-                  </p>
-                  <a href="https://www.rentcars.com/es/" target="_blank">Visitar</a>
-              </div>
+        </div>
+        <div class="card">
+          <div class="contenido-card">
+            <h3><b>Rent cars</b></h3><br>
+            <p>
+              <?php echo $texto_traducido["como llegar"][17] ?>: 1 <?php echo $texto_traducido["como llegar"][20] ?> $37 <br><br>
+            </p>
+            <a href="https://www.rentcars.com/es/" target="_blank"><?php echo $texto_traducido["como llegar"][19] ?></a>
           </div>
-          <div class="card">
-              <div class="contenido-card">
-                  <h3><b>Hertz</b></h3><br>
-                  <p>
-                  Contacto: +593-2-3829559                    <br>
-                  Precio: 1 día desde $50 
-                  </p>
-                  <a href="https://www.hertz.com/rentacar/reservation/" target="_blank">Visitar</a>
-              </div>
+        </div>
+        <div class="card">
+          <div class="contenido-card">
+            <h3><b>Hertz</b></h3><br>
+            <p>
+              <?php echo $texto_traducido["como llegar"][16] ?>: +593-2-3829559 <br>
+              <?php echo $texto_traducido["como llegar"][17] ?>: 1 <?php echo $texto_traducido["como llegar"][20] ?> $50
+            </p>
+            <a href="https://www.hertz.com/rentacar/reservation/" target="_blank"><?php echo $texto_traducido["como llegar"][19] ?></a>
           </div>
+        </div>
       </div>
       <div class="container-card">
-          <div class="card">
-              <div class="contenido-card">
-                  <h3><b>Europcar</b></h3>
-                  <br>
-                  <p>
-                  Precio: 1 día desde $37                      <br>
-                  Contacto: 911 505 000                       <br>
-                  </p>
-                  <a href="https://www.europcar.es/es-es" target="_blank">Visitar</a>
-              </div>
+        <div class="card">
+          <div class="contenido-card">
+            <h3><b>Europcar</b></h3>
+            <br>
+            <p>
+              <?php echo $texto_traducido["como llegar"][17] ?>: 1 <?php echo $texto_traducido["como llegar"][20] ?> $37 <br>
+              <?php echo $texto_traducido["como llegar"][16] ?>: 911 505 000 <br>
+            </p>
+            <a href="https://www.europcar.es/es-es" target="_blank"><?php echo $texto_traducido["como llegar"][19] ?></a>
           </div>
-          <div class="card">
-              <div class="contenido-card">
-                  <h3><b>Kayak</b></h3><br>
-                  <p>
-                  Precio: 1 día desde $40                     <br><br>
-                  </p>
-                  <a href="https://www.kayak.com.ec" target="_blank">Visitar</a>
-              </div>
+        </div>
+        <div class="card">
+          <div class="contenido-card">
+            <h3><b>Kayak</b></h3><br>
+            <p>
+              <?php echo $texto_traducido["como llegar"][17] ?>: 1 <?php echo $texto_traducido["como llegar"][20] ?> $40 <br><br>
+            </p>
+            <a href="https://www.kayak.com.ec" target="_blank"><?php echo $texto_traducido["como llegar"][19] ?></a>
           </div>
+        </div>
       </div>
     </section>
 
@@ -116,186 +132,192 @@
     <br>
     <br>
     <div class="container" style="text-align: center;">
-        <img src="imagenes\icono_itinerario.png" alt="Imagen itinerario" width="08%">
-        <a href="exemples\Triptico_Comuna_Curia.pdf" target="_blank"><h4 class="descarga">Descarga aqui un intinerario</h4></a>       
+      <img src="imagenes\icono_itinerario.png" alt="Imagen itinerario" width="08%">
+      <a href="exemples\Triptico_Comuna_Curia.pdf" target="_blank">
+        <h4 class="descarga"><?php echo $texto_traducido["como llegar"][18] ?></h4>
+      </a>
     </div>
     <br>
-       
-    
-    
 
-<style>
-  .contenedor-p{
-    width: 100%
-  }
 
-  .container{
-    width: 90%;
-    padding: 2rem 1.5rem;
-  }
 
-  .img-hotel{
-    margin-top: 20px;
-    padding-top: 30px;
-  }
 
-  .banner-hoteles{
-    width: 100%;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-  }
-  .texto-encima{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
-  .centrado{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-  }
+    <style>
+      .contenedor-p {
+        width: 100%
+      }
 
-  p{
-    text-align: justify;
-    font-size: 20px;
-    font-family: 'Montserrat;margin-left:10%;
-  }
+      .container {
+        width: 90%;
+        padding: 2rem 1.5rem;
+      }
 
-  .descarga{
-    padding: 1rem 0;
-  }
-  .descarga:hover{
-    color: #01b3a7;
-    text-decoration: underline;
-    transition: 500ms;
-  }
+      .img-hotel {
+        margin-top: 20px;
+        padding-top: 30px;
+      }
 
-  @media (min-width: 275px) and (max-width: 360px) {
-    .banner-hoteles{
-      width: 100%;
-    }
-    .centrado{
-      top: 60%;
-      left: 40%;
-      transform: translate(-30%, -50%);
-    }
+      .banner-hoteles {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+      }
 
-    table{
-      width: 100%;
-      font-size: 0.8em;
-    }
+      .texto-encima {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
 
-    table tr{
-        display: flex;
-        flex-direction: column;
-        border: 1px solid;
-        padding: 1em;
-        margin-bottom: 1em;
-        text-align: center;  
-    }
+      .centrado {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+      }
 
-    table td[data-titulo]{
-      display: flex; 
-    }
+      p {
+        text-align: justify;
+        font-size: 20px;
+        font-family: 'Montserrat;margin-left:10%;
 
-    table td[data-titulo]::before{
-      content: attr(data-titulo);
-      width: 6rem;
-      font-weight: bold;
-    }
+      }
 
-    table thead{
-      display: none;
-    }
+      .descarga {
+        padding: 1rem 0;
+      }
 
-  }
+      .descarga:hover {
+        color: #01b3a7;
+        text-decoration: underline;
+        transition: 500ms;
+      }
 
-  @media (min-width: 361px) and (max-width: 699px) {
-    .banner-hoteles{
-      width: 100%;
-    }
-    .centrado{
-      top: 60%;
-      left: 40%;
-      transform: translate(-30%, -50%);
-    }
+      @media (min-width: 275px) and (max-width: 360px) {
+        .banner-hoteles {
+          width: 100%;
+        }
 
-    table{
-      width: 100%;
-      font-size: 0.8em;
-    }
+        .centrado {
+          top: 60%;
+          left: 40%;
+          transform: translate(-30%, -50%);
+        }
 
-    table tr{
-        display: flex;
-        flex-direction: column;
-        border: 1px solid;
-        padding: 1em;
-        margin-bottom: 1em;
-        text-align: center;  
-    }
+        table {
+          width: 100%;
+          font-size: 0.8em;
+        }
 
-    table td[data-titulo]{
-      display: flex; 
-    }
+        table tr {
+          display: flex;
+          flex-direction: column;
+          border: 1px solid;
+          padding: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+        }
 
-    table td[data-titulo]::before{
-      content: attr(data-titulo);
-      width: 6rem;
-      font-weight: bold;
-    }
+        table td[data-titulo] {
+          display: flex;
+        }
 
-    table thead{
-      display: none;
-    }
+        table td[data-titulo]::before {
+          content: attr(data-titulo);
+          width: 6rem;
+          font-weight: bold;
+        }
 
-  }
+        table thead {
+          display: none;
+        }
 
-  @media (min-width: 700px) and (max-width: 900px) {
-    .banner-hoteles{
-      width: 100%;
-    }
-    .centrado{
-      top: 60%;
-      left: 40%;
-      transform: translate(-30%, -50%);
-    }
+      }
 
-    table{
-      width: 100%;
-      font-size: 0.8em;
-    }
+      @media (min-width: 361px) and (max-width: 699px) {
+        .banner-hoteles {
+          width: 100%;
+        }
 
-    table tr{
-        display: flex;
-        flex-direction: column;
-        border: 1px solid;
-        padding: 1em;
-        margin-bottom: 1em;
-        text-align: center;  
-    }
+        .centrado {
+          top: 60%;
+          left: 40%;
+          transform: translate(-30%, -50%);
+        }
 
-    table td[data-titulo]{
-      display: flex; 
-    }
+        table {
+          width: 100%;
+          font-size: 0.8em;
+        }
 
-    table td[data-titulo]::before{
-      content: attr(data-titulo);
-      width: 6rem;
-      font-weight: bold;
-    }
+        table tr {
+          display: flex;
+          flex-direction: column;
+          border: 1px solid;
+          padding: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+        }
 
-    table thead{
-      display: none;
-    }
+        table td[data-titulo] {
+          display: flex;
+        }
 
-  }
+        table td[data-titulo]::before {
+          content: attr(data-titulo);
+          width: 6rem;
+          font-weight: bold;
+        }
 
-  
+        table thead {
+          display: none;
+        }
 
-</style>
-<script src="js/core.min.js"></script>
-<script src="js/script.js"></script>
-<div class="snackbars" id="form-output-global"></div>
-<?php include("footer.php");?>
+      }
+
+      @media (min-width: 700px) and (max-width: 900px) {
+        .banner-hoteles {
+          width: 100%;
+        }
+
+        .centrado {
+          top: 60%;
+          left: 40%;
+          transform: translate(-30%, -50%);
+        }
+
+        table {
+          width: 100%;
+          font-size: 0.8em;
+        }
+
+        table tr {
+          display: flex;
+          flex-direction: column;
+          border: 1px solid;
+          padding: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+        }
+
+        table td[data-titulo] {
+          display: flex;
+        }
+
+        table td[data-titulo]::before {
+          content: attr(data-titulo);
+          width: 6rem;
+          font-weight: bold;
+        }
+
+        table thead {
+          display: none;
+        }
+
+      }
+    </style>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <div class="snackbars" id="form-output-global"></div>
+    <?php include("footer.php"); ?>
