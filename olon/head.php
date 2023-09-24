@@ -86,7 +86,7 @@ $texto_traducido = GetTextoTraducido("../language/olon");
                                     <li><a class="dropdown-item" href="quedarseolon.php"><?php echo $texto_traducido["header"]["subtitle-1"][1] ?></a>
                                     <li>
                                     <li><a class="dropdown-item" href="itinerario.php"><?php echo $texto_traducido["header"]["subtitle-1"][2] ?></a></li>
-                                    <li><a class="dropdown-item" href="tiempo.php"><?php echo $texto_traducido["header"]["subtitle-1"][3] ?></a></li>
+                                   
                                 </ul>
                             </li>
                           <li>
