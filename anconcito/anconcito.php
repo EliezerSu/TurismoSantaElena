@@ -11,8 +11,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta de los encantos de este hermoso paraiso</h6>
-                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Visita</span><span class="font-weight-bold"> Anconcito</span></h2>
+                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["body"][0] ?></h6>
+                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>&nbsp;</span><span class="font-weight-bold"> Anconcito</span></h2>
               </div>
             </div>
           </div>
@@ -23,8 +23,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">En Anconcito encontrarás un lugar para disfrutar...</h6>
-                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Ven</span><span class="font-weight-bold"> y disfruta</span></h2>
+                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["body"][1] ?>...</h6>
+                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["body"][2] ?></span></h2>
               </div>
             </div>
           </div>
@@ -35,8 +35,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta del encanto de nuestra hermosa playa</h6>
-                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Disfruta</span><span class="font-weight-bold"> en familia</span></h2>
+                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["body"][3] ?></h6>
+                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["body"][4] ?></span></h2>
               </div>
             </div>
           </div>
@@ -46,9 +46,9 @@
     <!-- Swiper Pagination-->
     <div class="swiper-pagination"></div>
   </section>
- <div style="width:100%;background-color: rgba(8, 32, 50,.9); padding:15px 0px">
-    <a style=" font-size:18px; color:white;t" class="text-left" href="../index.php">Inicio </a>
-    </div>
+  <div style="width:100%;background-color: rgba(8, 32, 50,.9); padding:15px 0px">
+    <a style=" font-size:18px; color:white;" class="text-left" href="../index.php"><?php echo $texto_traducido["body"][5] ?> </a>
+  </div>
   <!-- Section Box Categories-->
 
   <br>
@@ -62,22 +62,18 @@
 
 
     <div class="px-4 py-5 my-5 text-center container-fluid">
-      <h2 style="text-align: center;color:#122638">Acerca de...</h2>
+      <h2 style="text-align: center;color:#122638"><?php echo $texto_traducido["body"][6] ?>...</h2>
       <hr class="w-50 d-block d-ms-none mx-auto" style="border-bottom: 3px solid #01b3a7; margin-bottom:35px;">
       <div class="row align-items-center">
         <div class="col-lg-8 text-center">
           <p class="lead mb-4" style="font-size: 20px; ">
-            Los antiguos pobladores desde sus inicios se interesaron por la pesca, utilizando la balsa
-            como principal instrumento de navegación. <br><br>En la actualidad, la parroquia Anconcito se
-            ha convertido en un pueblo pesquero, con una gran variedad de embarcaciones: barcos,
-            fibras, botes, pangas y canoas, lo cual evidencia que la pesca se ha convertido en una de
-            las principales fuentes de riqueza de este territorio.</p>
+            <?php echo $texto_traducido["body"][7] ?></p>
 
           </p>
           <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
         </div>
         <div class="col-lg-3 btn-acercade">
-          <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto " href="acercaanconcito.php">Descubre un poco más</a>
+          <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto " href="acercaanconcito.php"><?php echo $texto_traducido["body"][8] ?></a>
         </div>
 
       </div>
@@ -90,7 +86,7 @@
   <section class="section section-sm bg-default">
     <div class="container">
       <div class=" wow fadeInRight">
-        <h3>¿Qué visitar en Anconcito?</h3>
+        <h3><?php echo $texto_traducido["body"][9] ?></h3>
 
       </div>
 
@@ -102,11 +98,11 @@
               <div class="unit-left"><a class="product-big-figure" href="../PaginaComentarios.php?img=anconcito/imagenes/anconcito/0059_playa_acantilados.jpg"><img src="imagenes/anconcito/0059_playa_acantilados.jpg" alt="" width="600" height="366" /></a></div>
               <div class="unit-body">
                 <div class="product-big-body">
-                  <h5 class="product-big-title"><a style="text-decoration: none; " href="quevisitaranconcito.php"><b>Playa la Punta de los Acantilados</b></a></h5>
+                  <h5 class="product-big-title"><a style="text-decoration: none; " href="quevisitaranconcito.php"><b><?php echo $texto_traducido["body"][10] ?></b></a></h5>
                   <div class="group-sm group-middle justify-content-start">
                     <div class="product-big-rating">
                     </div>
-                    <p style="text-align: justify;" class="product-big-text">La playa Punta de los Acantilados es una playa pequeña en extensión, pero sin dejar de ser un área natural mágica y encantadora, es una de las que presenta mayor afluencia tanto para turistas locales como nacionales.</p><a style="text-decoration: none; " class="button button-black-outline button-ujarak" href="quevisitaranconcito.php">Leer más</a>
+                    <p style="text-align: justify;" class="product-big-text"><?php echo $texto_traducido["body"][11] ?></p><a style="text-decoration: none; " class="button button-black-outline button-ujarak" href="quevisitaranconcito.php"><?php echo $texto_traducido["body"][12] ?></a>
                     <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                   </div>
                 </div>
@@ -125,11 +121,11 @@
               <div class="unit-left"><a class="product-big-figure" href="../PaginaComentarios.php?img=anconcito/imagenes/anconcito/0060_iglesia_arcangel.jpg"><img src="imagenes/anconcito/0060_iglesia_arcangel.jpg" alt="" width="600" height="366" /></a></div>
               <div class="unit-body">
                 <div class="product-big-body">
-                  <h5 class="product-big-title"><a style="text-decoration: none; " href="quevisitaranconcito.php"><b>Iglesia San Miguel de Arcangel</b></a></h5>
+                  <h5 class="product-big-title"><a style="text-decoration: none; " href="quevisitaranconcito.php"><b><?php echo $texto_traducido["body"][13] ?></b></a></h5>
                   <div class="group-sm group-middle justify-content-start">
                     <div class="product-big-rating">
                     </div>
-                    <p style="text-align: justify;" class="product-big-text">Lugar colorido con vista al mar donde la fe y devoción de los feligreses es demostrada a todo esplendor</p><a style="text-decoration: none; " class="button button-black-outline button-ujarak" href="quevisitaranconcito.php">Leer más</a>
+                    <p style="text-align: justify;" class="product-big-text"><?php echo $texto_traducido["body"][14] ?></p><a style="text-decoration: none; " class="button button-black-outline button-ujarak" href="quevisitaranconcito.php"><?php echo $texto_traducido["body"][12] ?></a>
                     <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                   </div>
                 </div>
@@ -148,11 +144,11 @@
               <div class="unit-left"><a class="product-big-figure" href="../PaginaComentarios.php?img=anconcito/imagenes/anconcito/0061_playa_ensenada.jpg"><img src="imagenes/anconcito/0061_playa_ensenada.jpg" alt="" width="600" height="366" /></a></div>
               <div class="unit-body">
                 <div class="product-big-body">
-                  <h5 class="product-big-title"><a style="text-decoration: none; " href="quevisitaranconcito.php"><b>Playa la Ensenada</b></a></h5>
+                  <h5 class="product-big-title"><a style="text-decoration: none; " href="quevisitaranconcito.php"><b><?php echo $texto_traducido["body"][15] ?> la Ensenada</b></a></h5>
                   <div class="group-sm group-middle justify-content-start">
                     <div class="product-big-rating">
                     </div>
-                    <p style="text-align: justify;" class="product-big-text">Posee una gran vegetación, con una excelente temperatura del agua, clima de la zona cálida, actividades que se desarrollan al interior del atractivo.</p><a style="text-decoration: none; " class="button button-black-outline button-ujarak" href="quevisitaranconcito.php">Leer más</a>
+                    <p style="text-align: justify;" class="product-big-text"><?php echo $texto_traducido["body"][16] ?></p><a style="text-decoration: none; " class="button button-black-outline button-ujarak" href="quevisitaranconcito.php"><?php echo $texto_traducido["body"][12] ?></a>
                     <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                   </div>
                 </div>
@@ -168,35 +164,35 @@
 
   <section class="cuestionario">
     <div class=" wow fadeInRight">
-      <h3>¿Qué hacer en Anconcito?</h3>
+      <h3><?php echo $texto_traducido["body"][17] ?></h3>
 
     </div>
     <br>
     <br>
     <div class="contenedor">
       <div class="tabla">
-        <h2>Deportes y aventuras</h2>
+        <h2><?php echo $texto_traducido["body"][18] ?></h2>
         <img src="imagenes/anconcito/0062_deportes.jpg" alt="" />
-        <p class="tamPar">Si le gustan los deportes y experimentar nuevas aventuras</p>
-        <a href="lasnunezdeportesaventuras.php" class="boton">Leer más</a>
+        <p class="tamPar"><?php echo $texto_traducido["body"][19] ?></p>
+        <a href="lasnunezdeportesaventuras.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
       </div>
       <div class="tabla hover">
-        <h2>Cultura y tradiciones</h2>
+        <h2><?php echo $texto_traducido["body"][20] ?></h2>
         <img src="imagenes/anconcito/0063_culturas.jpg" alt="" />
-        <p class="tamPar">Si le gusta aprender nuevas culturas y tradiciones</p>
-        <a href="lasnunezculturatradiciones.php" class="boton">Leer más</a>
+        <p class="tamPar"><?php echo $texto_traducido["body"][21] ?></p>
+        <a href="lasnunezculturatradiciones.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
       </div>
       <div class="tabla">
-        <h2 id="gas">Gastronomía</h2>
+        <h2 id="gas"><?php echo $texto_traducido["body"][22] ?></h2>
         <img src="imagenes/anconcito/0064_gastronimia.jpg" alt="" />
-        <p class="tamPar">Si es amante a la comida conoce nuestra gastronomía</p>
-        <a href="lasnunezgastronomia.php" class="boton">Leer más</a>
+        <p class="tamPar"><?php echo $texto_traducido["body"][23] ?></p>
+        <a href="lasnunezgastronomia.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
       </div>
       <div class="tabla">
-        <h2>Ruta y excursiones</h2>
+        <h2><?php echo $texto_traducido["body"][24] ?></h2>
         <img src="imagenes/anconcito/0065_rutas.jpg" alt="" />
-        <p class="tamPar">Si las excursiones son lo tuyo revise nuestras rutas</p>
-        <a href="lasnunezrutasyexcursiones.php" class="boton">Leer más</a>
+        <p class="tamPar"><?php echo $texto_traducido["body"][25] ?></p>
+        <a href="lasnunezrutasyexcursiones.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
       </div>
     </div>
   </section>
@@ -218,7 +214,7 @@
     <div class="container-fluid">
 
       <center>
-        <h4 class="title-cards">Conoce más de Anconcito...</h4>
+        <h4 class="title-cards"><?php echo $texto_traducido["body"][26] ?>...</h4>
       </center>
       <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15" data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
 
