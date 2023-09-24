@@ -14,17 +14,17 @@
         <div class="pViaje">
           <a class="cont" href="#aerolineas"><i class="fa-solid fa-plane"></i></a>
           <br>
-          <a class="cont1" href="#aerolineas">¿Cómo llegar?</a>
+          <a class="cont1" href="#aerolineas"><?php echo $texto_traducido["routes"][2]?></a>
         </div>
         <div class="pViaje">
           <a class="cont" href="#comoMoverse"><i class="fa-solid fa-car"></i></a>
           <br>
-          <a class="cont1" href="#comoMoverse">¿Cómo moverse?</a>
+          <a class="cont1" href="#comoMoverse"><?php echo $texto_traducido["planyourtrip"][0]?></a>
         </div>
         <div class="pViaje">
           <a class="cont" href="#informacion"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
           <br>
-          <a class="cont1" href="#informacion">Información</a>
+          <a class="cont1" href="#informacion"><?php echo $texto_traducido["planyourtrip"][1]?></a>
         </div>
       </div>
     </section>
@@ -32,23 +32,23 @@
     <br><br><br><br>
       <section>
         <br><br>
-        <h3 class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Cómo llegar?</b></h3>
+        <h3 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["routes"][2]?></b></h3>
         <br>
-        <p class="paAe" style="text-align: justify; font-size: 17px;">Conoce más sobre cómo llegar a la comuna Las Núñez en los diferentes medios de transporte, de esta manera estarás preparado para una nueva aventura. <!-- Las vías que conducen a la parroquia Manglaralto se encuentran en buen estado, las mismas que permiten la facilidad del ingreso a la comuna Las Núñez, el punto de partida puede hacerlo desde el terminal terrestre regional Sumpa donde las cooperativas de transporte son, Citud, 2 De Noviembre, Trans Manglaralto, pueden dejar a los turistas en la vía Manglaralto - Puerto López, el tiempo aproximado es de una hora con veintitrés minutos. --></p>
+        <p class="paAe" style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["planyourtrip"]["subtitle-1"]?> <!-- Las vías que conducen a la parroquia Manglaralto se encuentran en buen estado, las mismas que permiten la facilidad del ingreso a la comuna Las Núñez, el punto de partida puede hacerlo desde el terminal terrestre regional Sumpa donde las cooperativas de transporte son, Citud, 2 De Noviembre, Trans Manglaralto, pueden dejar a los turistas en la vía Manglaralto - Puerto López, el tiempo aproximado es de una hora con veintitrés minutos. --></p>
         <br><br>
-        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>Aerolíneas</b></h1>
+        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["planyourtrip"][2]?></b></h1>
         <br>
         <div class="container-card">
           <div class="card">
             <div class="contenido-card">
                 <h3><b>Avianca</b></h3>
                 <p>
-                  <b>Sitio de reservas: </b><br>
-                  <a href="https://www.avianca.com" target="_blank">Visitar</a><br>
-                  <b>Centro de contacto: </b>1800 00 3434<br>
+                  <b><?php echo $texto_traducido["planyourtrip"][4]?>: </b><br>
+                  <a href="https://www.avianca.com" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
+                  <b><?php echo $texto_traducido["planyourtrip"][6]?>: </b>1800 00 3434<br>
                   <b>WhatsApp: </b>+593 (9) 68555555<br>
-                  <b>Reclamos equipajes: </b>+593 (2) 3978216<br>
-                  <b>Oficina: </b>Junín 440 y Córdova<br> 
+                  <b><?php echo $texto_traducido["planyourtrip"][7]?>: </b>+593 (2) 3978216<br>
+                  <b><?php echo $texto_traducido["planyourtrip"][8]?>: </b>Junín 440 y Córdova<br> 
                 </p>
             </div>
           </div>
@@ -56,13 +56,11 @@
               <div class="contenido-card">
                   <h3><b>American Airlines</b></h3>
                   <p>
-                    <b>Sitio de reservas: </b><br>
-                    <a href="https://www.aa.com" target="_blank">Visitar</a><br>
-                    <b>Centro de contacto: </b>1800-633-3711<br>
-                    <b>Reservas:</b> +539 (4) 2598800<br>
-                    <b>Reclamos equipajes:</b> +593 (4) 2169253 <br>
-                    <b>Carga:</b> +593 (4) 6017439<br>
-                    <b>Oficina:</b> Centro comercial<br>
+                    <b><?php echo $texto_traducido["planyourtrip"][4]?>: </b><br>
+                    <a href="https://www.aa.com" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][6]?>: </b>1800-633-3711<br>
+                    <b><?php echo $texto_traducido["planyourtrip"][7]?>:</b> +593 (4) 2169253 <br>
+                    <b><?php echo $texto_traducido["planyourtrip"][8]?>:</b> Centro comercial<br>
                     Policentro, Cdla. Kennedy <br>
                   </p>
               </div>
@@ -71,10 +69,10 @@
               <div class="contenido-card">
                   <h3><b>KLM</b></h3>
                   <p>
-                    <b>Sitio de reservas: </b><br>
-                    <a href="https://www.klm.com.ec" target="_blank">Visitar</a><br>
-                    <b>Centro de contacto: </b>+593 18 000 00 944<br>
-                    <b>Reservas:</b> 1-800-000944<br>
+                    <b><?php echo $texto_traducido["planyourtrip"][4]?>: </b><br>
+                    <a href="https://www.klm.com.ec" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][6]?>: </b>+593 18 000 00 944<br>
+                    <b><?php echo $texto_traducido["planyourtrip"][9]?>:</b> 1-800-000944<br>
                     <b>WhatsApp:</b> +31 206490787 <br>
                   </p>
               </div>
@@ -85,9 +83,9 @@
               <div class="contenido-card">
                   <h3><b>Latam</b></h3>
                   <p>
-                    <b>Centro de contacto: </b>1-800-000527<br>
-                    <b>Sitio de reservas: </b><br>
-                    <a href="https://www.latamairlines.com" target="_blank">Visitar</a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][6]?>: </b>1-800-000527<br>
+                    <b><?php echo $texto_traducido["planyourtrip"][4]?>: </b><br>
+                    <a href="https://www.latamairlines.com" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
                   </p>
               </div>
           </div>
@@ -95,9 +93,9 @@
               <div class="contenido-card">
                   <h3><b>Equair</b></h3>
                   <p>
-                    <b>Centro de contacto: </b>1800-equair – 0963871680<br>
-                    <b>Sitio de reservas: </b><br>
-                    <a href="https://www.equair.com" target="_blank">Visitar</a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][6]?>: </b>1800-equair – 0963871680<br>
+                    <b><?php echo $texto_traducido["planyourtrip"][4]?>: </b><br>
+                    <a href="https://www.equair.com" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
                   </p>
               </div>
           </div>
@@ -106,7 +104,7 @@
       
       <section>
         <br><br><br><br>
-        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>Buses y alquiler de autos</b></h1>
+        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["planyourtrip"][3]?></b></h1>
         <br>
 
         <div class="container-card">
@@ -123,8 +121,8 @@
               <div class="contenido-card">
                   <h3><b>Terminal de Santa Elena cooperativa Manglaralto</b></h3>
                   <p>
-                  <b>Costo del pasaje: </b>$2,25<br>
-                  <b>Duración:</b><br>1 h 30 m aproximadamente.<br>
+                  <b><?php echo $texto_traducido["planyourtrip"][15]?>: </b>$2,25<br>
+                  <b><?php echo $texto_traducido["planyourtrip"][14]?>:</b><br>1 h 30 m <?php echo $texto_traducido["planyourtrip"][10]?>.<br>
                   </p>
               </div>
           </div>
@@ -133,15 +131,15 @@
                   <h3><b>Budget</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.budget.com.ec" target="_blank">Visitar</a><br>
-                    <b>Contacto: </b>(02) 382-2340 <br>
-                    <b>Precio: </b>1 Día desde $50
-                    <!-- <b>Económico- Precio: </b>$26/día <br>
-                    <b>SUV superior – Precio: </b>$100/día <br>
-                    <b>SUV tamaño estándar- Precio: </b>$25/día <br>
-                    <b>SUV mediano – Precio: </b>$52/día <br>
-                    <b>SUV compacto – Precio: </b>$56/día -->
+                    <b><?php echo $texto_traducido["planyourtrip"][13]?>: </b><br>
+                    <a href="https://www.budget.com.ec" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][11]?>: </b>(02) 382-2340 <br>
+                    <b><?php echo $texto_traducido["planyourtrip"][12]?>: </b>1 Día desde $50
+                    <!-- <b>Económico- <?php echo $texto_traducido["planyourtrip"][12]?>: </b>$26/día <br>
+                    <b>SUV superior – <?php echo $texto_traducido["planyourtrip"][12]?>: </b>$100/día <br>
+                    <b>SUV tamaño estándar- <?php echo $texto_traducido["planyourtrip"][12]?>: </b>$25/día <br>
+                    <b>SUV mediano – <?php echo $texto_traducido["planyourtrip"][12]?>: </b>$52/día <br>
+                    <b>SUV compacto – <?php echo $texto_traducido["planyourtrip"][12]?>: </b>$56/día -->
                   </p>
               </div>
           </div>
@@ -152,9 +150,9 @@
                   <h3><b>Rent cars</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.rentcars.com" target="_blank">Visitar</a><br>
-                    <b>Precio: </b>1 Día desde $37
+                    <b><?php echo $texto_traducido["planyourtrip"][13]?>: </b><br>
+                    <a href="https://www.rentcars.com" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][12]?>: </b>1 Día desde $37
                   </p>
               </div>
           </div>
@@ -163,10 +161,10 @@
                   <h3><b>Hertz</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.hertz.com" target="_blank">Visitar</a><br>
-                    <b>Contacto: </b>+593-2-3829559 <br>
-                    <b>Precio: </b>1 Día desde $50
+                    <b><?php echo $texto_traducido["planyourtrip"][13]?>: </b><br>
+                    <a href="https://www.hertz.com" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][11]?>: </b>+593-2-3829559 <br>
+                    <b><?php echo $texto_traducido["planyourtrip"][12]?>: </b>1 Día desde $50
                   </p>
               </div>
           </div>
@@ -175,10 +173,10 @@
                   <h3><b>Europcar</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.europcar.es" target="_blank">Visitar</a><br>
-                    <b>Contacto: </b>911 505 000 <br>
-                    <b>Precio: </b>1 Día desde $37
+                    <b><?php echo $texto_traducido["planyourtrip"][13]?>: </b><br>
+                    <a href="https://www.europcar.es" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][11]?>: </b>911 505 000 <br>
+                    <b><?php echo $texto_traducido["planyourtrip"][12]?>: </b>1 Día desde $37
                   </p>
               </div>
           </div>
@@ -187,9 +185,9 @@
                   <h3><b>kayak</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.kayak.com.ec" target="_blank">Visitar</a><br>
-                    <b>Precio: </b>1 Día desde $40
+                    <b><?php echo $texto_traducido["planyourtrip"][13]?>: </b><br>
+                    <a href="https://www.kayak.com.ec" target="_blank"><?php echo $texto_traducido["planyourtrip"][5]?></a><br>
+                    <b><?php echo $texto_traducido["planyourtrip"][12]?>: </b>1 Día desde $40
                   </p>
               </div>
           </div>
@@ -199,17 +197,16 @@
     <br><br><br><br>
 
     <section>
-      <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Cómo moverse?</b></h1><br>
-      <p class="paAe" style="text-align: justify; font-size: 17px;">
-      Te brindamos información sobre las distancias, conexiones y tiempo con las diferentes ciudades del Ecuador, para que puedas organizar un maravilloso viaje.
+      <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["planyourtrip"][0]?></b></h1><br>
+      <p class="paAe" style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["planyourtrip"]["subtitle-2"]?>
       </p>
       <br>
       <table class="table-fill">
         <thead class="thead-dark">
           <tr>
-            <th style="text-left">Ciudad</th>
-            <th style="text-left">Distancia</th>
-            <th style="text-left">Tiempo</th>
+            <th style="text-left"><?php echo $texto_traducido["planyourtrip"][16]?></th>
+            <th style="text-left"><?php echo $texto_traducido["planyourtrip"][17]?></th>
+            <th style="text-left"><?php echo $texto_traducido["planyourtrip"][17]?></th>
           </tr>
         </thead>
         <tbody class="table-hover">
@@ -255,10 +252,9 @@
       <br><br><br><br><br>
 
       <section>
-        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>Información</b></h1>
+        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["planyourtrip"][1]?></b></h1>
         <br>
-        <p class="paAe" style="text-align: justify; font-size: 17px;">
-        Información sobre, sanidad, cajeros de bancos, cooperativas de taxi, seguridad, supermercados que podrás encontrar en la comuna Las Núñez, de tal manera estarás informado sobre todo lo importante que necesitas para tu visita.
+        <p class="paAe" style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["planyourtrip"]["subtitle-3"]?>
         </p>
         <br>
 
@@ -268,40 +264,40 @@
                 <i class="fa-solid fa-suitcase-medical loHosp"></i>
                 <h3><b>Hospital de Manglaralto</b></h3>
                 <p>
-                <b>Dirección: </b>47W4+G29, E15, Montañita <br>
-                <b>Teléfono: </b>(04) 290-1192 <br>
-                <b>Horario: </b>24 horas 
+                <b><?php echo $texto_traducido["planyourtrip"][19]?>: </b>47W4+G29, E15, Montañita <br>
+                <b><?php echo $texto_traducido["planyourtrip"][20]?>: </b>(04) 290-1192 <br>
+                <b><?php echo $texto_traducido["planyourtrip"][21]?>: </b>24 horas 
                 </p><br>
                 <i class="fa-solid fa-house-medical-circle-check loHosp"></i>
-                <h3><b>Farmacias</b></h3>
+                <h3><b><?php echo $texto_traducido["planyourtrip"][23]?></b></h3>
                 <p>
-                Farmacia Hiperfarma - Olón <br>
-                Farmacia Christian <br>
-                Farmacia comunitaria 
+                <?php echo $texto_traducido["planyourtrip"][25]?> Hiperfarma - Olón <br>
+                <?php echo $texto_traducido["planyourtrip"][25]?> Christian <br>
+                <?php echo $texto_traducido["planyourtrip"][25]?> comunitaria 
                 </p>
             </div>
           </div>
           <div class="card">
             <div class="contenido-card"><br>
                 <i class="fa-solid fa-cash-register loHosp"></i>
-                <h3><b>Cajeros de banco</b></h3>
+                <h3><b><?php echo $texto_traducido["planyourtrip"][22]?></b></h3>
                 <p>
-                Banco Guayaquil <br>
-                Banco Pichincha <br>
-                Banco Bolivariano 
+                <?php echo $texto_traducido["planyourtrip"][26]?> Guayaquil <br>
+                <?php echo $texto_traducido["planyourtrip"][26]?> Pichincha <br>
+                <?php echo $texto_traducido["planyourtrip"][26]?> Bolivariano 
                 </p>
             </div>
           </div>
           <div class="card">
             <div class="contenido-card"><br>
                 <i class="fa-solid fa-building-shield loHosp"></i>
-                <h3><b>Ubicación del UPC</b></h3>
+                <h3><b><?php echo $texto_traducido["planyourtrip"][23]?></b></h3>
                 <p>
-                <b>Dirección: </b>5792+546, Montañita <br>
-                <b>Horario: </b>24 horas
+                <b><?php echo $texto_traducido["planyourtrip"][19]?>: </b>5792+546, Montañita <br>
+                <b><?php echo $texto_traducido["planyourtrip"][21]?>: </b>24 horas
                 </p><br>
                 <i class="fas fa-shopping-cart loHosp"></i>
-                <h3><b>Supermercados</b></h3>
+                <h3><b><?php echo $texto_traducido["planyourtrip"][23]?></b></h3>
                 <p>
                   Hiper market center Aki <br>
                   Minimarket Nayelita

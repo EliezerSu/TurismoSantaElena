@@ -8,9 +8,9 @@
     <section>
         <section id="su_gente">
           <br><br><br>
-          <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Sendero Ruta Ecológica Matapalo</b></h2>
+          <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["routes"][0]?></b></h2>
           <br>
-          <p>El sendero Ruta Ecológica Matapalo, se encuentra en esta comuna, fue declarado en el año 2013, teniendo una extensión de 4 km, el nombre de este lugar se debe por abundantes árboles de Matapalos que se encuentran en su interior. Aquí se puede encontrar varias especies animales como tucán, armadillos, guantas, venados y monos aulladores. Entre las especies vegetales está el cade, tagua, especies maderables, guayacán, kaoha, entre otros.</p>
+          <p><?php echo $texto_traducido["routes"]["subtitle-1"]?></p>
           <br>
           <br>       
         </section>
@@ -49,7 +49,7 @@
         <section id="su_gente">
           <br>
           <br>
-          <p>Al recorrer este sitio, vas a poder observar distintas especies de aves, gran variedad de árboles como: guayacán, cedro, palmas de coco, pechiche, mococha, matapalo, etc. El recorrido tiene una duración de 4 horas ida y vuelta, sin duda una vivencia única y que te conecta con la naturaleza. Para poder acceder al sendero Matapalo dentro de la comuna debes hacerlo con las debidas precauciones y con un guía local, ya que no cuentan con señaléticas e infraestructura adecuada, pero no es impedimento para que puedas observar la flora y fauna de este maravilloso lugar.</p>
+          <p><?php echo $texto_traducido["routes"]["subtitle-2"]?></p>
           <br>
         </section>
     </section>
@@ -61,9 +61,9 @@
     <section>
         <section id="su_gente">
           <br>
-          <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Finca Doctor Miguel Reyes</b></h2>
+          <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["routes"][1]?></b></h2>
           <br>
-          <p>La historia de iglesia se debe a que el doctor Reyes es muy devoto de la virgen del Cisne, se cuenta que el señor había prometido hacer una iglesia en su hacienda si el milagro se le concedía, ya que pidió con mucha fe y devoción.</p>
+          <p><?php echo $texto_traducido["routes"]["subtitle-3"]?></p>
           <br>
           <br>       
         </section>
@@ -102,10 +102,9 @@
         <section id="su_gente">
           <br>
           <br>
-          <p style="font-weight: bold;">¿Cómo llegar?</p>
-          <p>Para llegar a la iglesia existen 3 caminos, el primer trayecto se demora media hora de ida y venida, el segundo trayecto toma 15 minutos y el tercero se puede llegar en carro.</p>
-          <p style="font-weight: bold;">Información adicional</p>
-          <p>Si se desea realizar una misa, se debe hablar con el encargado para que les permita el acceso.</p>
+          <p style="font-weight: bold;"><?php echo $texto_traducido["routes"][2]?></p><?php echo $texto_traducido["routes"]["subtitle-4"]?></p>
+          <p style="font-weight: bold;"><?php echo $texto_traducido["routes"][3]?></p>
+          <p><?php echo $texto_traducido["routes"]["subtitle-5"]?></p>
           <br>
         </section>
     </section>

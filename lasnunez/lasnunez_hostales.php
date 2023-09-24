@@ -5,7 +5,7 @@
     </section>
     <br><br><br><br>
     <section>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Hostales</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["hotels"][1]?></b></h1>
       <br>
       <br>
       <div class="container">
@@ -39,10 +39,10 @@
               <!-- Tab panes-->
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1-1">
-                  <p style="text-align: justify; font-size: 17px;">Cuenta con el servicio de: a/c, wifi,  restaurante – cafetería, piscina.</p>
-                  <p style="text-align: justify; font-size: 17px;">Horarios de atención: Se realiza bajo reserva, sin embargo, los días de jueves a domingo está abierto las 24 horas.</p>
-                  <p style="text-align: justify; font-size: 17px;">Dirección: Calle guayaquil, alado de la iglesia frente al mar.</p>
-                  <p style="text-align: justify; font-size: 17px;">Número de teléfono: 0986721666</p>
+                  <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["hotels"]["subtitle-1"]?></p>
+                  <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["hotels"]["subtitle-2"]?></p>
+                  <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["planyourtrip"][19]?>: Calle guayaquil, alado de la iglesia frente al mar.</p>
+                  <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["planyourtrip"][20]?>: 0986721666</p>
                 </div>
                 <div class="tab-pane fade" id="tabs-4-2-1">
                   <div class="row row-40 justify-content-center text-center inset-top-10">

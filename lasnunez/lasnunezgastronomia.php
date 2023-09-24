@@ -9,9 +9,9 @@
 
     <section>
       <br><br><br>
-      <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Gastronomía</b></h2>
+      <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["gastronomy"][0]?></b></h2>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Langostino en manjar de tagua</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][1]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -31,8 +31,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">Este Plato es básicamente un langostino al ajillo, lo llamativo es el manjar de tagua que le acompaña siendo este un proceso donde se saca la pepa de tagua para la respectiva cocción, una vez blanda la semilla se muele para luego cernir y hervir colocando así azúcar hasta el punto de tener consistencia de manjar. 
-                  Para los amantes de los mariscos este platillo con su exquisito sabor cual va acompañado de manjar, arroz, patacones y salsa es esencial para degustar de la gastronomía local.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-1"]?></p>
                 </div>
               </div>
             </div>
@@ -43,7 +42,7 @@
 
     <section>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Camarones al ajillo</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][2]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -62,7 +61,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">Receta sana y nutritiva. Para los amantes de los mariscos este platillo es primordial para degustar de la gastronomía local, con un exquisito sabor va acompañado con guarniciones como arroz, patacones y ensalada.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-2"]?></p>
                 </div>
               </div>
             </div>
@@ -73,7 +72,7 @@
     
     <section>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Pescado frito con ajonjolí</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][2]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -92,7 +91,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">El pescado frito es un plato tradicional de la gastronomía local. Se puede usar corvina, tilapia, trucha o pez sierra para la respectiva receta.  El pescado siendo la materia prima principal de la receta, se mezcla con el ajonjolí dándole un sabor exquisito, acompañada con una porción de arroz y ensalada con patacones que te permitirán disfrutar de este apetitoso platillo.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-3"]?></p>
                 </div>
               </div>
             </div>
@@ -103,7 +102,7 @@
     
     <section>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Arroz con menestra y pollo asado</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][4]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -122,7 +121,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">El pollo asado con menestra de frejol es un plato típico de la gastronomía de Santa Elena y posterior a ello de la comuna Las Núñez, se prepara cocinando los frijoles con un refrito de cebolla, ajo y sal, después se procede a servir acompañado con una porción de arroz y pollo que cautivarán el paladar del consumidor.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-4"]?>.</p>
                 </div>
               </div>
             </div>
@@ -133,7 +132,7 @@
     
     <section>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Pescado frito</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][5]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -152,7 +151,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">Plato tradicional de la gastronomía local. Se puede usar corvina, tilapia, trucha o pez sierra para la respectiva receta siendo estos productos propios de la comunidad. Viene acompañado con patacones y ensalada para el deguste del turista.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-5"]?></p>
                 </div>
               </div>
             </div>
@@ -163,7 +162,7 @@
     
     <section>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Arroz norteño</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][6]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -182,7 +181,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">El arroz norteño tiene la consistencia de un arroz marinero, el toque particular de este plato son las salsas de ostras que se utilizan para elaboración de esta.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-6"]?>.</p>
                 </div>
               </div>
             </div>
@@ -193,7 +192,7 @@
     
     <section>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Ceviche de coco</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][7]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -212,7 +211,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">Este plato tiene la misma preparación de un ceviche tradicional, lo llamativo es la proteína que es reemplazable por coco, la elaboración de esta es poner a curtir con limón, naranja y sal el coco un día antes de la preparación para que así se integre de forma moderada el ácido con lo dulce, finalmente suele ser acompañado por patacones o chifles.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-7"]?></p>
                 </div>
               </div>
             </div>
@@ -223,7 +222,7 @@
         
     <section>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Sopa de Camarón</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][7]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -242,8 +241,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">La sopa de camarón es un plato típico de la cocina ecuatoriana. La comunidad de las Núñez oferta esta delicia gastronómica cuyo proceso consiste: echar en agua hervida las verduras, condimentos y fideo, después poner la materia esencial que en este caso sería el camarón, seguido de un licuado elaborado a base de las cabezas, mismo que le brinda sazón y exquisitez al platillo. 
-                  Para los amantes del marisco este es una opción para degustar de la gastronomía local, se puede solicitar con maní o leche pues esta receta se genera con base a los gustos del consumidor turístico.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-8"]?></p>
                 </div>
               </div>
             </div>
@@ -254,7 +252,7 @@
 
     <section>
       <br><br>
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Arroz marinero</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastronomy"][9]?></b></h1>
       <br>
       <div class="container">
         <div class="row row-50 justify-content-center align-items-xl-center">
@@ -273,7 +271,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">Este plato es unos de los principales dentro de la zona costera y en la comuna se convierte en el principal por ser un plato muy completo, exquisito y delicioso, en su preparación reúne algunos mariscos, que puede ser acompañado con patacones o maduro.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastronomy"]["subtitle-9"]?></p>
                 </div>
               </div>
             </div>

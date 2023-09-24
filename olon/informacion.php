@@ -1,14 +1,11 @@
 <div class="tabs-custom tabs-horizontal tabs-line mx-auto w-50" id="tabs-4"><ul  style="border-bottom: 3px solid #01b3a7; "  >
 
-  <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"> Información adicional </h2></li>
+  <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"> <?php echo $texto_traducido["planyourtrip"]["subtitle-7"] ?></h2></li>
                 </ul>
 </div>
 
 <section ><br>
-  <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; ">
-    Información sobre sanidad, cajeros de bancos, seguridad,
-    supermercados que podrás encontrar en la comuna de Olón, de tal
-    manera estarás informado sobre todo lo importante que necesitas para tu visita.
+  <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; "><?php echo $texto_traducido["planyourtrip"]["subtitle-3"] ?>
   </p>
 </section>
 <section>
@@ -23,19 +20,19 @@
       <i class="fa-solid fa-briefcase-medical fa-4x icono-flex d-block "></i>
       
         <div class="card-body">
-          <h5 class="card-title">Sanidad</h5>
+          <h5 class="card-title"><?php echo $texto_traducido["planyourtrip"][31] ?></h5>
           <p class="card-text">
             ▪ <b> Hospital de
             Manglaralto </b>  <br>
-            Dirección: 47W4+G29, <br>
+            <?php echo $texto_traducido["planyourtrip"][19] ?>: 47W4+G29, <br>
             E15, Montañita <br>
-            Teléfono: (04) 290-1192 <br>
-            Horario: 24 horas <br>
-            Oficina: Junín 440 y Córdova <br>
+            <?php echo $texto_traducido["planyourtrip"][20] ?>: (04) 290-1192 <br>
+            <?php echo $texto_traducido["planyourtrip"][10] ?>: 24 horas <br>
+            <?php echo $texto_traducido["planyourtrip"][9] ?>: Junín 440 y Córdova <br>
             ▪ <b>Centro de salud Olón</b>  <br>
-              <b>Dirección: </b>662V+MHP, 
+              <b><?php echo $texto_traducido["planyourtrip"][19] ?>: </b>662V+MHP, 
                   Olón <br>
-              <b>Horario: </b>08:30 a 
+              <b><?php echo $texto_traducido["planyourtrip"][10] ?>: </b>08:30 a 
                   17:30 <br>
           </p>
         
@@ -48,7 +45,7 @@
       <br>
       <i class="fa-solid fa-money-bill-transfer fa-4x icono-flex d-block "></i>
         <div class="card-body">
-          <h5 class="card-title">Cajeros de Banco</h5>
+          <h5 class="card-title"><?php echo $texto_traducido["planyourtrip"][22] ?></h5>
           <p class="card-text">
           Banco Guayaquil <br>
           ATM Banco Pichincha <br>
@@ -75,12 +72,12 @@
         <i class="fa-solid fa-building-shield fa-4x icono-flex d-block"></i>
         
         <div class="card-body">
-          <h5 class="card-title">Ubicación del UPC</h5>
+          <h5 class="card-title"><?php echo $texto_traducido["planyourtrip"][23] ?></h5>
           <p class="card-text">
-          Dirección: <br>
+          <?php echo $texto_traducido["planyourtrip"][19] ?>: <br>
           5792+546, <br>
           Montañita <br> <br>
-          Horario: 24 horas <br>
+          <?php echo $texto_traducido["planyourtrip"][10] ?>: 24 horas <br>
 
 
           </p>
@@ -97,7 +94,7 @@
         <i class="fa-solid fa-shopping-cart fa-4x icono-flex d-block"></i>
         
         <div class="card-body">
-          <h5 class="card-title">Supermercados</h5>
+          <h5 class="card-title"><?php echo $texto_traducido["planyourtrip"][24] ?></h5>
           <p class="card-text">
           Súper Market Olón <br>
           Mi comisariato Express <br>

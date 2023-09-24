@@ -6,7 +6,7 @@
       </section>
       <section class="section section-sm section-first bg-default text-md-left">
         <div class="container">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Qué visitar en Las Núñez?</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["visit"][0]?></b></h1>
         <br>
           <div class="row row-50 justify-content-center align-items-xl-center">
             <div class="col-md-10 col-lg-5 col-xl-6">
@@ -22,7 +22,7 @@
             </div>
             <div class="col-md-10 col-lg-7 col-xl-6">
              
-              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b> Playa Las Núñez </b></h1>
+              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["visit"][1]?></b></h1>
               <br>
               <!-- Bootstrap tabs-->
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -34,8 +34,7 @@
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-1">
-                    <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-                    La playa Las Núñez, de arena fina, color café, con aguas cristalinas, está ubicada en la comuna San Francisco de Las Núñez, a una distancia de 67,5 km de la provincia de Santa Elena, cuenta con una extensión de 11 km, donde su principal acceso es por la carretera ruta del Spondylus .
+                    <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["visit"]["title-1"]?>
                     </p>
                   </div>
                 </div>
@@ -60,7 +59,7 @@
             </div>
             <div class="col-md-10 col-lg-7 col-xl-6">
              
-              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b> Sendero Ruta Ecológica Matapalo </b></h1>
+              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["routes"][0]?></b></h1>
               <br>
               <!-- Bootstrap tabs-->
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -73,7 +72,7 @@
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-3">
                     <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-                      El sendero Ruta Ecológica Matapalo, se encuentra en esta comuna, fue declarado en el año 2013, teniendo una extensión de 4 km, el nombre de este lugar se debe por abundantes árboles de Matapalos que se encuentran en su interior. Aquí se puede encontrar varias especies animales como tucán, armadillos, guantas, venados y monos aulladores.
+                    <?php echo $texto_traducido["visit"]["title-2"]?>
                     </p>
                   </div>
                 </div>
@@ -99,7 +98,7 @@
             </div>
             <div class="col-md-10 col-lg-7 col-xl-6">
              
-              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b> Iglesia San Francisco de Asís </b></h1>
+              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b> <?php echo $texto_traducido["visit"][2]?></b></h1>
               <br>
               <!-- Bootstrap tabs-->
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -111,8 +110,7 @@
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-3">
-                    <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-                      La iglesia San Francisco de Asís está en el barrio Las Núñez y fue construida hace 100 años. Es conocida por sus pilares de madera de guayacán y ha sido reconstruida en algunas partes con cemento, pero aún conserva su estructura original. En la parte exterior hay imágenes que representan a la comuna y al patrono. Los feligreses acuden cada 15 días para recibir la bendición del sacerdote y agradecer.
+                    <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["visit"]["title-3"]?>
                     </p>
                   </div>
                 </div>
@@ -138,7 +136,7 @@
             </div>
             <div class="col-md-10 col-lg-7 col-xl-6">
              
-              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b> Artesanías arte bambú </b></h1>
+              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["visit"][3]?></b></h1>
               <br>
               <!-- Bootstrap tabs-->
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -150,8 +148,7 @@
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-3">
-                    <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-                      Las artesanías de la comuna Las Núñez se encuentra ubicada en la calle principal vía Manglaralto - Puerto López, destacando sus técnicas aplicadas que son producto de una costumbre artesanal peninsular, son elaborados con caña bambú propio de la comuna donde encontrarás diversas artesanías tales como: cortinas, lámparas, porta esferos, sorbetes, bisuterías, entre otras más.
+                    <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["visit"]["title-4"]?>
                     </p>
                   </div>
                 </div>
@@ -177,7 +174,7 @@
             </div>
             <div class="col-md-10 col-lg-7 col-xl-6">
              
-              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b> Parador turístico </b></h1>
+              <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b> <?php echo $texto_traducido["visit"][4]?> </b></h1>
               <br>
               <!-- Bootstrap tabs-->
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -189,8 +186,7 @@
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-3">
-                    <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-                      El Parador turístico de la comuna San Francisco de las Núñez se encuentra cerca de la playa de la localidad, dentro del mismo se encuentran varios restaurantes donde se pueden degustar platos característicos de la zona, 7 restaurantes ofrecen a sus visitantes desayunos y almuerzos a precios módicos, mientras que el local restante ofrece servicios de cocteles y bebidas, todos los stands tienen una capacidad para aproximadamente 8 personas y actualmente 4 están en funcionamiento.
+                    <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["visit"]["title-5"]?>
                     </p>
                   </div>
                 </div>

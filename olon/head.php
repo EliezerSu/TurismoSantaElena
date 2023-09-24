@@ -1,4 +1,7 @@
-<?php  session_start(); ?>
+<?php
+include_once("../language/script.php");
+$texto_traducido = GetTextoTraducido("../language/olon");
+?>
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="es">
     <head>
@@ -53,41 +56,44 @@
                     <div style="background-color: #082032;" class="collapse navbar-collapse" id="menu">
                         <ul style="background-color: #082032;" class="navbar-nav d-flex mx-auto justify-content-between text-center">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="olon.php">Acerca de</a>
+                                <a class="nav-link active" aria-current="page" href="olon.php"><?php echo $texto_traducido["header"][0] ?></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="olonquevisitar.php">¿Qué visitar?</a>
+                                <a class="nav-link" href="olonquevisitar.php"><?php echo $texto_traducido["header"][1] ?></a>
                             </li>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    ¿Qué hacer?
+                                    <?php echo $texto_traducido["header"][2] ?>
                                 </a>
 
                                 <ul class="dropdown-menu bg-secondary text-center" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="deportes.php">Deportes y aventuras</a></li>
-                                    <li><a class="dropdown-item" href="cultura.php">Culturas y tradiciones </a>
+                                    <li><a class="dropdown-item" href="deportes.php"><?php echo $texto_traducido["header"]["subtitle-1"][0] ?></a></li>
+                                    <li><a class="dropdown-item" href="cultura.php"><?php echo $texto_traducido["header"]["subtitle-1"][1] ?></a>
                                     <li>
-                                    <li><a class="dropdown-item" href="gastronomia.php">Gastronomía</a>
+                                    <li><a class="dropdown-item" href="gastronomia.php"><?php echo $texto_traducido["header"]["subtitle-1"][2] ?></a>
                                     <li>
-                                    <li><a class="dropdown-item" href="rutas.php">Rutas y excursiones</a></li>
+                                    <li><a class="dropdown-item" href="rutas.php"><?php echo $texto_traducido["header"]["subtitle-1"][3] ?></a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Planifica tu viaje
+                                <?php echo $texto_traducido["header"][3] ?>
                                 </a>
 
                                 <ul class="dropdown-menu bg-secondary text-center" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="comollegarolon.php">¿Cómo llegar?</a></li>
-                                    <li><a class="dropdown-item" href="quedarseolon.php">¿Dónde alojarse?</a>
+                                    <li><a class="dropdown-item" href="comollegarolon.php"><?php echo $texto_traducido["header"]["subtitle-1"][0] ?></a></li>
+                                    <li><a class="dropdown-item" href="quedarseolon.php"><?php echo $texto_traducido["header"]["subtitle-1"][1] ?></a>
                                     <li>
-                                    <li><a class="dropdown-item" href="itinerario.php">Itinerario</a></li>
-                                    <li><a class="dropdown-item" href="tiempo.php">Tiempo</a></li>
+                                    <li><a class="dropdown-item" href="itinerario.php"><?php echo $texto_traducido["header"]["subtitle-1"][2] ?></a></li>
+                                    <li><a class="dropdown-item" href="tiempo.php"><?php echo $texto_traducido["header"]["subtitle-1"][3] ?></a></li>
                                 </ul>
                             </li>
+                          <li>
+                            <?php GetSelectLanguage() ?>
+                          </li>
                         </ul>
-                       
+                        <?php GetScriptSelectLanguage() ?>
                         <hr style="background-color: #082032;" class="d-md-none text-white-50">
                             <ul class="list-inline list-inline-md rd-navbar-corporate-list-social mx-auto text-center pt-4 pb-4">
                                 <li><a target="_blank"class="icon fa fa-facebook" href="https://www.facebook.com/profile.php?id=100083932110435&ref=pages_you_manage"></a></li>
@@ -132,18 +138,18 @@
                     <span style="color: red;font-size: 10px;margin-bottom: 5px;text-align: center;font-weight: 500;"><?php if(isset($errorLogin)){   echo $errorLogin;} ?></span>
 
           <div class="mb-3">
-      <label for="" class=""> <i class="fa fa-user" aria-hidden="true"></i> Usuario</label>
+      <label for="" class=""> <i class="fa fa-user" aria-hidden="true"></i> <?php echo $texto_traducido["header"][4] ?></label>
 
            <input type="text" class="form-control" name="user" id="user" placeholder="Usuario">
           </div>
 
           <div class="mb-3">
-                    <label for="" class=""> <i class="fa-solid fa-key"></i>Contraseña</label>
+                    <label for="" class=""> <i class="fa-solid fa-key"></i><?php echo $texto_traducido["header"][5] ?></label>
             <input type="text" class="form-control" name="contrasenia" id="contrasenia" placeholder="contrasenia">
           </div>
         <div class="modal-footer">
  
-          <button type="submit" class="btn  text-white " style="background:#0d6efd; border-radius:5px;">Ingresar</button>
+          <button type="submit" class="btn  text-white " style="background:#0d6efd; border-radius:5px;"><?php echo $texto_traducido["header"][6] ?></button>
 
         
       </div>
