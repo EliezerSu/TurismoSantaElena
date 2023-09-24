@@ -1,4 +1,7 @@
-<?php session_start() ?>
+<?php
+include_once("../language/script.php");
+$texto_traducido = GetTextoTraducido("../language/la_nunez");
+?>
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
 <head>
@@ -97,47 +100,50 @@
                 <div style="background-color: #082032;" class="collapse navbar-collapse" id="menu">
                     <ul style="background-color: #082032;" class="navbar-nav d-flex mx-auto justify-content-between text-center">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="lasnunez.php">Acerca de</a>
+                            <a class="nav-link active" aria-current="page" href="lasnunez.php"><?php echo $texto_traducido["header"][0] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="lasnunezgaleriaquevisitar.php">¿Qué visitar?</a>
+                            <a class="nav-link" href="lasnunezgaleriaquevisitar.php"><?php echo $texto_traducido["header"][1] ?></a>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                ¿Qué hacer?
+                            <?php echo $texto_traducido["header"][2] ?>
                             </a>
 
                             <ul class="dropdown-menu bg-secondary text-center bg-light" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="lasnunezdeportesaventuras.php">Deportes y aventuras</a>
+                                <li><a class="dropdown-item" href="lasnunezdeportesaventuras.php"><?php echo $texto_traducido["header"]["subtitle-3"][0] ?></a>
                             </li>
-                                <li><a class="dropdown-item" href="lasnunezculturatradiciones.php">Culturas y tradiciones</a>
+                                <li><a class="dropdown-item" href="lasnunezculturatradiciones.php"><?php echo $texto_traducido["header"]["subtitle-3"][1] ?></a>
                                 <li>
-                                <li><a class="dropdown-item" href="lasnunezgastronomia.php">Gastronomía</a>
+                                <li><a class="dropdown-item" href="lasnunezgastronomia.php"><?php echo $texto_traducido["header"]["subtitle-3"][2] ?></a>
                                 <li>
-                                <li><a class="dropdown-item" href="lasnunezrutasyexcursiones.php">Rutas y excursiones</a>
+                                <li><a class="dropdown-item" href="lasnunezrutasyexcursiones.php"><?php echo $texto_traducido["header"]["subtitle-3"][3] ?></a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Planifica tu viaje
+                            <?php echo $texto_traducido["header"][3] ?>
                             </a>
 
                             <ul class="dropdown-menu bg-secondary text-center bg-light" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="lasnunez_planificatuviaje_comollegar.php">¿Cómo llegar?</a>
+                                <li><a class="dropdown-item" href="lasnunez_planificatuviaje_comollegar.php"><?php echo $texto_traducido["header"]["subtitle-4"][0] ?></a>
                                 </li>
-                                <li><a class="dropdown-item" href="lasnunez_planificatuviaje_hoteles.php">¿Dónde alojarse?</a>
+                                <li><a class="dropdown-item" href="lasnunez_planificatuviaje_hoteles.php"><?php echo $texto_traducido["header"]["subtitle-4"][1] ?></a>
                                 <li>
-                                <li><a class="dropdown-item" href="lasnunezreservadeexperiencias.php">Itinerario</a>
+                                <li><a class="dropdown-item" href="lasnunezreservadeexperiencias.php"><?php echo $texto_traducido["header"]["subtitle-4"][2] ?></a>
                                 </li>
-                                <li><a class="dropdown-item" href="tiempolasnunez.php">Tiempo</a>
+                                <li><a class="dropdown-item" href="tiempolasnunez.php"><?php echo $texto_traducido["header"]["subtitle-4"][3] ?></a>
                                 </li>
                                 
                             </ul>
                         </li>
+                        <li>
+                            <?php GetSelectLanguage() ?>
+                        </li>
                     </ul>
-
+                    <?php GetScriptSelectLanguage() ?>
                     <hr style="background-color: #082032;" class="d-md-none text-white-50">
                         <ul class="list-inline list-inline-md rd-navbar-corporate-list-social mx-auto text-center pt-4 pb-4">
                             <li><a class="icon fa fa-facebook" href="https://www.facebook.com/lasnunezturistica" target="_blank"></a></li>
@@ -150,17 +156,17 @@
                     </button>
                     <span class="usuario" style="display:none"  ></span>
                       <?php
-                        if(isset($_SESSION['user'])){
-                        $usuarioIngresado= $_SESSION['user'];
-                        echo ' 
+                      if (isset($_SESSION['user'])) {
+                          $usuarioIngresado = $_SESSION['user'];
+                          echo ' 
                         <script >
                         let btn = document.querySelector(".btnLogin")
                         btn.style.display= "none";
                         </script>
                         ';
-                        echo  "<span class='usuario text-white'  style='display:initial;'>" .$usuarioIngresado."</span>" ;
-                        echo  '<a href="cerrar.php " style="margin-left:20px;"  class="cerrar "> <i class="fa-solid fa-right-from-bracket"></i> <span>salir</span> </a>' ;
-                      }?>
+                          echo "<span class='usuario text-white'  style='display:initial;'>" . $usuarioIngresado . "</span>";
+                          echo '<a href="cerrar.php " style="margin-left:20px;"  class="cerrar "> <i class="fa-solid fa-right-from-bracket"></i> <span>salir</span> </a>';
+                      } ?>
 
                     <!--boton Informacion -->
                 </div>
@@ -181,7 +187,9 @@
       </div>
       <div class="modal-body">
         <form  method="post" id="Login" autocomplete="off">
-                    <span style="color: red;font-size: 10px;margin-bottom: 5px;text-align: center;font-weight: 500;"><?php if(isset($errorLogin)){   echo $errorLogin;} ?></span>
+                    <span style="color: red;font-size: 10px;margin-bottom: 5px;text-align: center;font-weight: 500;"><?php if (isset($errorLogin)) {
+                        echo $errorLogin;
+                    } ?></span>
 
           <div class="mb-3">
       <label for="" class=""> <i class="fa fa-user" aria-hidden="true"></i> Usuario</label>

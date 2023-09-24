@@ -4,13 +4,13 @@
     <a href="javascript:history.back()"><button class="regresar" onclick="back()"><i class="fa-solid fa-arrow-left"></i></button></a>
     </section>
     <br><br><br><br>
-    <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Cultura y tradiciones ancestrales</b></h1>
+    <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["culture"][0]?></b></h1>
     <br>
 
     <section class="platillos">
     <section>
       <section id="su_gente">
-        <p style="text-align: justify; font-size: 17px;">Los habitantes de la comuna Las Núñez tienen varias festividades, entre ellas las fiestas patronales, las cuales se realizan el 2 de octubre, donde se celebra al “San Francisco de Asís”, el 31 de mayo, visitación de la virgen a su prima Santa Isabel, el 8 de diciembre fundación de la comuna San Francisco de Las Núñez. Como tradición el día de los difuntos, que se celebra el uno y dos de noviembre de cada año, donde muchas familias colocan en mesas comidas que les gustaban a las personas que dejaron de existir. El día uno, se da homenaje a los niños y el día dos a los adultos. También aprovechan estas fechas para realizar pan con diferentes figuras o adquirirlas en la comuna codéate, normalmente en esos dos días las personas salen a “mortear” e ir al cementerio a dejar flores a sus seres queridos.
+        <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["culture"]["subtitle-1"]?>
         </p>
         <br>
         <br>
@@ -47,7 +47,7 @@
     <br>
     <section>
       <div class="container">
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Fiestas patronales San Francisco de Asís</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["culture"][1]?></b></h1>
       <div class="row row-50 justify-content-center align-items-xl-center">
           <div class="col-md-10 col-lg-5 col-xl-6">              
             <div class="slider">
@@ -68,7 +68,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                  <p style="text-align: justify; font-size: 17px;">La fiesta a San Francisco de Asís es una manifestación que ha sido mantenida por la fe, misma que los ha llevado a permanecer unidos durante esta larga trayectoria, donde cada 12 de octubre celebran a su patrono San Francisco de Asís con distintas actividades y juegos tradicionales, como: el palo encebado, quema de castillo, procesión de la imagen, baile público.</p>
+                  <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["culture"]["subtitle-2"]?>
                   <br>  
                 </div>
               </div>
@@ -85,13 +85,13 @@
     <br>
     <section>
       <div class="container">
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Fundación de la comuna Las Núñez</b></h1>
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["culture"][2]?></h1>
       <div class="row row-50 justify-content-center align-items-xl-center">
           <div class="col-md-10 col-lg-7 col-xl-6">
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">La fundación de la comunidad de Las Núñez invita a recordar cada 8 de diciembre la llegada de sus primeros habitantes con el propósito de valorar el esfuerzo y arduo trabajo que realizaron dentro de la comunidad, teniendo como principales actividades la sección Solemne y encendida del árbol con todos los moradores donde celebran un año más de fundación.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["culture"]["subtitle-3"]?></p>
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@
     <br>
     <section>
       <div class="container">
-      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Leyenda del Matapalo</b></h1>          
+      <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["culture"][3]?></b></h1>          
         <div class="row row-50 justify-content-center align-items-xl-center">
           <div class="col-md-10 col-lg-5 col-xl-6">
             <div>
@@ -137,7 +137,7 @@
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style="text-align: justify; font-size: 17px;">Entre la parte de San José y Las Núñez había un matapalo demasiado grande, donde la gente que habitaban en el lugar al llegar la noche ya nadie podía salir, porque se comenta que se les aparecía el titin, el diablo o las visiones del matapalo. Las visiones del matapalo, relata que un día unos habitantes se les hizo tarde y venían de la comuna San José, decían que les aparecía un toro, y también les aparecían pollos, donde la curiosidad de estos moradores y queriendo cogerlos, ellos se sacaban la camisa para poder agarrarlos, pero a medida que iban a cogerlos.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["culture"]["subtitle-4"]?></p>
                 </div>
               </div>
             </div>

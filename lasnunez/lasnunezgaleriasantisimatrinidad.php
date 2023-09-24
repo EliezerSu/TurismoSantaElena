@@ -11,7 +11,7 @@
         <br>
         <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Iglesia Santísima Trinidad</b></h2>
         <br>
-        <p style="text-align: justify; font-size: 17px;">La Iglesia Santísima Trinidad tiene aproximadamente 20 años de creación, es una iglesia privada y se encuentra arriba en la montaña, fue creada por el doctor Miguel Reyes. También en el transcurso del recorrido se puede observar el cultivo de maracuyá. La historia de la iglesia se debe a que el doctor Reyes es muy devoto a la Virgen del Cisne, se cuenta que el señor había prometido hacer una iglesia en su hacienda si el milagro se le concedía, ya que pidió con mucha fe y devoción. Para llegar a la iglesia existen 3 caminos, el primer trayecto se demora media hora de ida y vuelta, el segundo trayecto toma 15 minutos y el tercero se puede llegar en carro. Si se desea realizar una misa, se debe hablar con el encargado para que les permita el acceso.
+        <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["church-more"]?>
         </p>
         <br>
         <br>       

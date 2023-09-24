@@ -10,7 +10,7 @@
           <br>
           <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Sendero Ruta Ecológica Matapalo</b></h2>
           <br>
-          <p>El sendero Ruta Ecológica Matapalo, se encuentra en esta comuna, fue declarado en el año 2013, teniendo una extensión de 4 km, el nombre de este lugar se debe por abundantes árboles de Matapalos que se encuentran en su interior. Aquí se puede encontrar varias especies animales como tucán, armadillos, guantas, venados y monos aulladores. Entre especies vegetales está el cade, tagua, especies maderables, guayacán, kaoha, entre otros.</p>
+          <p><?php echo $texto_traducido["trail-more"]?></p>
           <br>
           <br>
         </section>

@@ -4,11 +4,11 @@
       <section class="section section-sm bg-default">
         <div class="container">
         
-          <h2>Rutas y excursiones</h2>  
+          <h2><?php echo $texto_traducido["header"]["subtitle-1"][3] ?></h2>  
         </div>
         <?php include("boton.php")?>
       <br><br><br>
-        <h4 class="title-cards">Olón uno de los lugaras perfectos para hacer excursiones...</h4>
+        <h4 class="title-cards"><?php echo $texto_traducido["description"]?></h4>
       </section>
       <!-- section1-->
       <section class="section section-sm bg-default">
@@ -21,10 +21,9 @@
                     <div class="unit-left"><a class="product-big-figure" href="../PaginaComentarios.php?img=olon/imagenes/olon/0225_qh_eyr_1.jpg"><img src="imagenes/olon/0225_qh_eyr_1.jpg" alt="" width="600" height="366"/></a></div>
                     <div class="unit-body">
                       <div class="product-big-body">
-                      <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> Avistamiento de aves</b></a></h5>
+                      <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b><?php echo $texto_traducido["titles-routes"][0] ?></b></a></h5>
                         <div class="row row-50 justify-content-center align-items-xl-center">
-                        <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';">
-                        Pájaro carpintero, pili, gavilanes, loros, etc, son varias de las especies que se pondrán encontrar en la comuna de Olón . 
+                        <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"><?php echo $texto_traducido["body-routes"][0]?> 
                         <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                       </div>
                     </div>
@@ -46,10 +45,9 @@
                           <div class="unit-left"><a class="product-big-figure" href="../PaginaComentarios.php?img=olon/imagenes/olon/0226_qh_eyr_2.jpg"><img src="imagenes/olon/0226_qh_eyr_2.jpg" alt="" width="600" height="366"/></a></div>
                           <div class="unit-body">
                             <div class="product-big-body">
-                            <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> Cabalgatas</b></a></h5>
+                            <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> <?php echo $texto_traducido["titles-routes"][1] ?></b></a></h5>
                               <div class="row row-50 justify-content-center align-items-xl-center">
-                              <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';">
-                              Aquí en Olon puedes disfrutar de un relajante paseo a caballo a través de las montañas y senderos existentes o también si lo deseas de una cabalgata a través de la playa frente al mar.
+                              <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"><?php echo $texto_traducido["body-routes"][1]?>
                               <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                             </div>
                           </div>
@@ -71,10 +69,9 @@
                           <div class="unit-left"><a class="product-big-figure" href="../PaginaComentarios.php?img=olon/imagenes/olon/0227_qh_eyr_3.jpg"><img src="imagenes/olon/0227_qh_eyr_3.jpg" alt="" width="600" height="366"/></a></div>
                           <div class="unit-body">
                             <div class="product-big-body">
-                            <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> Caminatas</b></a></h5>
+                            <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> <?php echo $texto_traducido["titles-routes"][2] ?></b></a></h5>
                               <div class="row row-50 justify-content-center align-items-x1-center">
-                              <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';">
-                              Las caminatas por puentes colgantes y senderos se ofrecen en la hostería El Retiro, en Olón. Ubicada al norte de la provincia de Santa Elena, en la zona norte de la parroquia Manglaralto del cantón Santa Elena.
+                              <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"><?php echo $texto_traducido["body-routes"][2]?>
                               <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                             </div>
                           </div>
@@ -98,12 +95,7 @@
                             <div class="product-big-body">
                             <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> Camping</b></a></h5>
                               <div class="row row-50 justify-content-center align-items-xl-center">
-                              <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';">
-                              En cuanto al camping en la comuna Olón se puede realizar de dos maneras, en el bosque 
-                              del sendero hacia las cascadas de Alex se puede colocar un camping y vivir la 
-                              experiencia de este tipo de hospedaje. Sin embargo, también se puede realizar en 
-                              empresas privadas como los hoteles y hostales que ofrecen este servicio dentro de su 
-                              oferta para el disfrute de los visitantes.
+                              <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"><?php echo $texto_traducido["body-routes"][3]?>
 
                               <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                             </div>
@@ -126,10 +118,9 @@
                           <div class="unit-left"><a class="product-big-figure" href="../PaginaComentarios.php?img=olon/imagenes/olon/0229_qh_eyr_5.jpg"><img src="imagenes/olon/0229_qh_eyr_5.jpg" alt="" width="600" height="366"/></a></div>
                           <div class="unit-body">
                             <div class="product-big-body">
-                            <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> Paseo en lanchas</b></a></h5>
+                            <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> <?php echo $texto_traducido["titles-routes"][4] ?></b></a></h5>
                               <div class="row row-50 justify-content-center align-items-xl-center">
-                              <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';">
-                              La comuna de Olón está dentro de los 4 mejores lugares de la provincia de Santa Elena para poder ejecutar esta actividad Surf Report Olon.
+                              <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"><?php echo $texto_traducido["body-routes"][4]?>
                               <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                             </div>
                           </div>
@@ -151,10 +142,9 @@
                     <div class="unit-left"><a class="product-big-figure" href="../PaginaComentarios.php?img=olon/imagenes/olon/0230_qh_eyr_6.jpg"><img src="imagenes/olon/0230_qh_eyr_6.jpg" alt="" width="600" height="366"/></a></div>
                     <div class="unit-body">
                       <div class="product-big-body">
-                      <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b> Senderismo</b></a></h5>
+                      <h5 class="text-spacing-25 font-weight-normal title-opacity-9"><a href="#"><b><?php echo $texto_traducido["titles-routes"][5] ?></b></a></h5>
                         <div class="row row-50 justify-content-center align-items-xl-center">
-                        <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';">
-                        Caminar por los senderos de Olón como bosques, hayedos, montañas, con el fin de descubrir el patrimonio natural, contemplar vistas y panorámicas.
+                        <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"><?php echo $texto_traducido["body-routes"][5]?>
                         <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                       </div>
                     </div>

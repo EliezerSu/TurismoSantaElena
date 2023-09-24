@@ -5,7 +5,7 @@
   </section>
   <br><br><br><br>
   <section>
-    <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Hoteles</b></h1>
+    <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["hotels"][1]?></b></h1>
     <br>
     <br>
     <div class="container">
@@ -52,10 +52,10 @@
             <div class="tab-content">
               <div class="tab-pane fade show active" id="tabs-4-1">
 
-                <p style="text-align: justify; font-size: 17px;">Cuenta con qué servicio de: a/c, wifi, SmarTV, discoteca, restaurante, piscina, habitaciones: matrimoniales, triple y familiares.</p>
-                <p style="text-align: justify; font-size: 17px;">Horarios de atención: En la recepción de 8 am hasta 17 pm, sin embargo, puede llamar a cualquier hora será atendido.</p>
-                <p style="text-align: justify; font-size: 17px;">Dirección: Calle 9 de octubre, al lado del puerto pesquero.</p>
-                <p style="text-align: justify; font-size: 17px;">Número de teléfono: 0984771131</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["hotels"]["subtitle-1"]?></p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["hotels"]["subtitle-2"]?></p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["planyourtrip"][19]?>: Calle 9 de octubre, al lado del puerto pesquero.</p>
+                <p style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["planyourtrip"][20]?>: 0984771131</p>
 
               </div>
               <div class="tab-pane fade" id="tabs-4-2">

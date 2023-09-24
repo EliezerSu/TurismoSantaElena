@@ -14,7 +14,7 @@
         <br>
         <br>
         <br>
-        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Dónde alojarse?</b></h1>
+        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["accommodation"] ?></b></h1>
 
         <br/>
       
@@ -27,7 +27,7 @@
                           <a href="hotelesolon.php"><img src="imagenes/olon/0231_hotel_1.jpg" style="border:1px solid black"></a>
                           
                           <span class="project-details"><span class="material-symbols-outlined">
-                          </span><a href="hotelesolon.php">Hoteles</a></span>
+                          </span><a href="hotelesolon.php"><?php echo $texto_traducido["hotels"][1] ?></a></span>
                       </li>
 
                       <!-- Gallery Item 2 -->
@@ -35,7 +35,7 @@
                           <a href="hostalesolon.php"><img src="imagenes/olon/0236_hostal_1.jpg" style="border:1px solid black"></a>
                             
                           <span class="project-details"><span class="material-symbols-outlined">
-                          </span><a href="hostalesolon.php">Hostales</a></span>
+                          </span><a href="hostalesolon.php"><a href="hotelesolon.php"><?php echo $texto_traducido["hotels"][2] ?></a></span>
                       </li>
 
                       <!-- Gallery Item 3 -->
@@ -43,7 +43,7 @@
                           <a href="hosteriaolon.php"><img src="imagenes/olon/0250_hosteria_1.jpg"style="border:1px solid black"></a>
                             
                           <span class="project-details"><span class="material-symbols-outlined">
-                          </span><a href="hosteriaolon.php">Hostería</a></span>
+                          </span><a href="hosteriaolon.php"><a href="hotelesolon.php"><?php echo $texto_traducido["hotels"][3] ?></a></span>
                       </li>
                   </ul>
               </div>

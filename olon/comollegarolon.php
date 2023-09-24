@@ -6,13 +6,12 @@
 <br>
       <div class="tabs-custom tabs-horizontal tabs-line mx-auto w-50" id="tabs-4"><ul  style="border-bottom: 3px solid #01b3a7; "  >
 
-                        <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto">¡Descubre el camino a nuestra comuna!</h2></li>
+                        <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"><?php echo $texto_traducido["planyourtrip"]["subtitle-4"] ?></h2></li>
                       </ul>
       </div>
     <section ><br>
       <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; ">
-      Conoce más sobre cómo llegar a Olón en los diferentes medios de transportes, 
-            de esta manera estarás preparado para una nueva aventura. 
+      <?php echo $texto_traducido["planyourtrip"]["subtitle-1"] ?>
       </p>
 
 
@@ -21,7 +20,7 @@
       <section>
     <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
     <i class="fa-sharp fa-solid fa-plane-up fa-4x icono-flex d-block "></i><br>
-        <h2>Aerolíneas</h2>
+        <h2><?php echo $texto_traducido["planyourtrip"][2] ?></h2>
         <br>
     </div>
     <div class="container-card">
@@ -30,44 +29,44 @@
                     <h3><b>Avianca</b></h3>
                     <br>
                     <p><br>
-                    Reservas: 1-800-003434                  <br>
+                    <?php echo $texto_traducido["planyourtrip"][4] ?>: 1-800-003434                  <br>
                     WhatsApp: +593 (9) 68555555             <br>
-                    Reclamos: +593 (2) 3978216              <br>
-                    Oficina: Junín 440 y Córdova            <br><br>
+                    <?php echo $texto_traducido["planyourtrip"][5] ?>: +593 (2) 3978216              <br>
+                    <?php echo $texto_traducido["planyourtrip"][9] ?>: Junín 440 y Córdova            <br><br>
                     </p>
-                    <a href="https://www.avianca.com/ec/es/" target="_blank">Visitar</a>
+                    <a href="https://www.avianca.com/ec/es/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3 style="font-size: 32px;"><b>American Airlines</b></h3>
                     <p><br>
-                    Reservas: +539 (4) 2598800              <br>
-                    Reclamos: +593 (4) 2169253              <br>
+                    <?php echo $texto_traducido["planyourtrip"][4] ?>: +539 (4) 2598800              <br>
+                    <?php echo $texto_traducido["planyourtrip"][5] ?>: +593 (4) 2169253              <br>
                     Carga: +593 (4) 6017439                 <br>
-                    Oficina: Policentro, cdla. Kennedy      <br>
+                    <?php echo $texto_traducido["planyourtrip"][9] ?>: Policentro, cdla. Kennedy      <br>
                     </p><br>
-                    <a href="https://www.aa.com/homePage.do?locale=es_EC" target="_blank">Visitar</a>
+                    <a href="https://www.aa.com/homePage.do?locale=es_EC" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>KLM</b></h3><br>
                     <p><br><br>
-                    Reservas: 1-800-000944      <br>
+                    <?php echo $texto_traducido["planyourtrip"][4] ?>: 1-800-000944      <br>
                     Whatsapp: +31 206490787     <br><br><br>
                     </p><br>
-                    <a href="https://www.klm.com.ar/" target="_blank">Visitar</a>
+                    <a href="https://www.klm.com.ar/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Latam</b></h3><br>
                     <p><br><br>
-                    Reservas: 1-800-000527                  <br>
-                    Oficina: Mall del sol, planta baja      <br><br><br>
+                    <?php echo $texto_traducido["planyourtrip"][4] ?>: 1-800-000527                  <br>
+                    <?php echo $texto_traducido["planyourtrip"][9] ?>: Mall del sol, planta baja      <br><br><br>
                     </p>
-                    <a href="https://www.latamairlines.com/ec/es" target="_blank">Visitar</a>
+                    <a href="https://www.latamairlines.com/ec/es" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
         </div>
@@ -82,7 +81,7 @@
     <div class="container-card">
             <div class="card">
                 <div class="contenido-card">
-                    <h3><b>Cooperativa CLP
+                    <h3><b><?php echo $texto_traducido["planyourtrip"][27] ?> CLP
 </b></h3>
                     <br>
                     <p>
@@ -93,31 +92,31 @@
                       Pasaje - $6,00.          <br><br><br>
                     </b>
                     </p>
-                    <a href="https://clp.com.ec/" target="_blank">Visitar</a>
+                    <a href="https://clp.com.ec/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
-                    <h3 style="font-size: 32px;"><b>Cooperativa Manglaralto</b></h3>
+                    <h3 style="font-size: 32px;"><b><?php echo $texto_traducido["planyourtrip"][27] ?> Manglaralto</b></h3>
                     <p>
                     <b>
                       <br><br>
-                      • Costo del pasaje $2,25<br> Duración: 1h30m    <br><br>
+                      • <?php echo $texto_traducido["planyourtrip"][28] ?> $2,25<br> <?php echo $texto_traducido["planyourtrip"][16] ?>: 1h30m    <br><br>
                     </b>
                     </p><br>
-                    <a href="https://ecuapinoo.com/oficina-de-empresa/milagro/cooperativa-manglaralto-playas/" target="_blank">Visitar</a>
+                    <a href="https://ecuapinoo.com/oficina-de-empresa/milagro/cooperativa-manglaralto-playas/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
-                    <h3 style="font-size: 32px;"><b>Cooperativa Citup</b></h3>
+                    <h3 style="font-size: 32px;"><b><?php echo $texto_traducido["planyourtrip"][27] ?> Citup</b></h3>
                     <p>
                     <b>
                       <br><br>
-                      • Costo del pasaje $2,20<br> Duración: 1h30m    <br><br>
+                      • <?php echo $texto_traducido["planyourtrip"][28] ?> $2,20<br> <?php echo $texto_traducido["planyourtrip"][16] ?>: 1h30m    <br><br>
                     </b>
                     </p><br>
-                    <a href="https://www.infomontanita.com/es/como-llegar/transporte-bus-colectivo-montanita-llegar-viajar-pasaje/" target="_blank">Visitar</a>
+                    <a href="https://www.infomontanita.com/es/como-llegar/transporte-bus-colectivo-montanita-llegar-viajar-pasaje/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
         </div>
@@ -126,7 +125,7 @@
 <section>
 <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
   <i class="fa-solid fa-car fa-4x icono-flex d-block "></i>
-        <h2>Vehículo</h2>
+        <h2><?php echo $texto_traducido["planyourtrip"][29] ?></h2>
     </div>
     </section>
     <section>
@@ -136,38 +135,38 @@
                     <h3><b>Budget</b></h3>
                     <br>
                     <p>
-                    Contacto: (02) 382-2340             <br>
-                    Precio: 1 día desde $50              <br>
+                    <?php echo $texto_traducido["planyourtrip"][12] ?>: (02) 382-2340             <br>
+                    <?php echo $texto_traducido["planyourtrip"][13] ?>: 1 día desde $50              <br>
                     </p><br>
-                    <a href="https://www.budget.com.ec/Inicio" target="_blank">Visitar</a>
+                    <a href="https://www.budget.com.ec/Inicio" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Rent cars</b></h3><br>
                     <p>
-                    Precio: 1 día desde $37                      <br><br>
+                    <?php echo $texto_traducido["planyourtrip"][13] ?>: 1 día desde $37                      <br><br>
                     </p><br>
-                    <a href="https://www.rentcars.com/es/" target="_blank">Visitar</a>
+                    <a href="https://www.rentcars.com/es/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Hertz</b></h3><br>
                     <p>
-                    Contacto: +593-2-3829559                    <br>
-                    Precio: 1 día desde $50 
+                    <?php echo $texto_traducido["planyourtrip"][12] ?>: +593-2-3829559                    <br>
+                    <?php echo $texto_traducido["planyourtrip"][13] ?>: 1 día desde $50 
                     </p><br>
-                    <a href="https://www.hertz.com/rentacar/reservation/" target="_blank">Visitar</a>
+                    <a href="https://www.hertz.com/rentacar/reservation/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Motors</b></h3><br>
                     <p>
-                    Precio: 1 día desde $52 
+                    <?php echo $texto_traducido["planyourtrip"][13] ?>: 1 día desde $52 
                     </p><br><br>
-                    <a href="https://www.rentamotors.com/" target="_blank">Visitar</a>
+                    <a href="https://www.rentamotors.com/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             
@@ -178,37 +177,37 @@
                     <h3><b>Europcar</b></h3>
                     <br>
                     <p>
-                    Precio: 1 día desde $62                      <br>
-                    Contacto: 911 505 000                       <br>
+                    <?php echo $texto_traducido["planyourtrip"][13] ?>: 1 día desde $62                      <br>
+                    <?php echo $texto_traducido["planyourtrip"][12] ?>: 911 505 000                       <br>
                     </p><br><br>
-                    <a href="https://europcar.com.ec/" target="_blank">Visitar</a>
+                    <a href="https://europcar.com.ec/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Carmax </b></h3><br>
                     <p>
-                    Precio: 1 día desde $78                 <br><br><br>
+                    <?php echo $texto_traducido["planyourtrip"][13] ?>: 1 día desde $78                 <br><br><br>
                     </p><br>
-                    <a href="https://www.carmax.com/" target="_blank">Visitar</a>
+                    <a href="https://www.carmax.com/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Momondo</b></h3><br>
                     <p>
-                    Precio: 1 día desde $52                    <br><br>
+                    <?php echo $texto_traducido["planyourtrip"][13] ?>: 1 día desde $52                    <br><br>
                     </p><br><br>
-                    <a href="https://www.es.momondo.com/" target="_blank">Visitar</a>
+                    <a href="https://www.es.momondo.com/" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Kayak</b></h3><br>
                     <p>
-                    Precio: 1 día desde $40                     <br><br>
+                    <?php echo $texto_traducido["planyourtrip"][13] ?>: 1 día desde $40                     <br><br>
                     </p><br><br>
-                    <a href="https://www.kayak.com.ec" target="_blank">Visitar</a>
+                    <a href="https://www.kayak.com.ec" target="_blank"><?php echo $texto_traducido["planyourtrip"][6] ?></a>
                 </div>
             </div>
         </div>
@@ -216,14 +215,12 @@
 
 <div class="tabs-custom tabs-horizontal tabs-line mx-auto w-50" id="tabs-4"><ul  style="border-bottom: 3px solid #01b3a7;"  >
 
-                  <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"> ¿Cómo moverse?</h2></li>
+                  <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"> <?php echo $texto_traducido["planyourtrip"][0] ?></h2></li>
                 </ul>
 </div>
 
 <section ><br>
-  <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; ">
-  Te brindamos información sobre las distancias, conexiones y tiempo con las
-  diferentes ciudades del Ecuador, para que puedas organizar un maravilloso viaje.
+  <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; "><?php echo $texto_traducido["planyourtrip"]["subtitle-2"] ?>
   </p>
 
 
@@ -232,10 +229,10 @@
   <table class="table table-striped col-10 mx-auto text-center">
     <thead class="thead-dark">
       <tr>
-        <th scope="col">Provincia</th>
-        <th scope="col">Ciudad</th>
-        <th scope="col">Distancia (Km)</th>
-        <th scope="col">Tiempo</th>
+        <th scope="col"><?php echo $texto_traducido["planyourtrip"][30] ?></th>
+        <th scope="col"><?php echo $texto_traducido["planyourtrip"][16] ?></th>
+        <th scope="col"><?php echo $texto_traducido["planyourtrip"][17] ?> (Km)</th>
+        <th scope="col"><?php echo $texto_traducido["planyourtrip"][18] ?></th>
       </tr>
     </thead>
     <tbody>
@@ -288,20 +285,19 @@
       <br>
       <div class="tabs-custom tabs-horizontal tabs-line mx-auto w-50" id="tabs-4"><ul  style="border-bottom: 3px solid #01b3a7; "  >
 
-<li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto">Si viajas en una cooperativa de transporte</h2></li>
+<li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"><?php echo $texto_traducido["planyourtrip"]["subtitle-5"] ?></h2></li>
 </ul>
 </div>
                 <br>
                 <section><br>
-                <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; ">
-                "Para llegar a la comuna Olón, debemos tomar cooperativas de transporte público o privado".</p>
+                <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; "><?php echo $texto_traducido["planyourtrip"]["subtitle-6"] ?></p>
   <table class="table table-striped col-10 mx-auto text-center">
     <thead class="thead-dark">
       <tr>
         <th scope="col">Terminal Terrestre</th>
-        <th scope="col">Cooperativa de Transporte</th>
-        <th scope="col">Costo</th>
-        <th scope="col">Tiempo</th>
+        <th scope="col"><?php echo $texto_traducido["planyourtrip"][27] ?> de Transporte</th>
+        <th scope="col"><?php echo $texto_traducido["planyourtrip"][28] ?></th>
+        <th scope="col"><?php echo $texto_traducido["planyourtrip"][18] ?></th>
       </tr>
     </thead>
     <tbody>

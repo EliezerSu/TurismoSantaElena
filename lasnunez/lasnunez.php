@@ -9,8 +9,8 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-10">
-                  <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta de los encantos de este hermoso paraiso</h6>
-                  <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Visita</span><span class="font-weight-bold"> LAS NÚÑEZ</span></h2>
+                  <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][0] ?></h6>
+                  <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][1] ?></span><span class="font-weight-bold"> LAS NÚÑEZ</span></h2>
                 </div>
               </div>
             </div>
@@ -21,8 +21,8 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-10">
-                  <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">En LAS NÚÑEZ encontraras un lugar para disfrutar...</h6>
-                  <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Ven</span><span class="font-weight-bold"> y disfruta</span></h2>
+                  <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][2] ?>...</h6>
+                  <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][3] ?></span><span class="font-weight-bold"><?php echo $texto_traducido["swapper"][4] ?></span></h2>
                 </div>
               </div>
             </div>
@@ -33,8 +33,8 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-10">
-                  <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta del encanto de nuestra hermosa playa</h6>
-                  <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Disfruta</span><span class="font-weight-bold"> en familia</span></h2>
+                  <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][5] ?></h6>
+                  <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][6] ?></span><span class="font-weight-bold"><?php echo $texto_traducido["swapper"][7] ?></span></h2>
                 </div>
               </div>
             </div>
@@ -57,14 +57,14 @@
         <div class="row align-items-center">
           <div class="col-lg-8 text-center">
             <p class="lead mb-4" style="font-size: 20px; text-align: justify; margin: 0 10% 0 10%;">
-              San Francisco de las Núñez se encuentra ubicado en la provincia de Santa Elena, parroquia Manglaralto a 10 Minutos de Olón.
+             <?php echo $texto_traducido["body"][0] ?>
               <br><br>
-              Esta comuna ofrece a sus visitantes un turismo de sol y playa donde se puede pasar una tarde en familia ya que está considerado como un espacio de descanso y recreación, no obstante, esta comuna también ofrece un turismo de naturaleza ya que posee un bosque en el cual se pueden realizar actividades para los amantes de la flora y fauna.
+              <?php echo $texto_traducido["body"][1] ?>
             </p>
             <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
           </div>
           <div class="col-lg-3 btn-acercade">
-            <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto " href="lasnunez_acercade.php" >Descubre un poco más</a>
+            <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto " href="lasnunez_acercade.php" ><?php echo $texto_traducido["button-A"] ?></a>
           </div> 
         </div>
       </div>
@@ -105,7 +105,7 @@
     <!-- Hot tours-->
     <section id="quevisitar" class="section section-sm bg-default">
       <div class="container">
-        <h3 class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Qué visitar?</b></h3>
+        <h3 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["title-1"] ?></b></h3>
         <div class="row row-sm row-40 row-md-50">
           <div class="col-sm-6 col-md-12 wow fadeInRight">
             <!-- Product Big-->
@@ -118,11 +118,11 @@
                 </div>
                 <div class="unit-body">
                   <div class="product-big-body">
-                    <h5 class="product-big-title"><a href="lasnunezgaleriaplayas.php">Playa Las Núñez</a></h5>
+                    <h5 class="product-big-title"><a href="lasnunezgaleriaplayas.php">Las Núñez <?php echo $texto_traducido["beach"] ?></a></h5>
                     <div class="group-sm group-middle justify-content-start">
                       <div class="product-big-rating"></div><a class="product-big-reviews" href="diversion.html"></a>
                     </div>
-                    <p style="text-align: justify; font-size: 17px;" class="product-big-text"> La playa Las Núñez, de arena fina, color café, con aguas cristalinas, está ubicada en la comuna San Francisco de Las Núñez, a una distancia de 67,5 km de la provincia de Santa Elena</p><a class="button button-black-outline button-ujarak" href="lasnunezgaleriaplayas.php">Descubre un poco más</a>
+                    <p style="text-align: justify; font-size: 17px;" class="product-big-text"> <?php echo $texto_traducido["options"][0] ?></p><a class="button button-black-outline button-ujarak" href="lasnunezgaleriaplayas.php"><?php echo $texto_traducido["button-A"] ?></a>
                     <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                   </div>
                 </div>
@@ -140,11 +140,11 @@
                 </div>
                 <div class="unit-body">
                   <div class="product-big-body">
-                    <h5 class="product-big-title"><a href="lasnunezgaleriasenderos.php">Sendero Ruta Ecológica Matapalo</a></h5>
+                    <h5 class="product-big-title"><a href="lasnunezgaleriasenderos.php">Ruta Ecológica Matapalo <?php echo $texto_traducido["trail"] ?></a></h5>
                     <div class="group-sm group-middle justify-content-start">
                       <div class="product-big-rating"></div><a class="product-big-reviews" href="lasnunezgaleriasenderos.php"></a>
                     </div>
-                    <p style="text-align: justify; font-size: 17px;" class="product-big-text">El sendero Ruta Ecológica Matapalo, se encuentra en esta comuna, fue declarado en el año 2013</p><a class="button button-black-outline button-ujarak" href="lasnunezgaleriasenderos.php">Descubre un poco más</a>
+                    <p style="text-align: justify; font-size: 17px;" class="product-big-text"><?php echo $texto_traducido["options"][1] ?></p><a class="button button-black-outline button-ujarak" href="lasnunezgaleriasenderos.php"><?php echo $texto_traducido["button-A"] ?></a>
                     <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                   </div>
                 </div>
@@ -162,11 +162,11 @@
                 </div>
                 <div class="unit-body">
                   <div class="product-big-body">
-                    <h5 class="product-big-title"><a href="lasnunezgaleriasantisimatrinidad.php">Iglesia Santísima Trinidad</a></h5>
+                    <h5 class="product-big-title"><a href="lasnunezgaleriasantisimatrinidad.php"> Santísima Trinidad <?php echo $texto_traducido["church"] ?></a></h5>
                     <div class="group-sm group-middle justify-content-start">
                       <div class="product-big-rating"></div><a class="product-big-reviews" href="lasnunezgaleriasantisimatrinidad.php"></a>
                     </div>
-                    <p style="text-align: justify; font-size: 17px;" class="product-big-text">La iglesia Santísima Trinidad tiene aproximadamente 20 años de creación, es una iglesia privada y se encuentra arriba en la montaña, fue creada por el doctor Miguel Reyes. </p><a class="button button-black-outline button-ujarak" href="lasnunezgaleriasantisimatrinidad.php">Descubre un poco más</a>
+                    <p style="text-align: justify; font-size: 17px;" class="product-big-text"><?php echo $texto_traducido["options"][2] ?></p><a class="button button-black-outline button-ujarak" href="lasnunezgaleriasantisimatrinidad.php"><?php echo $texto_traducido["button-A"] ?></a>
                     <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                   </div>
                 </div>
@@ -179,33 +179,33 @@
 
     <!-- CARTAS -->
     <section class="cuestionario">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>¿Qué hacer?</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["title-2"] ?></b></h1>
         <br>
         <br>
       <div class="contenedor">
           <div class="tabla">
-              <h2>Deportes y aventuras</h2>
+              <h2><?php echo $texto_traducido["header"]["subtitle-3"][0] ?></h2>
               <img src="imagenes/las_nunez/0401_seurf_lasnunez.jpg" alt="" />
-              <p class="tamPar">Si le gustan los deportes y experimentar nuevas aventuras</p>
-              <a href="lasnunezdeportesaventuras.php" class="boton">Descubre un poco más</a>
+              <p class="tamPar"><?php echo $texto_traducido["types"][0] ?></p>
+              <a href="lasnunezdeportesaventuras.php" class="boton"><?php echo $texto_traducido["button-A"] ?></a>
           </div>
           <div class="tabla hover">
-              <h2>Cultura y tradiciones</h2>
+              <h2><?php echo $texto_traducido["header"]["subtitle-3"][1] ?></h2>
               <img src="imagenes/las_nunez/0402_santisimatrinidad.jpeg" alt="" />
-              <p class="tamPar">Si le gusta aprender nuevas culturas y tradiciones</p>
-              <a href="lasnunezculturatradiciones.php" class="boton">Descubre un poco más</a>
+              <p class="tamPar"><?php echo $texto_traducido["types"][1] ?></p>
+              <a href="lasnunezculturatradiciones.php" class="boton"><?php echo $texto_traducido["button-A"] ?></a>
           </div>
           <div class="tabla">
-              <h2 id="gas">Gastronomía</h2>
+              <h2 id="gas"><?php echo $texto_traducido["header"]["subtitle-3"][2] ?></h2>
               <img src="imagenes/las_nunez/0403_santisimatrinidad.jpg" alt="" />
-              <p class="tamPar">Si es amante a la comida conoce nuestra gastronomía</p>
-              <a href="lasnunezgastronomia.php" class="boton">Descubre un poco más</a>
+              <p class="tamPar"><?php echo $texto_traducido["types"][2] ?></p>
+              <a href="lasnunezgastronomia.php" class="boton"><?php echo $texto_traducido["button-A"] ?></a>
           </div>
           <div class="tabla">
-              <h2>Ruta y excursiones</h2>
+              <h2><?php echo $texto_traducido["header"]["subtitle-3"][3] ?></h2>
               <img src="imagenes/las_nunez/0404_santisimatrinidad6.jpg" alt="" />
-              <p class="tamPar">Si las excursiones son lo tuyo revise nuestras rutas</p>
-              <a href="lasnunezrutasyexcursiones.php" class="boton">Descubre un poco más</a>
+              <p class="tamPar"><?php echo $texto_traducido["types"][3] ?></p>
+              <a href="lasnunezrutasyexcursiones.php" class="boton"><?php echo $texto_traducido["button-A"] ?></a>
           </div>
       </div>
     </section>
@@ -213,7 +213,7 @@
     <br>
     <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
       <div class="container-fluid">
-        <h6 class="gallery-title" style="font-size: 17px;">Conoce más de Las Núñez...</h6>
+        <h6 class="gallery-title" style="font-size: 17px;"><?php echo $texto_traducido["know-more"] ?></h6>
         <!-- Owl Carousel-->
         <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15" data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
           <!-- Thumbnail Classic-->

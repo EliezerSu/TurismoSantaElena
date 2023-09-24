@@ -9,8 +9,8 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-10">
-                      <h4 class="oh font-weight-light" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta de los encantos de este hermoso paraíso</h4>
-                      <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Visita</span><span class="font-weight-bold"> Olón</span></h2>
+                      <h4 class="oh font-weight-light" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][0] ?></h4>
+                      <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][1] ?></span><span class="font-weight-bold"> Olón</span></h2>
                     </div>
                   </div>
                 </div>
@@ -21,8 +21,8 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-10">
-                      <h4 class="oh font-weight-light" data-caption-animate="fadeInRight" data-caption-delay="0">En Olón encontrarás un lugar para disfrutar...</h4>
-                      <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Ven</span><span class="font-weight-bold"> y disfruta</span></h2>
+                      <h4 class="oh font-weight-light" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][2] ?>...</h4>
+                      <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][3] ?></span><span class="font-weight-bold"> <?php echo $texto_traducido["swapper"][4] ?></span></h2>
                     </div>
                   </div>
                 </div>
@@ -33,8 +33,8 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-10">
-                      <h4 class="oh font-weight-light" data-caption-animate="fadeInRight" data-caption-delay="0">Si vas a tirar la toalla, que sea en la playa</h4>
-                      <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Disfruta</span><span class="font-weight-bold"> en familia</span></h2>
+                      <h4 class="oh font-weight-light" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][8] ?></h4>
+                      <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][6] ?></span><span class="font-weight-bold"><?php echo $texto_traducido["swapper"][7] ?></span></h2>
                     </div>
                   </div>
                 </div>
@@ -45,39 +45,34 @@
           <div class="swiper-pagination"></div>
         </section>
          <div style="width:100%;background-color: rgba(8, 32, 50,.9); padding:15px 25px">
-    <a style=" font-size:18px; color:white" href="../index.php">Inicio </a>
+    <a style=" font-size:18px; color:white" href="../index.php"><?php echo $texto_traducido["Inicio"] ?></a>
     </div>
 
       <br>
       <!-- Titulo de que acerca en Olón-->
       <br>
       <div class="px-4 py-5 my-5 text-center container-fluid" >
-              <h2 style="text-align: center;color:#122638">Acerca de Olón</h2>
+              <h2 style="text-align: center;color:#122638"><?php echo $texto_traducido["swapper"][0] ?> Olón</h2>
               <hr  class="w-50 d-block d-ms-none mx-auto" style="border-bottom: 3px solid #01b3a7; margin-bottom:35px;"> 
               <div class="row align-items-center">
                 <div class="col-lg-8 text-center">
                   <p class="lead mb-4"  style="text-align: justify; font-size: 20px;">
                   <br><br>
-                  La comuna Olón se caracteriza por la presencia de una hermosa y extensa playa apta
-                  para el turismo de descanso y deportivo, también posee la Cordillera Chongón 
-                  Colonche más su exquisita gastronomía.  
+                  <?php echo $texto_traducido["body"][0] ?>  
                       <br> <br>
-                      Está ubicado exactamente entre las playas de 
-                      Montañita y Curía, en la parroquia Manglaralto, se encuentra a 73 kilómetros de la 
-                      capital de Santa Elena, delimita al norte con la comuna Curía, al sur con la comuna 
-                      Montañita, al este con la comuna Pajiza y al oeste el Océano Pacífico.
+                      <?php echo $texto_traducido["body"][1] ?>
                   </p>
                   <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                 </div>
                 <div class="col-lg-3 btn-acercade">
-                  <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto " href="acercadeolon.php" >Descubre un poco más</a>
+                  <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto " href="acercadeolon.php" ><?php echo $texto_traducido["button-A"] ?></a>
                 </div>
                 
               </div>
             </div>
        <!-- Titulo de que visitar en Olón-->
       <br>
-       <h2 style="color: #162e44;margin-top: 60;margin-top: 60px;">En Olón visitarás...</h2>
+       <h2 style="color: #162e44;margin-top: 60;margin-top: 60px;"><?php echo $texto_traducido["visit"] ?>...</h2>
   
             <!-- section 1-->
             <section class="section section-sm section-first bg-default text-md-left">
@@ -113,7 +108,7 @@
                       </div>
                       <div class="col-md-10 col-lg-7 col-xl-6">
                       
-                        <h1 class="text-spacing-25 font-weight-normal title-opacity-9 Titu__color" ><b>Playa Olón</b></h1>
+                        <h1 class="text-spacing-25 font-weight-normal title-opacity-9 Titu__color" ><b><?php echo $texto_traducido["beach"] ?></b></h1>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                           <!-- Nav tabs-->
@@ -123,11 +118,7 @@
                             <div class="tab-pane fade show active" id="tabs-4-1">
                             
                                       <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"
-                                      >Se aprecia la tranquilidad de su extenso mar, en la que se puede descansar del estrés de 
-                                        la cotidianidad, de oleaje tranquilo donde se divisa las montañas y vegetación que rodea 
-                                        a la comuna. Está a solo 8 minutos de la comuna Montañita, donde su ambiente es 
-                                        totalmente diferente, más sereno y cálido. Es una de las más extensas de la costa 
-                                        ecuatoriana, con aproximadamente 7 km de extensión.
+                                      ><?php echo $texto_traducido["body"][2] ?> 
                                       </p>
                             </div> 
                           </div>
@@ -169,7 +160,7 @@
                       </div>
                       <div class="col-md-10 col-lg-7 col-xl-6">
                       
-                        <h1 class="text-spacing-25 font-weight-normal title-opacity-9 Titu__color" ><b>Cascada Alex</b></h1>
+                        <h1 class="text-spacing-25 font-weight-normal title-opacity-9 Titu__color" ><b><?php echo $texto_traducido["beach"] ?></b></h1>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                         
@@ -178,11 +169,7 @@
                             <div class="tab-pane fade show active" id="tabs-4-1">
                               
                                       <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"
-                                      >Es una zona de descanso adaptada con hamacas para uso de los visitantes, desde ella se 
-                                        puede apreciar la naturaleza en sus alrededores, además de contar con mesas y sillas 
-                                        para uso del turista y personas que laboran en el recorrido hacia las cascadas de Alex 
-                                        en la comuna Olón. Se encuentran en la zona de Bosque tropical seco y Bosque tropical 
-                                        húmedo de la Cordillera Chongón-Colonche.
+                                      ><?php echo $texto_traducido["body"][3] ?>
                                       </p>
                             </div>
                           </div>

@@ -10,7 +10,7 @@
             <br>
             <h2 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Playa Las Núñez</b></h2>
             <br>
-            <p>La playa Las Núñez, de arena fina, color café, con aguas cristalinas, está ubicada en la comuna San Francisco de Las Núñez, a una distancia de 67,5 km de la provincia de Santa Elena, cuenta con una extensión de 11 km, donde su principal acceso es por la carretera ruta del Spondylus (E-15). Esta hermosa playa posee aguas tranquilas para aquellos que buscan relajación y descanso, las actividades que se pueden practicar es el voleibol, pesca deportiva, surf y ciclismo, además, encontrarás en sus alrededores pelícanos de patas azules, gaviotas y cangrejos. Convirtiéndola en un sitio ideal para disfrutar entre amigos y familiares, también se caracteriza por tener gente amable, humilde y muy trabajadora, brindando al turista una acogida gratificante.</p>
+            <p><?php echo $texto_traducido["beact-more"]?></p>
             <br>
             <br>
           </section>
