@@ -48,9 +48,6 @@
     <!-- Swiper Pagination-->
     <div class="swiper-pagination"></div>
   </section>
-  <div style="width:100%;background-color: rgba(8, 32, 50,.9); padding:15px 25px">
-    <a style=" font-size:18px; color:white" href="../index.php">Inicio </a>
-  </div>
 
   <!-- Section Box Categories-->
   <section class="section section-lg section-top-1 bg-gray-4">
@@ -86,7 +83,7 @@
 
   <section class="section section-sm bg-default">
     <div class="container">
-      <h3>¿Qué visitar en La Entrada y Rinconada?</h3>
+      <h3><?php echo $texto_traducido["cardlist"][0] ?></h3>
       <div class="row row-sm row-40 row-md-50">
         <div class="col-sm-6 col-md-12 wow fadeInLeft">
           <!-- Product Big-->
@@ -95,9 +92,9 @@
               <div class="unit-left"><a class="product-big-figure" href="playas_la_entrada.php"><img src="imagenes/la_entrada/principal/0685__playa_home.jpg" alt="" width="600" height="366" /></a></div>
               <div class="unit-body">
                 <div class="product-big-body">
-                  <h5 class="product-big-title"><a href="playas_la_entrada.php"> <b>Disfruta de nuestras playas</b> </a></h5>
+                  <h5 class="product-big-title"><a href="playas_la_entrada.php"> <b><?php echo $texto_traducido["cardlist"][1] ?></b> </a></h5>
 
-                  <p class="product-big-text texto__quevisitar">Conoce las playas de la Entrada y la Rinconada, lugares perfectos para disfrutar en familia y amigos al son del sonido del mar</p><a class="button button-black-outline button-ujarak" href="playas_la_entrada.php">Leer más</a>
+                  <p class="product-big-text texto__quevisitar"><?php echo $texto_traducido["cardlist"][2] ?></p><a class="button button-black-outline button-ujarak" href="playas_la_entrada.php"><?php echo $texto_traducido["cardlist"][3] ?></a>
                   <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                 </div>
               </div>
@@ -112,9 +109,9 @@
               <div class="unit-left"><a class="product-big-figure" href="atractivos_cultura_laentrada.php"><img src="imagenes/la_entrada/principal/0686__atra_cultura_home.jpg" alt="" width="600" height="366" /></a></div>
               <div class="unit-body">
                 <div class="product-big-body">
-                  <h5 class="product-big-title"><a href="atractivos_cultura_laentrada.php"> <b>Obten una experiencia cultural</b> </a></h5>
+                  <h5 class="product-big-title"><a href="atractivos_cultura_laentrada.php"> <b><?php echo $texto_traducido["cardlist"][4] ?></b> </a></h5>
 
-                  <p class="product-big-text texto__quevisitar">La historia de esta maravillosa comuna no ha sido olvidada en el tiempo, su cultura y tradiciones son parte de su gente y de sus lugares. Descubre los puntos más importantes para la gente de la Entrada y la Rinconada y aprende sobre la historia que envuelve este magnífico lugar.</p><a class="button button-black-outline button-ujarak mx-auto" href="atractivos_cultura_laentrada.php">Leer más</a>
+                  <p class="product-big-text texto__quevisitar"><?php echo $texto_traducido["cardlist"][5] ?></p><a class="button button-black-outline button-ujarak mx-auto" href="atractivos_cultura_laentrada.php"><?php echo $texto_traducido["cardlist"][3] ?></a>
                   <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
                 </div>
               </div>
@@ -128,25 +125,25 @@
   </section>
   <section class="Contenedor">
     <section class="cuestionario">
-      <h3>¿Que hacer en La Entrada Y Rinconada?</h3>
+      <h3><?php echo $texto_traducido["CardBottom"][0] ?></h3>
       <div class="contenedor">
         <div class="tabla hover" style="cursor: default;">
-          <h2>Cultura y Tradiciones</h2>
+          <h2><?php echo $texto_traducido["CardBottom"][1] ?></h2>
           <img src="imagenes/la_entrada/principal/0687__cultura_home.jpg" alt="" />
-          <p>Si le gusta aprender nuevas culturas y tradicones</p>
-          <a href="cultura_laentrada.php" class="boton">Leer Más</a>
+          <p><?php echo $texto_traducido["CardBottom"][2] ?></p>
+          <a href="cultura_laentrada.php" class="boton"><?php echo $texto_traducido["CardBottom"][3] ?></a>
         </div>
         <div class="tabla" style="cursor: default;">
-          <h2>Gastronomía</h2>
+          <h2><?php echo $texto_traducido["CardBottom"][4] ?></h2>
           <img src="imagenes/la_entrada/principal/0688__gastro_home.jpg" alt="" />
-          <p>Si es amante a la comida conoce nuestra gastronomia</p>
-          <a href="gastronomia_laentrada.php" class="boton">Leer Más</a>
+          <p><?php echo $texto_traducido["CardBottom"][5] ?></p>
+          <a href="gastronomia_laentrada.php" class="boton"><?php echo $texto_traducido["CardBottom"][3] ?></a>
         </div>
         <div class="tabla" style="cursor: default;">
-          <h2>Ruta y Excursiones</h2>
+          <h2><?php echo $texto_traducido["CardBottom"][6] ?></h2>
           <img src="imagenes/la_entrada/principal/0689__rutas_home.jpg" alt="" />
-          <p>Si las excurciones son lo tuyo revise nuestras rutas</p>
-          <a href="rutas_la_entrada.php" class="boton">Leer Más</a>
+          <p><?php echo $texto_traducido["CardBottom"][7] ?></p>
+          <a href="rutas_la_entrada.php" class="boton"><?php echo $texto_traducido["CardBottom"][3] ?></a>
         </div>
       </div>
     </section>
@@ -177,7 +174,7 @@
     <!--	Instagrram wondertour-->
     <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
       <div class="container-fluid">
-        <h3 class="gallery-title" style="font-size: 20px;">Conoce mas de la Entrada y Rinconada</h3>
+        <h3 class="gallery-title" style="font-size: 20px;"><?php echo $texto_traducido["text"] ?></h3>
         <!-- Owl Carousel-->
         <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15" data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
           <!-- Thumbnail Classic-->
