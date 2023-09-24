@@ -7,7 +7,7 @@
               <div class="swiper-slide-caption section-md">
                 <div class="container">
                   <div class="row">
-                  <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold">¿Dónde alojarse en Montañita?</span></h2>
+                  <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold"><?php echo $texto_traducido["ir"][0] ?></span></h2>
 
           
                   </div>
@@ -29,7 +29,7 @@
           <br>
           <br>
           <br>
-          <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Dónde alojarse?</b></h1>
+          <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["ir"][1] ?></b></h1>
 
           <br/>
         

@@ -8,7 +8,7 @@
                     <div class="swiper-slide-caption section-md">
                     <div class="container">
                         <div class="row">
-                        <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold">¿Cómo llegar a Montañita?</span></h2>
+                        <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold"><?php echo $texto_traducido["llegar"][0] ?></span></h2>
                 
                         </div>
                     </div>
@@ -26,13 +26,12 @@
 
             <div class="tabs-custom tabs-horizontal tabs-line mx-auto w-50" id="tabs-4"><ul  style="border-bottom: 3px solid #01b3a7; "  >
 
-                        <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto">¡Descubre el camino a nuestra comuna!</h2></li>
+                        <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"><?php echo $texto_traducido["llegar"][1] ?></h2></li>
                         </ul>
         </div><br>
         <section >
         <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; ">
-        Conoce más sobre como llegar a Montañita en los diferentes medios de transporte, 
-        de esta manera estarás preparado para una nueva aventura.
+        <?php echo $texto_traducido["llegar"][2] ?>
         </p>
 
 
@@ -57,7 +56,7 @@
                         <i class='fa fa-plane fa-7x' style='color: black' style="font-size: 50px;"></i>
 
                         <img style="vertical-align:  text-left; width: 600; height: 190px;"  id="ruta en auto">
-                        <h2>Aerolineas</h2>
+                        <h2><?php echo $texto_traducido["llegar"][3] ?></h2>
                     </div>
                     <div class="container-card">
 
@@ -67,14 +66,14 @@
                                 <h3><b>Latam</b></h3>
                                 <p></p>
                                 <p>
-                                    <b>Reservas:</b> 1-800-000527<br>
-                                    <b>Oficina:</b> Mal del Sol, Planta Baja<br>
+                                    <b><?php echo $texto_traducido["llegar"][4] ?></b> 1-800-000527<br>
+                                    <b><?php echo $texto_traducido["llegar"][5] ?></b> Mal del Sol, Planta Baja<br>
                                     <b>Web:</b> www.latamairlines.com<br>
                                     <b>WhatsApp:</b> +56 9 68250850<br><br>
                                 </p>
                                 <p></p>
                                 
-                                <a href="https://www.latamairlines.com/ec/es" target="_blank">Visitar</a>
+                                <a href="https://www.latamairlines.com/ec/es" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
 
                             </div>
@@ -87,15 +86,15 @@
 
 
                                 <p>
-                                    <b>Reservas:</b> 1-800-003434<br>
+                                    <b><?php echo $texto_traducido["llegar"][4] ?></b> 1-800-003434<br>
                                     <b>Web:</b> www.avianca.com<br>
                                     <b>WhatsApp:</b> +593 (9) 68555555<br>
-                                    <b>Reclamos Equipajes:</b> +593 (2) 3978216 <br>
-                                    <b>Oficina:</b> Junín 440 y Córdova
+                                    <b><?php echo $texto_traducido["llegar"][6] ?></b> +593 (2) 3978216 <br>
+                                    <b><?php echo $texto_traducido["llegar"][5] ?></b> Junín 440 y Córdova
                                 </p>
                                 <p></p>
 
-                                <a href="https://www.avianca.com/co/es/" target="_blank">Visitar</a>
+                                <a href="https://www.avianca.com/co/es/" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
 
 
@@ -115,15 +114,15 @@
                                 <h3><b>American Airlines</b></h3>
                                 <p></p>
                                 <p>
-                                    <b>Reservas</b>: +539 (4) 2598800<br>
+                                    <b><?php echo $texto_traducido["llegar"][4] ?></b>: +539 (4) 2598800<br>
                                     <b>Web:</b> www.americanairlines.es<br>
-                                    <b>Reclamos Equipajes:</b> +593 (4) 2169253<br>
+                                    <b><?php echo $texto_traducido["llegar"][6] ?></b> +593 (4) 2169253<br>
 
-                                    <b>Oficina:</b> Centro Comercial Policentro, Cdla. Kennedy
+                                    <b><?php echo $texto_traducido["llegar"][5] ?></b> Centro Comercial Policentro, Cdla. Kennedy
                                 </p>
                                 <p></p>
                                 <br>
-                                <a href="https://www.americanairlines.es/intl/es/index.jsp?locale=es_ES" target="_blank">Visitar</a>
+                                <a href="https://www.americanairlines.es/intl/es/index.jsp?locale=es_ES" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
                             </div>
                         </div>
@@ -135,15 +134,15 @@
 
 
                                 <p>
-                                    <b>Reservas:</b> 1-800-000944<br>
+                                    <b><?php echo $texto_traducido["llegar"][4] ?></b> 1-800-000944<br>
                                     <b>Web</b>: www.klm.com.ec<br>
                                     <b>WhatsApp:</b> +31 206490787<br>
-                                    <b>Oficina:</b> Av. 12 de Octubre N26-97
+                                    <b><?php echo $texto_traducido["llegar"][5] ?></b> Av. 12 de Octubre N26-97
                                     Lincoln, Quito , Pichincha
 
                                 </p>
                                 <p></p>
-                                <a href="https://www.klm.com.ec/" target="_blank">Visitar</a>
+                                <a href="https://www.klm.com.ec/" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
 
                             </div>
@@ -168,12 +167,12 @@
                             <h3><b>Cooperativa CLP</b></h3>
 
                             <p>
-                                <b>Costo del pasaje Guayaquil a Santa Elena:</b> $5,00<br>
-                                <b>Guayaquil a Montañita:</b> $6,25<br>
-                                <b>Montañita a Guayaquil:</b> $6,00<br>
+                                <b><?php echo $texto_traducido["llegar"][8] ?></b> $5,00<br>
+                                <b><?php echo $texto_traducido["llegar"][9] ?></b> $6,25<br>
+                                <b><?php echo $texto_traducido["llegar"][10] ?></b> $6,00<br>
                             </p>
                             <br><br>
-                            <a href="https://clp.com.ec/" target="_blank">Visitar</a>
+                            <a href="https://clp.com.ec/" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
                         </div>
                     </div>
@@ -185,14 +184,14 @@
                             <h3><b>Cooperativa Manglaralto, CITUP, Reales Tamarindo</b></h3>
 
                             <p>
-                                <b>Costo del pasaje:</b>$2,00<br>
-                                <b>Duración:</b>1h21m <br>
+                                <b><?php echo $texto_traducido["llegar"][12] ?></b>$2,00<br>
+                                <b><?php echo $texto_traducido["llegar"][13] ?></b>1h21m <br>
 
                                </p>
                             <p></p>
                             <p></p>
                             <br>
-                            <a href="https://realestamarindos.ec/ " target="_blank">Visitar</a>
+                            <a href="https://realestamarindos.ec/ " target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
                         </div>
                     </div>
@@ -204,7 +203,7 @@
                     <div class="tituloPrincipal wow fadeInRight">
                         <i class='fa fa-car fa-7x' style='color: black' style="font-size: 50px;"></i>
                         <img style="vertical-align:  text-left; width: 600; height: 190px;"  id="ruta en auto">
-                        <h2>Automóvil</h2>
+                        <h2><?php echo $texto_traducido["llegar"][14] ?></h2>
                     </div>
                     <div class="container-card">
 
@@ -216,12 +215,12 @@
 
 
                                 <p>
-                                    <b>Precio:</b> 1 día desde $37<br>
+                                    <b><?php echo $texto_traducido["llegar"][15] ?></b> 1 día desde $37<br>
                                 </p>
                                 <p></p>
                                 <br><br>
 
-                                <a href="https://www.rentcars.com/es/" target="_blank">Visitar</a>
+                                <a href="https://www.rentcars.com/es/" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
 
                             </div>
@@ -232,13 +231,13 @@
                                 <h3><b>Hertz</b></h3>
                                 <p></p>
                                 <p>
-                                    <b>Contacto:</b> +593-2-3829559 <br>
-                                    <b>Precio:</b> 1 día desde $50<br>
+                                    <b><?php echo $texto_traducido["llegar"][16] ?></b> +593-2-3829559 <br>
+                                    <b><?php echo $texto_traducido["llegar"][15] ?></b> 1 día desde $50<br>
                                 </p>
                                 <p></p>
                                 <br>
                                 
-                                <a href="https://www.hertz.com/rentacar/reservation/" target="_blank">Visitar</a>
+                                <a href="https://www.hertz.com/rentacar/reservation/" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
                                 
 
 
@@ -253,12 +252,12 @@
 
 
                                 <p>
-                                    <b>Precio:</b> 1 día desde $40<br>
+                                    <b><?php echo $texto_traducido["llegar"][15] ?></b> 1 día desde $40<br>
                                 </p>
                                 <p></p>
                                 <br><br>
                                 
-                                <a href="https://www.kayak.com.ec" target="_blank">Visitar</a>
+                                <a href="https://www.kayak.com.ec" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
 
                             </div>
@@ -277,12 +276,12 @@
                                 <h3><b>Europcar</b></h3>
                                 <p></p>
                                 <p>
-                                    <b>Contacto:</b> 911 505 000 <br>
-                                    <b>Precio:</b> 1 día desde $37<br>
+                                    <b><?php echo $texto_traducido["llegar"][16] ?></b> 911 505 000 <br>
+                                    <b><?php echo $texto_traducido["llegar"][15] ?></b> 1 día desde $37<br>
                                 </p>
                                 <p></p>
                                 
-                                <a href="https://www.europcar.es/es-es" target="_blank">Visitar</a>
+                                <a href="https://www.europcar.es/es-es" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
                             </div>
                         </div>
@@ -293,12 +292,12 @@
                                 <h3><b>Budget</b></h3>
                                 <p></p>
                                 <p>
-                                    <b>Contacto:</b> (02) 382-2340 <br>
-                                    <b>Precio:</b> 1 día desde $50<br>
+                                    <b><?php echo $texto_traducido["llegar"][16] ?></b> (02) 382-2340 <br>
+                                    <b><?php echo $texto_traducido["llegar"][15] ?></b> 1 día desde $50<br>
                                 </p>
                                 <p></p>
                                 
-                                <a href="https://www.budget.com.ec/Inicio" target="_blank">Visitar</a>
+                                <a href="https://www.budget.com.ec/Inicio" target="_blank"><?php echo $texto_traducido["llegar"][11] ?></a>
 
 
 
@@ -312,14 +311,13 @@
                                     <i class='fa fa-car fa-7x' style='color: black' style="font-size: 50px;"></i>
 
             <div class="tabs-custom tabs-horizontal tabs-line mx-auto w-50" id="tabs-4"><ul  style="border-bottom: 3px solid #01b3a7;"  >
-        <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"> ¿Cómo moverse?</h2></li>
+        <li><h2 style="text-align: center;color:#122638" class="como__llegar__entrada mx-auto"> <b><?php echo $texto_traducido["llegar"][17] ?></h2></li>
         </ul>
         </div><br>
 
         <section >
         <p class="texto__llegar clead mb-4 col-8 mx-auto" style="font-size: 20px; ">
-        Te brindamos información sobre las distancia, conexiones y tiempo con las
-        diferentes ciudades del Ecuador, para que puedas organizar un maravilloso viaje.
+        <b><?php echo $texto_traducido["llegar"][18] ?>
         </p>
 
 
@@ -327,9 +325,9 @@
         <table class="table table-striped col-10 mx-auto text-center">
             <thead class="thead-dark">
             <tr>
-                <th scope="col">Ciudad</th>
-                <th scope="col">Distancia </th>
-                <th scope="col">Tiempo</th>
+                <th scope="col"><b><?php echo $texto_traducido["llegar"][19] ?></th>
+                <th scope="col"><b><?php echo $texto_traducido["llegar"][20] ?></th>
+                <th scope="col"><b><?php echo $texto_traducido["llegar"][21] ?></th>
             </tr>
             </thead>
             <tbody>
@@ -378,15 +376,13 @@
 
                     <div class="tabs-custom tabs-horizontal tabs-line mx-auto w-50" id="tabs-4"><ul  style="border-bottom: 3px solid #01b3a7;"  >
 
-        <li><h2 style="text-align: center;color:#122638" class="como_llegar_entrada mx-auto"> Información </h2></li>
+        <li><h2 style="text-align: center;color:#122638" class="como_llegar_entrada mx-auto"> <b><?php echo $texto_traducido["llegar"][22] ?> </h2></li>
         </ul>
         </div>
                 <br>
 
                 <p class="paAe" style="text-align: justify; font-size: 20px;">
-                Información sobre, sanidad, cajeros de bancos, cooperativas de taxi, seguridad, 
-                supermercados que podrás encontrar en la comuna Montañita, de tal manera estarás 
-                informado sobre todo lo importante que necesitas para tu visita.                
+                <b><?php echo $texto_traducido["llegar"][23] ?>              
                 </p>
 
             </div>
@@ -398,13 +394,13 @@
                         <div class="contenido-card">
                             <i class='fa fa-hospital fa-4x' style='color: black' style="font-size: 50px;"></i>
 
-                            <h3><b>Hospital de Manglaralto</b></h3>
+                            <h3><b><?php echo $texto_traducido["llegar"][24] ?> </b></h3>
 
                             <p>
 
-                                <b>Dirección:</b> : 47W4+G29, E15, Montañita<br>
-                                <b>Teléfono:</b>(04) 290-1192 <br>
-                                <b>Horario:</b> 24 horas<br>
+                                <b><?php echo $texto_traducido["llegar"][25] ?> </b> : 47W4+G29, E15, Montañita<br>
+                                <b><?php echo $texto_traducido["llegar"][26] ?> </b>(04) 290-1192 <br>
+                                <b><?php echo $texto_traducido["llegar"][27] ?> </b> 24 horas<br>
                                 
                             </p>
 
@@ -416,7 +412,7 @@
 
                         <div class="contenido-card">
                             <i class='fa fa-credit-card fa-4x' style='color: black' style="font-size: 50px;"></i>
-                            <h3><b>Cajeros de Banco</b></h3>
+                            <h3><b><?php echo $texto_traducido["llegar"][28] ?></b></h3>
 
                             <p>
                             Banco Guayaquil<br>
@@ -434,7 +430,7 @@
                         <div class="contenido-card">
                             <i class='fa fa-plus-circle fa-4x' style='color: black' style="font-size: 50px;"></i>
 
-                            <h3><b>Farmacias</b></h3>
+                            <h3><b><?php echo $texto_traducido["llegar"][29] ?></b></h3>
 
                             <p>
                                 Farmacia de Montañita<br>
@@ -453,7 +449,7 @@
                         <div class="contenido-card">
                              <i class='fa fa-cab fa-4x' style='color: black' style="font-size: 50px;"></i>
 
-                            <h3><b>Cooperativa de taxis</b></h3>
+                            <h3><b><?php echo $texto_traducido["llegar"][30] ?></b></h3>
 
                             <p>
 
@@ -472,11 +468,11 @@
                         <div class="contenido-card">
                             <i class='fa-solid fa-shield-blank fa-4x' style='color: black' style="font-size: 50px;"></i>
 
-                            <h3><b>Ubicación del UPC</b></h3>
+                            <h3><b><?php echo $texto_traducido["llegar"][31] ?></b></h3>
 
                             <p>
-                            <b>Dirección:</b> : 5792+546, Montañita<br>
-                            Horario: 24 horas
+                            <b><?php echo $texto_traducido["llegar"][25] ?></b> : 5792+546, Montañita<br>
+                            <?php echo $texto_traducido["llegar"][27] ?> 24 horas
 
 
                             </p>
@@ -489,7 +485,7 @@
                         <div class="contenido-card">
                              <i class='fa-solid fa-shop fa-4x' style='color: black' style="font-size: 50px;"></i>
 
-                            <h3><b>Supermercado</b></h3>
+                            <h3><b><?php echo $texto_traducido["llegar"][32] ?></b></h3>
 
                             <p>
                                 Tia S.A.<br>

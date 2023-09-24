@@ -7,7 +7,7 @@
       </section>
       <br>
 
-      <h2 style="color: #162e44;margin-top: 60;margin-top: 60px;">Deportes y aventuras</h2>
+      <h2 style="color: #162e44;margin-top: 60;margin-top: 60px;"><?php echo $texto_traducido["header"]["subtitle-1"][1] ?></h2>
 
       <!-- section 1-->
       <section class="section section-sm section-first bg-default text-md-left">
@@ -37,7 +37,7 @@
                       <div class="tab-pane fade show active" id="tabs-4-1">
                         <div class="product-big-rating">
                                 <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"
-                                > El surf es un deporte acuático que lo pueden practicar hombres y mujeres, si están interesados en practicarla existen escuelas dentro de la comuna donde te enseñan desde cero, incluye los elementos necesarios para que puedas aprender sin problema debido que lo hacen con instructores especializados, a la comuna se la conoce como cuna del surf porque la playa es perfecta para realizar este deporte, se realizan campeonatos e incluso puedes disfrutar de las olas y la naturaleza. 
+                                > <?php echo $texto_traducido["hacer"][1] ?> 
                                 </p>
                       </div> 
                     </div>
@@ -73,7 +73,7 @@
                       <div class="tab-pane fade show active" id="tabs-4-1">
                         <div class="product-big-rating">
                                 <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"
-                                >Montañita no deja de sorprender, actualmente este balneario ha incorporado un deporte extremo dentro de sus aguas marinas como es el parasailing. Para poderse elevar la lancha debe salir a toda velocidad y así se logrará una altura que dependiendo del viento se podrá llegar a unos 20 a 40 metros. Cabe mencionar que el recorrido dura entre 15 a 20 minuto, con un valor de 20 dólares, sin duda vivir esa aventura te llenara de adrenalina pura y llevando consigo mismo una experiencia inolvidable.
+                                ><?php echo $texto_traducido["hacer"][2] ?>
                                 </p>
                       </div>
                     </div>
@@ -109,7 +109,7 @@
                             <div class="tab-pane fade show active" id="tabs-4-1">
                               <div class="product-big-rating">
                                       <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"
-                                      >El voleibol es uno de los deportes que todavía se practica con mayor concurrencia en el entorno, varios turistas o los mismos pobladores de la comuna disfrutan de un momento agradable en una zona delimitada de la arena, para llevar a cabo la práctica de este deporte necesita estar dividida por una red o malla por donde pasa la pelota con el fin de que no toque la arena.
+                                      ><?php echo $texto_traducido["hacer"][3] ?>
                                       </p>
                             </div>
                           </div>

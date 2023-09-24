@@ -12,7 +12,7 @@
 
       <section class="section section-sm section-first bg-default text-md-left">
         <div class="container">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Camarones apanados al ajillo</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><?php echo $texto_traducido["gastro"][0] ?></a></h1>
           <div class="row row-50 justify-content-center align-items-xl-center">
             <div class="col-md-10 col-lg-5 col-xl-6">
               
@@ -34,7 +34,7 @@
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-1">
                     <div class="product-big-rating">
-                            <p class="contente__font1" style="text-align: justify; font-size: 17px;";>Los camarones son los más consumidos, pedidos en Apanados y al Ajillo, presentados con porciones de Arroz y Patacones, agregándole al gusto los clientes salsas y condimentos. 
+                            <p class="contente__font1" style="text-align: justify; font-size: 17px;";><?php echo $texto_traducido["gastro"][1] ?></a> 
 
                             </p>
                   </div>
@@ -47,7 +47,7 @@
     
       <section class="section section-sm section-first bg-default text-md-left"  >
         <div class="container" >
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Ceviche mixto</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastro"][2] ?></a></b></h1>
           <div class="row row-50 justify-content-center align-items-xl-center" >
             
             <div class="col-md-10 col-lg-7 col-xl-6"  >
@@ -62,7 +62,7 @@
                   <div class="tab-pane fade show active" id="tabs-4-1-2">
                     
                     <div class="product-big-rating">
-                            <p class="contente__font1" style="text-align: justify; font-size: 17px;">El ceviche mixto preparado básicamente con pescado, camarón, pulpo y concha negra, preparada con tomate y cebolla, acompañada de chifles y condimentos al gusto.
+                            <p class="contente__font1" style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastro"][3] ?></a>
                             </p>
                     </div>
                   </div>
@@ -83,7 +83,7 @@
 
       <section class="section section-sm section-first bg-default text-md-left">
         <div class="container">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Pescado apanado</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastro"][4] ?></a></b></h1>
           <div class="row row-50 justify-content-center align-items-xl-center">
             <div class="col-md-10 col-lg-5 col-xl-6">
               
@@ -106,7 +106,7 @@
                   <div class="tab-pane fade show active" id="tabs-4-1">
                     <div class="product-big-rating">
                     
-                    <p class="contente__font1" style="text-align: justify; font-size: 17px;">El pescado apanado consumido tradicionalmente, acompañado siempre de la porción de arroz, patacones y ensaladas fresca.
+                    <p class="contente__font1" style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastro"][5] ?></a>
 
                     </p>
                   </div>
@@ -117,7 +117,7 @@
 
       <section class="section section-sm section-first bg-default text-md-left"  >
         <div class="container" >
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Piqueo marinero</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastro"][6] ?></a></b></h1>
           <div class="row row-50 justify-content-center align-items-xl-center" >
             
             <div class="col-md-10 col-lg-7 col-xl-6"  >
@@ -132,8 +132,7 @@
                   <div class="tab-pane fade show active" id="tabs-4-1-2">
                     
                     <div class="product-big-rating">
-                    <p class="contente__font1" style="text-align: justify;font-size: 17px;">Es un platillo típico tradicional de Santa Elena. Se prepara haciendo una masa de plátano verde, la cual se pone en hojas de plátano, y se rellena con un condumio de pescado, se los puede servir con un café negro bien cargado y una salsa de ají picante, además se los puede acompañar con una porción de arroz que también le combina bien, lo que si no puede faltar es un limón.<br>
-                    <p class="contente__font1" style="text-align: justify;font-size: 17px;">Se los prepara con langostinos, pescado, concha negra, camarones y pulpo, el Piqueo va acompañado de patacones, ensalada y salsas al gusto, y el Arroz Marinero mezclado con arroz, condimentos y patacones.
+                    <p class="contente__font1" style="text-align: justify;font-size: 17px;"><?php echo $texto_traducido["gastro"][7] ?></a><br>
                     </p>
                   </div>
                   </div>
@@ -157,7 +156,7 @@
    
       <section class="section section-sm section-first bg-default text-md-left">
         <div class="container">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Sudado de pescado</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastro"][8] ?></a></b></h1>
           <div class="row row-50 justify-content-center align-items-xl-center">
             <div class="col-md-10 col-lg-5 col-xl-6">
               
@@ -180,7 +179,7 @@
                   <div class="tab-pane fade show active" id="tabs-4-1">
                     
                     <div class="product-big-rating">
-                    <p class="contente__font1" style="text-align: justify; font-size: 17px;">Es un platillo típico tradicional de Santa Elena. Se prepara haciendo una masa de plátano verde, la cual se pone en hojas de plátano, y se rellena con un condumio de pescado, se los puede servir con un café negro bien cargado y una salsa de ají picante, además se los puede acompañar con una porción de arroz que también le combina bien, lo que si no puede faltar es un limón.<br>
+                    <p class="contente__font1" style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["gastro"][9] ?></a><br>
                       <br>
                 
                     </p>
@@ -215,7 +214,7 @@
       <!-- Why choose us-->
       <section class="section section-sm section-first bg-default text-md-left">
         <div class="container">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>La sazón de Rocío </b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastro"][10] ?></a></b></h1>
           <div class="row row-50 justify-content-center align-items-xl-center">
             <div class="col-md-10 col-lg-5 col-xl-6">
             <a href="../PaginaValoraciones.php?img=sanjose/imagenes/sanjose/0372_cabana_la_sazon_de_rocio.jpg">
@@ -231,7 +230,7 @@
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                 <!-- Nav tabs-->
                 <ul class="nav nav-tabs" >
-                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab" >Descripción</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab" ><?php echo $texto_traducido["cultura"][1] ?></a></li>
                   
                 </ul>
                 <!-- Tab panes-->
@@ -239,11 +238,11 @@
                   <div class="tab-pane fade show active" id="tabs-4-1">
                     
                   <p style = "text-align: left; font-size: 17px ">
-                      <b>Especialidades: </b>
-                      <br>Desayunos - Almuerzo - Merienda - Cocteles - Camarones Apanados - Camarones Al Ajillo<br>
-                      <b>Horarios de atención:</b>  9:00 am hasta las 17:00 pm <br> 
-                     <b>Dirección:</b> Playa Comuna San José <br> 
-                     <b>Número de teléfono:</b> 0969209299
+                      <b><?php echo $texto_traducido["gastro"][11] ?></a> </b>
+                      <br><?php echo $texto_traducido["gastro"][12] ?></a><br>
+                      <b><?php echo $texto_traducido["gastro"][13] ?></a></b><?php echo $texto_traducido["gastro"][14] ?></a><br> 
+                     <b><?php echo $texto_traducido["gastro"][15] ?></a></b><?php echo $texto_traducido["gastro"][16] ?></a><br> 
+                     <b><?php echo $texto_traducido["gastro"][17] ?></a></b> 0969209299
 
                     </p>
                    
@@ -263,7 +262,7 @@
       <!--Seccion 2-->
       <section class="section section-sm section-first bg-default text-md-left"  >
         <div class="container" >
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Cabaña Felici Guitierres</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastro"][18] ?></a></b></h1>
           <div class="row row-50 justify-content-center align-items-xl-center" >
             
             <div class="col-md-10 col-lg-7 col-xl-6"  >
@@ -273,7 +272,7 @@
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                 <!-- Nav tabs-->
                 <ul class="nav nav-tabs" >
-                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-2" data-toggle="tab" >Descripción</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-2" data-toggle="tab" ><?php echo $texto_traducido["cultura"][1] ?></a></li>
                   
                   
                 </ul>
@@ -282,11 +281,11 @@
                   <div class="tab-pane fade show active" id="tabs-4-1-2">
                     
                   <p style = "text-align: left; font-size: 17px ">
-                      <b>Especialidades: </b>
-                      <br>Desayunos - Almuerzo - Merienda - Cocteles - Camarones Apanados - Pescado Apanado<br>
-                      <b>Horarios de atención:</b>  9:00 am hasta las 16:00 pm  <br> 
-                     <b>Dirección:</b> Playa Comuna San José <br> 
-                     <b>Número de teléfono:</b> 0969209299 
+                      <b><?php echo $texto_traducido["gastro"][11] ?></a></b>
+                      <br><?php echo $texto_traducido["gastro"][19] ?></a><br>
+                      <b><?php echo $texto_traducido["gastro"][13] ?></a></b>  <?php echo $texto_traducido["gastro"][20] ?></a>  <br> 
+                      <b><?php echo $texto_traducido["gastro"][15] ?></a></b><?php echo $texto_traducido["gastro"][16] ?></a><br> 
+                     <b><?php echo $texto_traducido["gastro"][17] ?></a></b> 0969209299 
 
                     </p>
                    
@@ -310,7 +309,7 @@
       <!--Seccion3-->
       <section class="section section-sm section-first bg-default text-md-left">
         <div class="container">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Cabaña Yahaira </b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["gastro"][21] ?></a></b></h1>
           <div class="row row-50 justify-content-center align-items-xl-center">
             <div class="col-md-10 col-lg-5 col-xl-6">
             <a href="../PaginaValoraciones.php?img=sanjose/imagenes/sanjose/0374_cabana_yajaira.jpg">
@@ -324,7 +323,7 @@
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                 <!-- Nav tabs-->
                 <ul class="nav nav-tabs" >
-                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-3" data-toggle="tab" >Descripción</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-3" data-toggle="tab" ><?php echo $texto_traducido["cultura"][1] ?></a></li>
                   
                   
                 </ul>
@@ -333,11 +332,11 @@
                   <div class="tab-pane fade show active" id="tabs-4-1-3">
                     
                   <p style = "text-align: left; font-size: 17px ">
-                      <b>Especialidades: </b>
-                      <br>Desayunos - Almuerzo - Merienda - Ceviche Mixto<br>
-                      <b>Horarios de atención:</b> solo fines de semana de 9:00 am hasta las 17:00 pm    <br> 
-                     <b>Dirección:</b> Playa Comuna San José <br> 
-                     <b>Número de teléfono:</b> 0967696689  
+                    <b><?php echo $texto_traducido["gastro"][11] ?></a></b>
+                      <br><?php echo $texto_traducido["gastro"][22] ?></a><br>
+                      <b><?php echo $texto_traducido["gastro"][13] ?></a></b> <?php echo $texto_traducido["gastro"][23] ?></a>    <br> 
+                      <b><?php echo $texto_traducido["gastro"][15] ?></a></b><?php echo $texto_traducido["gastro"][16] ?></a><br> 
+                      <b><?php echo $texto_traducido["gastro"][17] ?></a></b> 0967696689  
 
                     </p>
                     

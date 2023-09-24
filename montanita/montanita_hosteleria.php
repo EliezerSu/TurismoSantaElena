@@ -14,7 +14,7 @@
       <!--Seccion1-->
       <section class="section section-sm section-first bg-default text-md-left"  >
         <div class="container" >
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Hostería El Paraíso</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["ir"][10] ?></b></h1>
 
           <div class="row row-50 justify-content-center align-items-xl-center" >
             
@@ -24,25 +24,15 @@
               <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                 <!-- Nav tabs-->
                 <ul class="nav nav-tabs" >
-                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-4" data-toggle="tab" >Descripción</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2-4" data-toggle="tab">Detalle</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-4" data-toggle="tab" ><?php echo $texto_traducido["ir"][4] ?></a></li>
+                
                   
                 </ul>
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-1-4">
                     <p style = "text-align: justify; font-size: 17px ">
-                    La hostelería El Paraíso se encuentra ubicada en la comuna Montañita está cerca de Soluna Sanctuary y ofrece un alojamiento familiar es uno de los hostales de mayor emblema. Las habitaciones disponen de una caja fuerte en la habitación, TV y una zona de comedor, así como de baños privados. Una ducha y toallas también están incluidos en cada unidad. Cada mañana se invita a los huéspedes al bar para desayunar.
-                    </p>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-4-2-4">
-                    <p style = "text-align: justify; font-size: 17px">
-                      <b>Nombre del alojamiento: </b> Hostelería El Paraíso <br>
-                      <b>Categoría: </b> 3 Estrellas<br>
-                      <b>Servicios: </b> Alojamiento<br>
-                      <b>Horarios: </b> 24 horas<br>
-                      <b>Número de teléfono:</b> 0996798395<br>
-                      <b>Dirección:</b> Barrio el Tigrillo, Montañita, Ecuador <br>                                            
+                    <?php echo $texto_traducido["ir"][11] ?>
                     </p>
                   </div>
                   

@@ -7,7 +7,7 @@
                   <div class="swiper-slide-caption section-md">
                     <div class="container">
                       <div class="row">
-                      <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold">Reserva de experiencias</span></h2>
+                      <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold"><?php echo $texto_traducido["exp"][0] ?></span></h2>
               
                       </div>
                     </div>
@@ -32,17 +32,17 @@
 
       <div class="container">
             <br>
-            <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Reserva de experiencias</b></h1>
+            <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["exp"][0] ?></b></h1>
                     <br><br>
                     <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"> 
-                    En la comuna Montañita vivirás una experiencia única, donde podrás conocer más sobre su gente, sus atractivos, las fiestas nocturnas y degustar sabores únicos, con nuestros folletos podrás descubrir lo mejor de esta hermosa comuna. 
+                    <?php echo $texto_traducido["exp"][1] ?>
                     </p>        
           </div>
           </section>
       <!--Seccion 1-->
           <section>
           <br><br><br>
-          <h1 class="text-spacing-25 font-weight-normal title-opacity-9 text-center tamaño-letra" style="text-align: center;color:#122638" ><b>Atractivos naturales y culturales</b></h1>
+          <h1 class="text-spacing-25 font-weight-normal title-opacity-9 text-center tamaño-letra" style="text-align: center;color:#122638" ><b><?php echo $texto_traducido["exp"][2] ?></b></h1>
           <br>
           <div class="d-flex justify-content-center align-items-center">
               <img src="imagenes/montanita/0586_folleto1.jpg" class="folleto img-fluid w-75 h-50"  alt="" style="width: 70%; border-radius: 15px;">
@@ -51,16 +51,16 @@
           <br><br>
           <div class="botonesPdf ">
               <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto col-3"  href="pdf/folleto1.pdf" 
-              target="_blank">Ver en línea</a>
+              target="_blank"><?php echo $texto_traducido["exp"][3] ?></a>
               <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto col-3"  href="pdf/folleto1.pdf" 
-              download="Atractivos naturales y culturales.pdf">Descargar</a>      
+              download="Atractivos naturales y culturales.pdf"><?php echo $texto_traducido["exp"][4] ?></a>      
           </div>
       </section>
           <br><br>
           <!--Seccion 2-->
           <section>
           <br><br>
-          <h1 class="text-spacing-25 font-weight-normal title-opacity-9 text-center tamaño-letra" style="text-align: center;color:#122638" ><b>Generalidades de Montañita</b></h1>
+          <h1 class="text-spacing-25 font-weight-normal title-opacity-9 text-center tamaño-letra" style="text-align: center;color:#122638" ><b><?php echo $texto_traducido["exp"][5] ?></b></h1>
           <br>
           <div class="d-flex justify-content-center align-items-center">
               <img src= "imagenes/montanita/0594_folleto2.jpg" class="folleto img-fluid w-75 h-50"  alt="" style="width: 70%; border-radius: 15px;">
@@ -68,16 +68,16 @@
           <br>
           <div class="botonesPdf ">
               <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto col-3"  href="pdf/folleto2.pdf"
-              target="_blank">Ver en línea</a>
+              target="_blank"><?php echo $texto_traducido["exp"][3] ?></a>
               <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto col-3"  href="pdf/folleto2.pdf"
-              download="Generalidades de Montañita.pdf">Descargar</a>      
+              download="Generalidades de Montañita.pdf"><?php echo $texto_traducido["exp"][4] ?></a>      
           </div>
       </section>
       <br><br>
       <!--Seccion 3-->
       <section>
           <br><br>
-          <h1 class="text-spacing-25 font-weight-normal title-opacity-9 text-center tamaño-letra" style="text-align: center;color:#122638" ><b>Actividades, gastronomía y cultura</b></h1>
+          <h1 class="text-spacing-25 font-weight-normal title-opacity-9 text-center tamaño-letra" style="text-align: center;color:#122638" ><b><?php echo $texto_traducido["exp"][6] ?></b></h1>
           <br>
           <div class="d-flex justify-content-center align-items-center">
               <img src= "imagenes/montanita/0595_folleto3.jpg" class="folleto img-fluid w-75 h-50"  alt="" style="width: 70%; border-radius: 15px;">
@@ -85,9 +85,9 @@
           <br>
           <div class="botonesPdf ">
               <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto col-3"  href="pdf/folleto3.pdf"
-              target="_blank">Ver en línea</a>
+              target="_blank"><?php echo $texto_traducido["exp"][3] ?></a>
               <a class="d-flex justify-content-center button button-black-outline button-ujarak mx-auto col-3"  href="pdf/folleto3.pdf"
-              download="Actividades, gastronomía y cultura.pdf">Descargar</a>      
+              download="Actividades, gastronomía y cultura.pdf"><?php echo $texto_traducido["exp"][4] ?></a>      
           </div>
       </section>
       <br><br>
