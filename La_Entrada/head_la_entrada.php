@@ -106,7 +106,7 @@ $texto_traducido = GetTextoTraducido("../language/la_entrada");
                 <li>
                 <li><a class="dropdown-item font__size" href="gastronomia_laentrada.php"><?php echo $texto_traducido["header"]["subtitle-1"][1] ?></a>
                 <li>
-                <li><a class="dropdown-item font__size" href="rutas_la_entrada.php">Rutas y excursiones</a></li>
+                <li><a class="dropdown-item font__size" href="rutas_la_entrada.php"><?php echo $texto_traducido["header"]["subtitle-1"][2] ?></a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -115,11 +115,11 @@ $texto_traducido = GetTextoTraducido("../language/la_entrada");
               </a>
 
               <ul class="dropdown-menu bg-secondary text-center" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="comollegar_laentrada.php">¿Cómo llegar?</a></li>
-                <li><a class="dropdown-item" href="hospedaje_la_entrada.php">¿Dónde alojarse?</a>
+                <li><a class="dropdown-item" href="comollegar_laentrada.php"><?php echo $texto_traducido["header"]["subtitle-1"][3] ?></a></li>
+                <li><a class="dropdown-item" href="hospedaje_la_entrada.php"><?php echo $texto_traducido["header"]["subtitle-1"][4] ?></a>
                 </li>
-                <li><a class="dropdown-item" href="folletos.php">Itinerario</a></li>
-                <li><a class="dropdown-item" href="tiempo_laentrada.php">Tiempo</a></li>
+                <li><a class="dropdown-item" href="folletos.php"><?php echo $texto_traducido["header"]["subtitle-1"][5] ?></a></li>
+                <li><a class="dropdown-item" href="tiempo_laentrada.php"><?php echo $texto_traducido["header"]["subtitle-1"][6] ?></a></li>
 
               </ul>
             </li>
