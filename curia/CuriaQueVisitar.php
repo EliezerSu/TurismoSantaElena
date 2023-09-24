@@ -33,14 +33,14 @@
       </div>
       <div class="col-md-10 col-lg-7">
 
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Playa turística Curía</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["que_visitar"][0] ?></b></h1>
 
         <!-- Bootstrap tabs-->
         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
           <!-- Nav tabs-->
           <ul class="nav nav-tabs">
-            <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab">Descripción</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2" data-toggle="tab">Ubicación</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab"><?php echo $texto_traducido["que_visitar"][1] ?></a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2" data-toggle="tab"><?php echo $texto_traducido["que_visitar"][2] ?></a></li>
             <!--
                 <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-3" data-toggle="tab">Mission</a></li> -->
           </ul>
@@ -49,7 +49,7 @@
             <div class="tab-pane fade show active" id="tabs-4-1">
 
               <p style="text-align: justify; font-size: 17px;">
-                Esta hermosa playa tiene una longitud de 1.300 metros de extensión, y 70 metros de ancho, su arena es fina y suave de color gris claro, donde el visitante puede disfrutar de sus aguas tranquilas y con temporadas de oleaje para surfistas, con una temperatura de 28ºC en sus aguas de color verde turquesa, por su ubicación un tanto aislada los turistas pueden disfrutar de la práctica de surf, bodyboard, caminatas y relajarse por su ambiente hogareño, para la comodidad de los visitantes la playa dispone de servicios de comedores al pie de la playa y alquiler de carpas. Todo esto convierte a la playa de curia en un lugar ideal para el descanso ya que está rodeada de montañas y el estero la piedra, dicha playa cuenta con una vegetación exuberante donde se aprecian los cocoteros y vegetación rastrera de playa, teniendo habitantes amigables y que se implican con la atención de los visitantes a esta zona.
+                <?php echo $texto_traducido["que_visitar"][3] ?>
               </p>
 
             </div>
@@ -93,20 +93,20 @@
 
       <div class="col-md-10 col-lg-7">
 
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Iglesia María Inmaculada</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["que_visitar"][4] ?></b></h1>
         <!-- Bootstrap tabs-->
         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
           <!-- Nav tabs-->
           <ul class="nav nav-tabs">
-            <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-2" data-toggle="tab">Descripción</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2-2" data-toggle="tab">Ubicación</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-2" data-toggle="tab"><?php echo $texto_traducido["que_visitar"][1] ?></a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2-2" data-toggle="tab"><?php echo $texto_traducido["que_visitar"][2] ?></a></li>
           </ul>
           <!-- Tab panes-->
           <div class="tab-content">
 
             <div class="tab-pane fade show active" id="tabs-4-1-2">
               <p style="text-align: justify; font-size: 17px">
-                La iglesia María Inmaculada es un patrimonio cultural que cuenta con pocos años de creación debido a que se construyó el año 2016. Se encuentra ubicada en el barrio 8 de Diciembre, calle E15. Uno de los elementos distintivos es la gruta de la virgen María Inmaculada a la cual se puede ir a rezar y además cuenta con mobiliario para la misma actividad.
+                <?php echo $texto_traducido["que_visitar"][5] ?>
               </p>
             </div>
 
@@ -205,13 +205,13 @@
           </div>
           <div class=" col-md-10 col-lg-7">
 
-                <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Mirador turístico</b></h1>
+                <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["que_visitar"][6] ?></b></h1>
                 <!-- Bootstrap tabs-->
                 <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                   <!-- Nav tabs-->
                   <ul class="nav nav-tabs">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-3" data-toggle="tab">Descripción</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2-3" data-toggle="tab">Ubicación</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-3" data-toggle="tab"><?php echo $texto_traducido["que_visitar"][1] ?></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2-3" data-toggle="tab"><?php echo $texto_traducido["que_visitar"][2] ?></a></li>
 
                   </ul>
                   <!-- Tab panes-->
@@ -219,7 +219,7 @@
 
                     <div class="tab-pane fade show active" id="tabs-4-1-3">
                       <p style="text-align: justify; font-size: 17px">
-                        El mirador turístico es un sitio natural de que cuenta la comuna curia, esta ubicado al frente de la vía principal de la comuna, en una pequeña colina que tiene como extensión de unos aproximados 30 a 35 metros de altura, en ella se puede observar una vista grandiosa de toda la comuna y su hermosa playa, perfecto para tomar fotos y apreciar de un ambiente agradable, en ella se podrá observar aves que vuelan a los alrededores al igual que caballos que suben a la colonia. Subiendo un poco mas también podemos
+                        <?php echo $texto_traducido["que_visitar"][7] ?>
                       </p>
                     </div>
                     <div class="tab-pane fade" id="tabs-4-2-3">
@@ -264,29 +264,22 @@
 
       <div class="col-md-10 col-lg-7">
 
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Artesanías</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["que_visitar"][8] ?></b></h1>
         <!-- Bootstrap tabs-->
         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
           <!-- Nav tabs-->
           <ul class="nav nav-tabs">
-            <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-4" data-toggle="tab">Descripción</a></li>
-            <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2-4" data-toggle="tab">Ubicación</a></li> -->
+            <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1-4" data-toggle="tab"><?php echo $texto_traducido["que_visitar"][1] ?></a></li>
+            <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2-4" data-toggle="tab"><?php echo $texto_traducido["que_visitar"][2] ?></a></li> -->
 
           </ul>
           <!-- Tab panes-->
           <div class="tab-content">
             <div class="tab-pane fade show active" id="tabs-4-1-4">
               <p style="text-align: justify; font-size: 17px ">
-                Las artesanías de la comuna son muy llamativas, para ellos cada uno de los comuneros que tienen estas habilidades la desarrollan y las exhiben dentro de sus viviendas o las exhiben dentro de las playas para que el turista pueda conocer de ellas y cómpralas.
+                <?php echo $texto_traducido["que_visitar"][9] ?>
               </p>
             </div>
-            <!-- <div class="tab-pane fade" id="tabs-4-2-4">
-                  <div class="row row-40 justify-content-center text-center inset-top-10">
-                    <div class="mapa">
-                      <div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.9537706157819!2d-80.76413559843499!3d-1.773305849415749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902c2b0191ee385b%3A0x248d60774ba489b5!2sCur%C3%ADa-Ruta%20Del%20Spondylus!5e0!3m2!1ses!2sec!4v1672867326057!5m2!1ses!2sec" width="500" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><style>.mapouter{position:relative;text-align:right;width:100%;height:360px;}.gmap_canvas {overflow:hidden;background:none!important;width:500px;height:360px;}.gmap_iframe {height:400px!important;}</style></div>
-                    </div>                      
-                  </div>
-                </div> -->
           </div>
         </div>
       </div>
