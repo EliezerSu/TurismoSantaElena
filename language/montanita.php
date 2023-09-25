@@ -175,10 +175,7 @@ $texto = [
             
             
         ],
-        "fiesta" => [
-            "Agenda de Fiestas",
-            ""
-        ],
+        
             
         
     ],
@@ -357,9 +354,7 @@ $texto = [
             "December to May",
             "Climate in Montanita"
         ],
-        "fiesta" => [
-            "Party Agenda",
-            ""
-        ],
+        
+        
     ]
 ];

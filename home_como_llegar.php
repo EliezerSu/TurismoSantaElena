@@ -4,7 +4,7 @@
     <div style="text-align: center;" class="banner-tiempo">
       <div>
         <br><br>
-        <h3 style="text-align: center;" class="titulo-llegar">¿Cómo llegar?</h3>
+        <h3 style="text-align: center;" class="titulo-llegar"><?php echo $texto_traducido["plani"][0] ?></h3>
       </div>
     </div>
     </section>
@@ -17,17 +17,17 @@
         <div class="pViaje" style="text-align: center;">
           <a class="cont" href="#aerolineas"><i class="fa-solid fa-plane"></i></a>
           <br>
-          <a style="text-decoration: none;" class="cont1" href="#aerolineas">¿Cómo llegar?</a>
+          <a style="text-decoration: none;" class="cont1" href="#aerolineas"><?php echo $texto_traducido["plani"][0] ?></a>
         </div>
         <div class="pViaje" style="text-align: center;">
           <a class="cont" href="#comoMoverse"><i class="fa-solid fa-car"></i></a>
           <br>
-          <a style="text-decoration: none;" class="cont1" href="#comoMoverse">¿Cómo moverse?</a>
+          <a style="text-decoration: none;" class="cont1" href="#comoMoverse"><?php echo $texto_traducido["plani"][1] ?></a>
         </div>
         <div class="pViaje" style="text-align: center;">
           <a class="cont" href="#informacion"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
           <br>
-          <a style="text-decoration: none;" class="cont1" href="#informacion">Información</a>
+          <a style="text-decoration: none;" class="cont1" href="#informacion"><?php echo $texto_traducido["plani"][2] ?></a>
         </div>
       </div>
     </section>
@@ -37,23 +37,23 @@
     <br><br><br><br>
       <section>
         <br><br>
-        <h3 class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Cómo llegar?</b></h3>
+        <h3 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["plani"][0] ?></b></h3>
         <br>
-        <p class="paAe" style="text-align: justify; font-size: 17px;">Conoce más sobre cómo llegar a la provincia de Santa Elena en los diferentes medios de transporte, de esta manera estarás preparado para una nueva aventura.</p>
+        <p class="paAe" style="text-align: justify; font-size: 17px;"><?php echo $texto_traducido["plani"][3] ?></p>
         <br><br>
-        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>Aerolíneas</b></h1>
+        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["plani"][4] ?></b></h1>
         <br>
         <div class="container-card">
           <div class="card">
             <div class="contenido-card">
                 <h3><b>Avianca</b></h3>
                 <p>
-                  <b>Sitio de reservas: </b><br>
-                  <a href="https://www.avianca.com" target="_blank">Visitar</a><br>
-                  <b>Reservas: </b>1-800-003434<br>
+                  <b><?php echo $texto_traducido["plani"][5] ?> </b><br>
+                  <a href="https://www.avianca.com" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                  <b><?php echo $texto_traducido["plani"][7] ?> </b>1-800-003434<br>
                   <b>WhatsApp: </b>+593 (9)68555555<br>
-                  <b>Reclamos equipajes: </b>+593 (2) 3978216<br>
-                  <b>Oficina: </b>Junín 440 y Córdova<br> 
+                  <b><?php echo $texto_traducido["plani"][8] ?> </b>+593 (2) 3978216<br>
+                  <b><?php echo $texto_traducido["plani"][9] ?> </b>Junín 440 y Córdova<br> 
                 </p>
             </div>
           </div>
@@ -61,12 +61,12 @@
               <div class="contenido-card">
                   <h3><b>American Airlines</b></h3>
                   <p>
-                    <b>Sitio de reservas: </b><br>
-                    <a href="https://www.aa.com" target="_blank">Visitar</a><br>
-                    <b>Reservas:</b> +539 (4) 2598800<br>
-                    <b>Reclamos equipajes:</b> +593 (4) 2169253 <br>
-                    <b>Carga:</b> +593 (4) 6017439<br>
-                    <b>Oficina:</b> Centro comercial<br>
+                    <b><?php echo $texto_traducido["plani"][5] ?> </b><br>
+                    <a href="https://www.aa.com" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                    <b><?php echo $texto_traducido["plani"][7] ?></b> +539 (4) 2598800<br>
+                    <b><?php echo $texto_traducido["plani"][8] ?></b> +593 (4) 2169253 <br>
+                    <b><?php echo $texto_traducido["plani"][8] ?> </b> +593 (4) 6017439<br>
+                    <b><?php echo $texto_traducido["plani"][9] ?></b> Centro comercial<br>
                     Policentro, Cdla. Kennedy <br>
                   </p>
               </div>
@@ -75,9 +75,9 @@
               <div class="contenido-card">
                   <h3><b>KLM</b></h3>
                   <p>
-                    <b>Sitio de reservas: </b><br>
-                    <a href="https://www.klm.com.ec" target="_blank">Visitar</a><br>
-                    <b>Reservas:</b> 1-800-000944<br>
+                    <b><?php echo $texto_traducido["plani"][5] ?> </b><br>
+                    <a href="https://www.klm.com.ec" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                    <b><?php echo $texto_traducido["plani"][7] ?></b> 1-800-000944<br>
                     <b>WhatsApp:</b> +31 206490787 <br>
                   </p>
               </div>
@@ -88,10 +88,10 @@
               <div class="contenido-card">
                   <h3><b>Latam</b></h3>
                   <p>
-                    <b>Sitio de reservas: </b><br>
-                    <a href="https://www.latamairlines.com" target="_blank">Visitar</a><br>
-                    <b>Reservas: </b>1-800-000527<br>
-                    <b>Oficina: </b>Mall del Sol, Planta<br>
+                    <b><?php echo $texto_traducido["plani"][5] ?> </b><br>
+                    <a href="https://www.latamairlines.com" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                    <b><?php echo $texto_traducido["plani"][7] ?> </b>1-800-000527<br>
+                    <b><?php echo $texto_traducido["plani"][9] ?> </b>Mall del Sol, Planta<br>
                   </p>
               </div>
           </div>
@@ -102,31 +102,31 @@
 
       <section>
         <br><br><br><br>
-        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>Buses</b></h1>
+        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["plani"][10] ?></b></h1>
         <br>
         <div class="container-card">
           <div class="card">
             <div class="contenido-card">
-                <h3><b>Terminal de Guayaquil</b></h3>
+                <h3><b><?php echo $texto_traducido["plani"][11] ?></b></h3>
                 <h4><b>Cooperativa CLP</b></h4>
                 <p>
-                <b>Guayaquil a Santa Elena: </b>Pasaje - $4,90<br>
-                <b>Santa Elena a Guayaquil: </b>Pasaje - $5,00.<br>
+                <b><?php echo $texto_traducido["plani"][12] ?> </b>- $4,90<br>
+                <b><?php echo $texto_traducido["plani"][13] ?> </b>- $5,00.<br>
                 </p>
             </div>
           </div>
           <div class="card">
               <div class="contenido-card">
-                  <h3><b>Terminal de Santa Elena</b></h3>
+                  <h3><b><?php echo $texto_traducido["plani"][14] ?></b></h3>
                   <h4><b>Cooperativa para la zona norte - Manglaralto, CITUP, Reales Tamarindo.</b></h4>
                   <p>
-                  <b>Costo del pasaje: </b>$2,00<br>
+                  <b><?php echo $texto_traducido["plani"][15] ?> </b>$2,00<br>
                   </p>
               </div>
           </div>
           <div class="card">
               <div class="contenido-card">
-                  <h3><b>Terminal de Santa Elena</b></h3>
+                  <h3><b><?php echo $texto_traducido["plani"][14] ?></b></h3>
                   <h4><b>Cooperativa Intercantonales Trunsa – Horizonte – Trancisa – Salicel, Mar Azul</b></h4>
                   <p>
                   <b>Pacifico</b><br>
@@ -138,7 +138,7 @@
 
       <section>
         <br><br><br><br>
-        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>Alquiler de autos</b></h1>
+        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["plani"][16] ?></b></h1>
         <br>
 
         <div class="container-card">
@@ -147,10 +147,10 @@
                   <h3><b>Budget</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.budget.com.ec" target="_blank">Visitar</a><br>
-                    <b>Contacto: </b>(02) 382-2340 <br>
-                    <b>Precio: </b>1 Día desde $50
+                    <b><?php echo $texto_traducido["plani"][17] ?> </b><br>
+                    <a href="https://www.budget.com.ec" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                    <b><?php echo $texto_traducido["plani"][9] ?> </b>(02) 382-2340 <br>
+                    <b><?php echo $texto_traducido["plani"][18] ?> </b>1 Día desde $50
                   </p>
               </div>
           </div>
@@ -159,10 +159,10 @@
                   <h3><b>Rent cars</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.rentcars.com" target="_blank">Visitar</a><br>
-                    <b>Contacto: </b>0997634610<br>
-                    <b>Precio: </b>1 Día desde $37
+                    <b><?php echo $texto_traducido["plani"][17] ?> </b><br>
+                    <a href="https://www.rentcars.com" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                    <b><?php echo $texto_traducido["plani"][9] ?> </b>0997634610<br>
+                    <b><?php echo $texto_traducido["plani"][18] ?> </b>1 Día desde $37
                   </p>
               </div>
           </div>
@@ -171,10 +171,10 @@
                   <h3><b>Hertz</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.hertz.com" target="_blank">Visitar</a><br>
-                    <b>Contacto: </b>+593-2-3829559 <br>
-                    <b>Precio: </b>1 Día desde $50
+                    <b><?php echo $texto_traducido["plani"][17] ?> </b><br>
+                    <a href="https://www.hertz.com" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                    <b><?php echo $texto_traducido["plani"][9] ?> </b>+593-2-3829559 <br>
+                    <b><?php echo $texto_traducido["plani"][18] ?> </b>1 Día desde $50
                   </p>
               </div>
           </div>
@@ -185,10 +185,10 @@
                   <h3><b>Europcar</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.europcar.es" target="_blank">Visitar</a><br>
-                    <b>Contacto: </b>911 505 000 <br>
-                    <b>Precio: </b>1 Día desde $37
+                    <b><?php echo $texto_traducido["plani"][17] ?> </b><br>
+                    <a href="https://www.europcar.es" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                    <b><?php echo $texto_traducido["plani"][9] ?> </b>911 505 000 <br>
+                    <b><?php echo $texto_traducido["plani"][18] ?> </b>1 Día desde $37
                   </p>
               </div>
           </div>
@@ -197,11 +197,11 @@
                   <h3><b>kayak</b></h3>
                   <p></p>
                   <p>
-                    <b>Sitio: </b><br>
-                    <a href="https://www.kayak.com.ec" target="_blank">Visitar</a><br>
-                    <b>Contacto: </b>+593 99 934 3898<br>
+                    <b><?php echo $texto_traducido["plani"][17] ?> </b><br>
+                    <a href="https://www.kayak.com.ec" target="_blank"><?php echo $texto_traducido["plani"][6] ?></a><br>
+                    <b><?php echo $texto_traducido["plani"][9] ?> </b>+593 99 934 3898<br>
                     <b>info@kayakecuador.net</b><br>
-                    <b>Precio: </b>1 Día desde $40
+                    <b><?php echo $texto_traducido["plani"][18] ?> </b>1 Día desde $40
                   </p>
               </div>
           </div>
@@ -211,17 +211,17 @@
     <br><br><br><br>
 
     <section>
-      <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Cómo moverse?</b></h1><br>
+      <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["plani"][1] ?></b></h1><br>
       <p class="paAe" style="text-align: justify; font-size: 17px;">
-        Te brindamos información sobre las distancias, conexiones y tiempo con las diferentes ciudades del Ecuador, para que puedas organizar un maravilloso viaje.
+      <?php echo $texto_traducido["plani"][19] ?>
       </p>
       <br>
       <table class="table-fill">
         <thead class="thead-dark">
           <tr>
-            <th style="text-left">Ciudad</th>
-            <th style="text-left">Distancia</th>
-            <th style="text-left">Tiempo</th>
+            <th style="text-left"><?php echo $texto_traducido["plani"][20] ?></th>
+            <th style="text-left"><?php echo $texto_traducido["plani"][21] ?></th>
+            <th style="text-left"><?php echo $texto_traducido["plani"][22] ?></th>
           </tr>
         </thead>
         <tbody class="table-hover">
@@ -292,20 +292,20 @@
       <br><br><br><br><br>
 
       <section>
-        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b>Información</b></h1>
+        <h1  class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["plani"][2] ?></b></h1>
         <br>
         <p class="paAe" style="text-align: justify; font-size: 17px;">
-          Información sobre, sanidad, cajeros de bancos, cooperativas de taxi, seguridad, supermercados que podrás encontrar en la provincia de Santa Elena, de tal manera estarás informado sobre todo lo importante que necesitas para tu visita.        </p>
+        <?php echo $texto_traducido["plani"][23] ?></p>
         <br>
 
         <div class="container-card">
           <div class="card">
             <div class="contenido-card"><br>
                 <i class="fa-solid fa-suitcase-medical loHosp"></i>
-                <h3><b>Hospital Básico Dr. Liborio Panchana Sotomayor</b></h3>
+                <h3><b><?php echo $texto_traducido["plani"][24] ?> Dr. Liborio Panchana Sotomayor</b></h3>
                 <p>
-                  <b>Dirección: </b>Q49W+FRP, Santa Elena<br>
-                  <b>Horario: </b>24 horas
+                  <b><?php echo $texto_traducido["plani"][33] ?> </b>Q49W+FRP, Santa Elena<br>
+                  <b><?php echo $texto_traducido["plani"][34] ?> </b>24 horas
                 </p>
             </div>
           </div>
@@ -313,10 +313,10 @@
           <div class="card">
             <div class="contenido-card"><br>
                 <i class="fa-solid fa-suitcase-medical loHosp"></i>
-                <h3><b>Hospital Básico de Salinas "Dr. José Garcés Rodríguez"</b></h3>
+                <h3><b><?php echo $texto_traducido["plani"][24] ?> de Salinas "Dr. José Garcés Rodríguez"</b></h3>
                 <p>
-                  <b>Dirección: </b>Q2MV+X6Q, Salinas<br>
-                  <b>Horario: </b>24 horas
+                  <b><?php echo $texto_traducido["plani"][33] ?> </b>Q2MV+X6Q, Salinas<br>
+                  <b><?php echo $texto_traducido["plani"][34] ?> </b>24 horas
                 </p>
             </div>
           </div>
@@ -324,13 +324,13 @@
           <div class="card">
             <div class="contenido-card"><br>
                 <i class="fa-solid fa-house-medical-circle-check loHosp"></i>
-                <h3><b>Farmacias</b></h3>
+                <h3><b><?php echo $texto_traducido["plani"][25] ?></b></h3>
                 <p>
-                  Farmacia de Cruz<br>
-                  Farmacia Sana Sana<br>
-                  Farmacia 911<br>
-                  Farmacia Santa Martha<br>
-                  Farmacia Comunitaria
+                <?php echo $texto_traducido["plani"][25] ?> Cruz Azul<br>
+                <?php echo $texto_traducido["plani"][25] ?> Sana Sana<br>
+                <?php echo $texto_traducido["plani"][25] ?> 911<br>
+                <?php echo $texto_traducido["plani"][25] ?> Santa Martha<br>
+                <?php echo $texto_traducido["plani"][25] ?> Comunitaria
                 </p>
             </div>
           </div>
@@ -339,7 +339,7 @@
           <div class="card">
             <div class="contenido-card"><br>
                 <i style="color: yellow;" class="fa-solid fa-cash-register loHosp"></i>
-                <h3><b>Cajeros de banco</b></h3>
+                <h3><b><?php echo $texto_traducido["plani"][26] ?></b></h3>
                 <p>
                   Banco Guayaquil<br>
                   Banco Pichincha<br>
@@ -353,13 +353,13 @@
           <div class="card">
             <div class="contenido-card"><br>
               <i style="color: yellow;" class="fa-solid fa-taxi loHosp"></i>
-              <h3><b>Cooperativa de taxis</b></h3>
+              <h3><b><?php echo $texto_traducido["plani"][27] ?></b></h3>
               <div class="table-responsive">
               <table class="table">
                 <thead class="bg-primary text-white border-0">
                   <tr class="table-header">
-                    <th class="text-center fw-bold">Cooperativas</th>
-                    <th class="text-center fw-bold">Teléfonos</th>
+                    <th class="text-center fw-bold"><?php echo $texto_traducido["plani"][28] ?></th>
+                    <th class="text-center fw-bold"><?php echo $texto_traducido["plani"][29] ?></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -391,17 +391,17 @@
           <div class="card">
             <div class="contenido-card"><br>
                 <i style="color: blue;" class="fa-solid fa-building-shield loHosp"></i>
-                <h3><b>Ubicación del UPC</b></h3>
+                <h3><b><?php echo $texto_traducido["plani"][30] ?></b></h3>
                 <p>
-                <b>Dirección: </b>Q5C2+8WC, Vía a la Costa, Santa Elena<br>
-                <b>Horario: </b>24 horas
+                <b><?php echo $texto_traducido["plani"][33] ?> </b>Q5C2+8WC, Vía a la Costa, Santa Elena<br>
+                <b><?php echo $texto_traducido["plani"][34] ?> </b>24 horas
                 </p>
             </div>
           </div>
           <div class="card">
             <div class="contenido-card"><br>
                 <i style="color: orange;" class="fas fa-shopping-cart loHosp"></i>
-                <h3><b>Supermercados</b></h3>
+                <h3><b><?php echo $texto_traducido["plani"][32] ?></b></h3>
                 <p>
                   Tia S.A<br>
                   Tuti<br>

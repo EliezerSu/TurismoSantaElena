@@ -640,7 +640,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Parroquialización de Ancón</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][0] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -677,7 +677,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                El 4 de febrero de cada año se realiza la celebración de la fecha de parroquialización de San José de Ancón, misma que se caracteriza por distintas actividades sociales y culturas, entre ellas que se encuentran el pregón, la elección de la reina y el desfile cívico. Durante el desarrollo de las festividades son partícipes tanto la misma comunidad como otras personas de comunidades aledañas.</p>
+                <?php echo $texto_traducido["conte"][0] ?></p>
             </div>
          </section>
       </div>
@@ -690,7 +690,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiestas de Curía</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][1] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -711,7 +711,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                En este evento se realiza sesión solemne y reconocimiento a los expresidentes y a las personas que más colaboran en la comunidad, además se dio la participación de juegos tradicionales, tales como: la olla encantada, el huevo en la cuchara, ensacado, tres piernas, el palo encebado, entre otros. En la noche se realiza la respectiva quema de castillo, la vaca loca como normalmente se hace, tradición que se da también en las demás comunidades, por finalizar se hace el respectivo baile donde hacen partícipe la gente, la comunidad. Otras actividades que se realiza en este día de gran importancia para esta comunidad, para celebrar un año más de institucionalidad se procede a realizar desfiles donde participan organizaciones, instituciones públicas y educativas, carros alegóricos, danzas culturales autóctonas y bandas artísticas, el desarrollo de estas actividades están planificadas por las autoridades a nivel local.</p>
+                <?php echo $texto_traducido["conte"][1] ?></p>
             </div>
          </section>
       </div>
@@ -724,7 +724,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel" >  <h3 class="titumodal" style="text-align: center;">Fiesta en honor a vuestra señora de Lourdes</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel" >  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][2] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -749,7 +749,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Se celebra los días 10 y 11 de febrero, es un Evento Religioso donde se rinde homenaje a la señora Lourdes, dando una reunión religiosa con todos los comuneros de la localidad, he visitantes, que son fieles religiosos a la virgen.</p>
+                <?php echo $texto_traducido["conte"][2] ?></p>
             </div>
          </section>
       </div>
@@ -762,7 +762,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Carnaval</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][3] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -787,7 +787,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Las festividades de Carnaval constituyen el momento idea para disfrutar de la playa, el sol y la arena en la parroquia Anconcito, donde propios y extraños aprovechan para realizar actividades turísticas, deportes acuáticos y deleitarse de la gastronomía. También es muy común, que las personas se diviertan lanzando agua y carioca a aquellos que pasan por los distintos barrios de este territorio o a los turistas que visitan sus amplias playas.</p>
+                <?php echo $texto_traducido["conte"][3] ?></p>
             </div>
          </section>
       </div>
@@ -800,7 +800,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta patronal en honor a San José</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][4] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -821,7 +821,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                En la comuna se pueden conocer varias tradiciones y festividades, entre ellas están las fiestas patronales, las cuales se dan los días 16, 17, 18 y 19 del mes de marzo, en donde se celebra al “Patrono San José”, se realizan misas, juegos tradicionales y el baile típico de la zona.</p>
+                <?php echo $texto_traducido["conte"][4] ?></p>
             </div>
          </section>
       </div>
@@ -834,7 +834,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta católica de San José de Ancón</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][5] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -871,7 +871,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Se origina en los años XX se inicia la primera misa en ancón por un sacerdote polaco que llevo la tradición de acuerdo con esta manifestación tradicional, donde se realizaba una misa, cuyo dato histórico recae en que alrededor de 35 polacos llegaron al Campamento minero llamado así en aquel entonces, expertos en perforación petrolera, por ello se creó la Iglesia San José de Ancón en representación a un patrono, en los años 1960 su construcción inicialmente fue de caña por lo que a través de los años ha ido transcendiendo en su arquitectura hasta la actualidad, se dio gracias a que los ingleses eran devotos católicos.</p>
+                <?php echo $texto_traducido["conte"][5] ?></p>
             </div>
          </section>
       </div>
@@ -884,7 +884,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Festival de cometas</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][6] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -909,7 +909,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                El festival de las cometas se celebra en las fechas 26 y 27 de abril en el cual un grupo de jóvenes de la comuna de Olón promueven a concientizar la ecología e invita a respetar la naturaleza como estrategia de enseñanza para la comunidad, en este festival se realizan varias actividades como juegos tradicionales, danzas folclóricas, la elección de la diosa de la fertilidad vestida de trajes típicos alusivos a la cultura de la costa ecuatoriana y la actividad principal de cometas en representación a los sueños de los Huancavilcas.</p>
+                <?php echo $texto_traducido["conte"][6] ?></p>
             </div>
          </section>
       </div>
@@ -922,7 +922,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta en honor a San Isidro Labrador carnaval</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][7] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -943,7 +943,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Las fiestas patronales en honor a San Isidro Labrador en la comuna Montañita se celebran el 15 de mayo de todos los años, es una de las tradiciones más populares donde asisten turistas nacionales y extranjeros. Se disfruta de los actos y show artísticos, banda musical, juegos deportivos, procesión al Santo, quema de castillos y juegos pirotécnicos, se dio origen porque en la comuna se encontró una estatuilla del santo donde cabía en una caja de fósforo con el paso del tiempo se dieron cuenta de que fue creciendo hasta que un día hubo un accidente y dejo de crecer por eso los comuneros le brindan honor para que siga visitando la comuna.</p>
+                <?php echo $texto_traducido["conte"][7] ?></p>
             </div>
          </section>
       </div>
@@ -956,7 +956,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta católica María Auxiliadora</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][8] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -989,7 +989,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Esta representación religiosa da paso a grandes manifestaciones culturales por la algarabía de sus habitantes al venerar a su virgen María Auxiliadora con el propósito de vivir en armonía, paz y consagrar la vida eterna, por ello se realiza la ceremonia religiosa en su iglesia llamada “María Auxiliadora” ubicada en la comuna el Tambo sus pobladores realizan desfiles y bailes populares como conmoración de una fecha celebre y representativa de su comunidad.</p>
+                <?php echo $texto_traducido["conte"][8] ?></p>
             </div>
          </section>
       </div>
@@ -1002,7 +1002,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta del pescador</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][9] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1039,7 +1039,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Esta celebración se la realiza cada 31 de mayo, desde hace unos 20 años. Consiste en una procesión náutica con la imagen de la Virgen del pescador, donde se acostumbra a decorar las embarcaciones pesqueras con diferentes guirnaldas y globos de varios colores. Allí los pescadores agradecen por la bendición de vida y salud, pidiendo abundancia en la pesca y el retorno con bien a sus hogares.</p>
+                <?php echo $texto_traducido["conte"][9] ?></p>
             </div>
          </section>
       </div>
@@ -1052,7 +1052,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Festividad en honor a sagrado corazón de Jesús</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][10] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1089,9 +1089,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Sus festividades no cuentan con fecha exacta, normalmente se realiza cuando se termina la semana de la cuaresma y se comienza la semana santa, depende de la semana se cuenta 40 días, de allí se planifica la fiesta en Honor al Sagrado Corazón de Jesús. <br/>
-            En el caso de que la fecha se dé martes, miércoles o jueves, se deja las festividades para viernes, sábado y domingo.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][10] ?>
+               </div>
          </section>
       </div>
     </div>
@@ -1103,7 +1102,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Festividades a inmaculado corazón de María</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][11] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1140,12 +1139,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                  Descripción corta de la manifestación: <br>
-                  Fiestas en honor a inmaculado corazón de María:<br>
-                  • Día 1: Se realiza el evento conocido como el balconazo, en donde se invita a cantantes que deleiten con sus canciones a la comunidad.<br>
-                  • Día 2: Se realizan juegos deportivos como es el indoor, tanto de hombre y mujeres. Además, se realiza el evento del baile público para que la comuna disfrute de un momento de músicas bailables.<br>
-                  • Día 3: En este día se hacen misas de bautizos, así como también del baile público y los juegos tradicionales como el palo encebado y ollas encantadas.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][11] ?>
+                 </div>
          </section>
       </div>
     </div>
@@ -1157,7 +1152,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta de aniversario de la comuna Prosperidad</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][12] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1182,8 +1177,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                El 26 de septiembre se conmemora un año más de designación de la localidad como Comuna, mediante Acuerdo Ministerial N.º 0401 por parte del Ministerio de Agricultura y ganadería, durante la celebración se desarrollan actividades artísticas y culturales, permitiendo establecer un abanico de actividades turísticas dentro de la comuna misa y peregrinación, juegos tradicionales y la quema de castillos.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][12] ?>
+                 </div>
          </section>
       </div>
     </div>
@@ -1195,7 +1190,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta católica San Francisco de Asís</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][13] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1224,8 +1219,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Se cumple un año más de aniversario por la conmemoración del Santo San Francisco de Asís, donde los fieles devotos realizan misas y la peregrinación en su honor donde las personas creyentes de la fe católica, con el fin de que sus oraciones sean escuchadas y el bienestar de sus familiares sea consagrada por medio de sus convicciones, asimismo el GAD parroquial de Ancón hace programaciones de eventos artísticos y culturales en la comunidad uno de los aspectos más llamativos es común ver familias enteras disfrutando de los juegos tradicionales.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][13] ?>
+                </div>
          </section>
       </div>
     </div>
@@ -1237,7 +1232,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiestas patronales San Francisco de Asís</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][14] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1274,8 +1269,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                La fiesta a San Francisco de Asís es una manifestación que ha sido mantenida por la fe, misma que los ha llevado a permanecer unidos durante esta larga trayectoria, donde cada 12 de octubre celebran a su patrono San Francisco de Asís con distintas actividades y juegos tradicionales, como: el palo encebado, quema de castillo, procesión de la imagen, baile público, donde los propios habitantes invitan e integran a los turistas para disfrutar de la fiesta, brindando también las diferentes delicias gastronómicas que posee la localidad.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][14] ?>
+                 </div>
          </section>
       </div>
     </div>
@@ -1287,7 +1282,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Día de los difuntos</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][15] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1316,234 +1311,21 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Desde la década de los treinta, hasta la actualidad, en algunas localidades de la provincia de Santa Elena se recuerda a los fieles difuntos. Una de estas localidades es la parroquia Anconcito, donde esta tradición ha tomado mayor protagonismo, los días 1 y 2 de noviembre de cada año. En estos días, se coloca una mesa con alimentos en memoria de los familiares fallecidos, donde cerca de las 12 de la noche generalmente se abre la puerta principal y se los llama a la mesa servida. Al siguiente día, amigos, familiares e incluso desconocidos pueden acercarse y disfrutar este banquete.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][15] ?>
+                </div>
          </section>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Modal 17-17 -->
-<div class="modal fade" id="staticBackdrop17-17" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Día de los difuntos</h3></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"> 
-      
-      <section>
-      <div class="callbacks_container">
-      <ul class="rslides" id="slider17">
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/olon/0790__dia_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/olon/0790__dia_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/olon/0791__dia_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/olon/0791__dia_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/olon/0792__dia_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/olon/0792__dia_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/olon/0793__dia_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/olon/0793__dia_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-      </ul>
-    </div>
-                <div class="Contenido__galeria">
-                <div class="descripcion__galeria ">
-                <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                En el día de difuntos la comuna se organiza para realizar eventos como misa de los difuntos para conmemorar a quienes ya partieron, también se colocan mesas con las comidas favoritas de los difuntos cuando estaban en vida, sin embargo, existen platillos que tradicionalmente se los puede encontrar en la mesa de difuntos como la natilla, torta de camote, tallarín de pollo, colada morada, arroz con lenteja, arroz con leche, el tradicional pan de muertos entre otros.</p>
-            </div>
-         </section>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 18-18 -->
-<div class="modal fade" id="staticBackdrop18-18" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Día de difuntos</h3></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"> 
-      
-      <section>
-      <div class="callbacks_container">
-      <ul class="rslides" id="slider18">
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/curia/0783__dia_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/curia/0783__dia_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/curia/0784__dia_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/curia/0784__dia_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/curia/0785__dia_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/curia/0785__dia_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/curia/0786__dia_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/curia/0786__dia_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-      </ul>
-    </div>
-                <div class="Contenido__galeria">
-                <div class="descripcion__galeria ">
-                <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                La festividad de los difuntos se celebra los días 1 y 2 de noviembre, donde el primer día en conmemorado a los niños y el día 2 a los adultos mayores. Esta celebración conmemora la partirá de aquellos seres queridos que partieron de este mundo, en esta celebración se lo hace para recordar y recordar su recuerdo poniendo mesas con lo que eran sus platos y bebidas favoritas, también las personas ese día dedican en ir a visitar la tumba de su familiar fallecido. Esos días la comuna curia arman mesas con los patos y comidas preferidos de su difunto dentro de sus hogares juntos en unión a sus familias, unos vistan el cementerio y otros se dirigen a la iglesia.</p>
-            </div>
-         </section>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 19-19 -->
-<div class="modal fade" id="staticBackdrop19-19" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Día de los difuntos</h3></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"> 
-      
-      <section>
-      <div class="callbacks_container">
-      <ul class="rslides" id="slider19">
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose/0794__dia_difuntos_san_jose_noviembre.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose/0794__dia_difuntos_san_jose_noviembre.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose/0795__dia_difuntos_san_jose_noviembre.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose/0795__dia_difuntos_san_jose_noviembre.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose/0796__dia_difuntos_san_jose_noviembre.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose/0796__dia_difuntos_san_jose_noviembre.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose/0797__dia_difuntos_san_jose_noviembre.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose/0797__dia_difuntos_san_jose_noviembre.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose/0798__dia_difuntos_san_jose_noviembre.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose/0798__dia_difuntos_san_jose_noviembre.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose/0799__dia_difuntos_san_jose_noviembre.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose/0799__dia_difuntos_san_jose_noviembre.jpg" alt="" width="120" height="220"></a>
-        </li>
-      </ul>
-    </div>
-                <div class="Contenido__galeria">
-                <div class="descripcion__galeria ">
-                <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Los días 1 y 2 de noviembre se celebra el día de los difuntos que es una tradición que se realiza en varios lugares de la provincia de Santa Elena, y San José no es la excepción, esta tradición trata de conmemorar la partida de los difuntos y se tiene la creencia que ellos vienen a comer a sus hogares, razón por la que se realizan mesas con diferentes alimentos los cuales son después repartidos a las personas que llegan a pedir diciendo “ángeles somos del cielo venimos, pan pedimos”.</p>
-            </div>
-         </section>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 20-20 -->
-<div class="modal fade" id="staticBackdrop20-20" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Día de los fieles difuntos</h3></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"> 
-      
-      <section>
-      <div class="callbacks_container">
-      <ul class="rslides" id="slider20">
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/entrada_y_rinconada/0787__fieles_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/entrada_y_rinconada/0787__fieles_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/entrada_y_rinconada/0788__fieles_difuntos.jpg">
-          <img src="./imagenes/stfiestas/noviembre/entrada_y_rinconada/0788__fieles_difuntos.jpg" alt="" width="120" height="220"></a>
-        </li>
-      </ul>
-    </div>
-                <div class="Contenido__galeria">
-                <div class="descripcion__galeria ">
-                <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Consiste en preparar las comidas que degustaban sus seres queridos en vida, entre los platos más representativos que se sirve en las mesas son; el moro de lenteja, colada morada, colada de arroz con panela, picante de pescado, panes, algunas frutas, y el tradicional aguardiente de caña, el primer día de este evento, hacen recorridos los niños, mientras que el segundo día lo hacen los adultos, mencionando la frase de ángeles somos, del cielo venimos, pan pedimos si no nos dan de por gusto venimos.</p>
-            </div>
-         </section>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 21-21 -->
-<div class="modal fade" id="staticBackdrop21-21" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Conmemoración de 100 años explotación del petróleo</h3></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"> 
-      
-      <section>
-      <div class="callbacks_container">
-      <ul class="rslides" id="slider21">
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose_de_ancon/0800__explotacion_petroleo.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose_de_ancon/0800__explotacion_petroleo.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose_de_ancon/0801__explotacion_petroleo.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose_de_ancon/0801__explotacion_petroleo.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose_de_ancon/0802__explotacion_petroleo.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose_de_ancon/0802__explotacion_petroleo.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose_de_ancon/0803__explotacion_petroleo.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose_de_ancon/0803__explotacion_petroleo.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/noviembre/san_jose_de_ancon/0804__explotacion_petroleo.jpg">
-          <img src="./imagenes/stfiestas/noviembre/san_jose_de_ancon/0804__explotacion_petroleo.jpg" alt="" width="120" height="220"></a>
-        </li>
-      </ul>
-    </div>
-                <div class="Contenido__galeria">
-                <div class="descripcion__galeria ">
-                <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Ancón a sus 100 años de explotación petrolera es considerada un hito al ser marcada como el territorio donde sucedió la primera perforación perpetrada con medios automáticos y técnicos, liderada por la Anglo Ecuadorian Oilfields Limited, donde se ubicaron tiendas de campaña de caña y lona que usaron los primeros geólogos, que desembarcaron en la bahía de Ancón, años después llega la compañía petrolera Anglo arribaron técnicos, funcionarios y obreros de diferentes partes del mundo: ingleses, franceses, italianos, polacos, alemanes, escoceses, suizos, galeses, de trinidad, barbados, norteamericanos, australianos, etc. La parroquia San José de Ancón empezó su producción de petróleo en 1911 y estuvo activo hasta 1976.</p>
-            </div>
-         </section>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Modal 22-22 -->
 <div class="modal fade" id="staticBackdrop22-22" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Aniversario de la comuna El Tambo</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][16] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1572,8 +1354,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Al conmemorarse uno nuevo aniversario de la comuna El Tambo se desarrolla una programación de actividades religiosas y culturales para recibir a turistas locales y nacionales que quieran disfrutar de estos eventos artísticos, culturales, gastronómicas y deportivas, donde se busca incentivar a que los turistas puedan conocer de forma más amplia cuáles son sus costumbres y tradiciones, asimismo conocer el arte que poseen sus residentes, ya que la mayoría de los comuneros se dedican a pintar y a realizar artesanías.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][16] ?>
+                  </div>
          </section>
       </div>
     </div>
@@ -1585,7 +1367,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta en honor a la Virgen de Monserrat</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][17] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1602,8 +1384,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Una de las manifestaciones tradicionales que existe en la comuna son las fiestas en honor a la Virgen de Monserrat que se desarrollan cada año el 20 de noviembre, donde se avivan cánticos y oraciones de los feligreses como una ofrenda de peregrinaje, se comienza desde la carretera principal hasta los aposentos de la Virgen en la Basílica esta tradición se lleva a cabo por los comuneros y a lo largo del tiempo los turistas se unen para conmemorar las fiestas de cada año acompañados de música, juego pirotécnicos y la quema del castillo siendo una fiesta muy colorida para quienes visiten en dicha fecha la comuna.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][17] ?>
+               </div>
          </section>
       </div>
     </div>
@@ -1615,7 +1397,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Elección de la reina</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][18] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1640,8 +1422,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Este evento se la realiza la última semana de noviembre, de acuerdo con las autoridades, si se ponen de acuerdo, se lo estaría realizando el día 26 de noviembre, donde se procede a realizar la elección de la nueva reina de la comunidad, donde se tomara en cuenta la presencia, belleza y sabiduría para tener un buen manejo en la comunidad, para lo que se realiza un desfile con las candidatas, donde el jurado calificador escogerá a la ganadora, esta participación se termina con baile y músicas para la celebración.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][18] ?> 
+                </div>
          </section>
       </div>
     </div>
@@ -1653,7 +1435,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta de la Virgen María Inmaculada</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][19] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1686,8 +1468,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Las celebraciones para la virgen María Inmaculado se inician desde el día 5, 6, 7 y 8 de diciembre. Este Evento Religiosa se lo realiza para rendir homenaje a la santísima Virgen María Inmaculada. En estas fiestas se realizan diferentes tipos de actividades para celebrar junto en la comuna y con los invitados, he visitantes, se realiza un Pregón, presentaciones culturales de diferentes grupos, show artístico, juegos deportivos, quema de castillos y baile público, misa, recorrido de la virgen.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][19] ?>
+               </div>
          </section>
       </div>
     </div>
@@ -1699,7 +1481,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiesta de la Virgen María Inmaculada</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][19] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1732,8 +1514,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                La fundación de la comunidad de Las Núñez invita a recordar cada 8 de diciembre la llegada de sus primeros habitantes con el propósito de valorar el esfuerzo y arduo trabajo que realizaron dentro de la comunidad, teniendo como principales actividades la sección Solemne y encendida del árbol con todos los moradores donde celebran un año más de fundación.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][20] ?>
+                </div>
          </section>
       </div>
     </div>
@@ -1745,7 +1527,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiestas patronales en honor a Santa Lucía</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][20] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1770,8 +1552,8 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                La comuna de Olón celebra sus fiestas patronales en honor a Santa Lucía desde el 11 de diciembre hasta el 13 de diciembre. En estos días se brindan eventos para la comunidad como pregón, desfiles alegóricos, palos ensebados, ferias o festivales, se realiza en la mañana una misa de acción de gracias y los días festivos suelen terminar con un baile público para la comuna en general.</p>
-            </div>
+                <?php echo $texto_traducido["conte"][21] ?>
+                </div>
          </section>
       </div>
     </div>
@@ -1783,7 +1565,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Parroquialización de Anconcito</h3></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;"><?php echo $texto_traducido["titu"][21] ?></h3></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"> 
@@ -1820,134 +1602,7 @@
                 <div class="Contenido__galeria">
                 <div class="descripcion__galeria ">
                 <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Durante los primeros años de fundación cada 18 de diciembre pasaba desapercibido por los habitantes de la parroquia Anconcito, pero desde 1959 se toma mayor atención y se empieza a realizar diferentes actividades en conmemoración de su parroquialización, mismas que aún persisten en la actualidad, tales como:<br/>
-            • Elección de reina y mini reina<br/>
-            • Desfile cívico<br/>
-            • Sesión solemne<br/>
-            • Bailes populares<br/>
-            • Juegos tradicionales.<br/>
-            • Presentación artística<br/>
-            • Juegos pirotécnicos<br/>
-            • Quema de Castillo<br/>
-            • Tradicional vaca loca</p>
-            </div>
-         </section>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 29-29 -->
-<div class="modal fade" id="staticBackdrop29-29" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Se recorre de casa en casa con el Niño Jesús</h3></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"> 
-      
-      <section>
-      <div class="callbacks_container">
-      <ul class="rslides" id="slider29">
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/curia/0722__nino_jesus.jpg">
-          <img src="./imagenes/stfiestas/diciembre/curia/0722__nino_jesus.jpg" alt="" width="120" height="220"></a>
-        </li>
-      </ul>
-    </div>
-                <div class="Contenido__galeria">
-                <div class="descripcion__galeria ">
-                <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Es compartida en comunidad o en familia, en la cual el Niño Jesús es levantado del pesebre y se reza un rosario en su nombre, que tradicionalmente marca el fin de la Navidad en el hogar donde es realizada. Las paraduras más tradicionales son las llamadas paraduras cantadas donde el acto se extiende con cantos y versos, además la visita del niño Jesús se lo realiza de visitar los hogares, es para obtener bendiciones, salud y vida para cada familia de la comunidad.</p>
-            </div>
-         </section>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 30-30 -->
-<div class="modal fade" id="staticBackdrop30-30" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Concurso de monigotes y concurso de viudas</h3></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"> 
-      
-      <section>
-      <div class="callbacks_container">
-      <ul class="rslides" id="slider30">
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/curia/0723__monigotes_concurso.jpg">
-          <img src="./imagenes/stfiestas/diciembre/curia/0723__monigotes_concurso.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/curia/0724__monigotes_concurso.jpg">
-          <img src="./imagenes/stfiestas/diciembre/curia/0724__monigotes_concurso.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/curia/0725__monigotes_concurso.jpg">
-          <img src="./imagenes/stfiestas/diciembre/curia/0725__monigotes_concurso.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/curia/0726__monigotes_concurso.jpg">
-          <img src="./imagenes/stfiestas/diciembre/curia/0726__monigotes_concurso.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/curia/0727__monigotes_concurso.jpg">
-          <img src="./imagenes/stfiestas/diciembre/curia/0727__monigotes_concurso.jpg" alt="" width="120" height="220"></a>
-        </li>       
-      </ul>
-    </div>
-                <div class="Contenido__galeria">
-                <div class="descripcion__galeria ">
-                <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                Es compartida en comunidad o en familia, en la cual el Niño Jesús es levantado del pesebre y se reza un rosario en su nombre, que tradicionalmente marca el fin de la Navidad en el hogar donde es realizada. Las paraduras más tradicionales son las llamadas paraduras cantadas donde el acto se extiende con cantos y versos, además la visita del niño Jesús se lo realiza de visitar los hogares, es para obtener bendiciones, salud y vida para cada familia de la comunidad.</p>
-            </div>
-         </section>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 31-31 -->
-<div class="modal fade" id="staticBackdrop31-31" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">  <h3 class="titumodal" style="text-align: center;">Fiestas de fin de año</h3></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"> 
-      
-      <section>
-      <div class="callbacks_container">
-      <ul class="rslides" id="slider31">
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/olon/0736__fin_ano.jpg">
-          <img src="./imagenes/stfiestas/diciembre/olon/0736__fin_ano.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/olon/0737__fin_ano.jpg">
-          <img src="./imagenes/stfiestas/diciembre/olon/0737__fin_ano.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/olon/0738__fin_ano.jpg">
-          <img src="./imagenes/stfiestas/diciembre/olon/0738__fin_ano.jpg" alt="" width="120" height="220"></a>
-        </li>
-        <li>
-        <a href="../PaginaComentarios.php?img=./imagenes/stfiestas/diciembre/olon/0739__fin_ano.jpg">
-          <img src="./imagenes/stfiestas/diciembre/olon/0739__fin_ano.jpg" alt="" width="120" height="220"></a>
-        </li>    
-      </ul>
-    </div>
-                <div class="Contenido__galeria">
-                <div class="descripcion__galeria ">
-                <p style = "text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0;"> 
-                En estas fiestas que se celebran a nivel nacional e internacional, la comuna Olón desde el 28 de diciembre expone su festividad a través de las mojigas, nombre que se le da en la comuna a las tradicionales viudas, se crean grupos de varones que con vestidos negros representan a las viudas y recorren las calles de Olón desde las 8 de la noche y el día 30 de diciembre se realizan juegos tradicionales en el parque de la comuna para finalmente el día 31 celebrar el inicio de un nuevo año.</p>
+                <?php echo $texto_traducido["conte"][22] ?></p>
             </div>
          </section>
       </div>

@@ -15,7 +15,7 @@
 
 
 <div class="container   mb-5"  >
-    <h2 class="text-center display-3">Galería de Gastronomía</h2>
+    <h2 class="text-center display-3"><?php echo $texto_traducido["gale"][0] ?></h2>
     <div class="row row-cols-1  mt-5 row-cols-md-4 g-4">
         <div class="col">
             <a class="card h-100 text-decoration-none" href="gastronomia_curia.php">

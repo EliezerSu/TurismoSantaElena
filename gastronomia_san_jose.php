@@ -1,6 +1,6 @@
 <?php include_once './template/header.php';?>
 <div class="mb-3">
-<a href="./galeria__gastronomia.php" class=" flechas"  ><i class="fa-solid fa-circle-arrow-left"></i> Regresar</a>
+<a href="./galeria__gastronomia.php" class=" flechas"  ><i class="fa-solid fa-circle-arrow-left"></i> <?php echo $texto_traducido["gale"][7] ?></a>
 </div>
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
@@ -13,9 +13,9 @@
       </a>
     
       <div class="card-body card-body-3">
-        <h5 class="card-title">Camarones Apanados y al Ajillo</h5>
-        <p class="card-text">Los camarones son los más consumidos, pedidos en Apanados y al Ajillo, presentados con porciones de Arroz y Patacones, agregándole al gusto los clientes salsas y condimentos. </p>
-      </div>
+        <h5 class="card-title"><?php echo $texto_traducido["gale"][12] ?></h5>
+        <p class="card-text"><?php echo $texto_traducido["gale"][13] ?>
+       </div>
     </div>
     
   </div>
@@ -27,9 +27,9 @@
         </a>
       
       <div class="card-body card-body-3">
-        <h5 class="card-title">Ceviche Mixto</h5>
-        <p class="card-text">El ceviche mixto preparado básicamente con pescado, camarón, pulpo y concha negra, preparada con tomate y cebolla, acompañada de chifles y condimentos al gusto. </p>
-      </div>
+        <h5 class="card-title"><?php echo $texto_traducido["gale"][14] ?></h5>
+        <p class="card-text"><?php echo $texto_traducido["gale"][15] ?>
+        </div>
     </div>
   </div>
 
@@ -41,9 +41,9 @@
       </a>
       
       <div class="card-body card-body-3">
-        <h5 class="card-title">Pescado Apanado</h5>
-        <p class="card-text">El pescado apanado consumido tradicionalmente, acompañado siempre de la porción de arroz, patacones y ensaladas fresca.  </p>
-      </div>
+        <h5 class="card-title"><?php echo $texto_traducido["gale"][16] ?></h5>
+        <p class="card-text"><?php echo $texto_traducido["gale"][17] ?>
+       </div>
     </div>
     
   </div>
@@ -55,9 +55,8 @@
       </a>
       
       <div class="card-body card-body-3">
-        <h5 class="card-title">Piqueo Marinero</h5>
-        <p class="card-text">En cuanto al Piqueo Marinero lo prepara con langostinos, pescado, concha negra, camarones y pulpo, el Piqueo va acompañado de patacones, ensalada y salsas al gusto, y el Arroz Marinero mezclado con arroz, condimentos y patacones. </p>
-      </div>
+        <h5 class="card-title"><?php echo $texto_traducido["gale"][18] ?></h5>
+        <p class="card-text"><?php echo $texto_traducido["gale"][19] ?> </div>
     </div>
   </div>
 

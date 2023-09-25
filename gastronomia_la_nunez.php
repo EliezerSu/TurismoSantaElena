@@ -1,6 +1,6 @@
 <?php include_once './template/header.php';?>
 <div class="mb-3">
-<a href="./galeria__gastronomia.php" class=" flechas"  ><i class="fa-solid fa-circle-arrow-left"></i> Regresar</a>
+<a href="./galeria__gastronomia.php" class=" flechas"  ><i class="fa-solid fa-circle-arrow-left"></i> <?php echo $texto_traducido["gale"][7] ?></a>
 </div>
 
 <section>
@@ -21,7 +21,7 @@
         </a>
         
         <div class="carousel-caption d-md-block">
-          <p>Langostino en manjar de tagua.</p>
+          <p><?php echo $texto_traducido["gale"][38] ?></p>
         </div>
       </div>
       <div class="carousel-item">
@@ -30,7 +30,7 @@
         </a>
         
         <div class="carousel-caption d-md-block">
-          <p>Arroz marinero.</p>
+          <p><?php echo $texto_traducido["gale"][39] ?></p>
         </div>
       </div>
       <div class="carousel-item">
@@ -39,7 +39,7 @@
         </a>
         
         <div class="carousel-caption d-md-block">
-          <p>Arroz norteño.</p>
+          <p><?php echo $texto_traducido["gale"][40] ?></p>
         </div>
       </div>
       <div class="carousel-item">
@@ -48,7 +48,7 @@
         </a>
        
         <div class="carousel-caption d-md-block">
-          <p>Sopa de camarón.</p>
+          <p><?php echo $texto_traducido["gale"][41] ?></p>
         </div>
       </div>
       <div class="carousel-item">
@@ -57,7 +57,7 @@
         </a>
         
         <div class="carousel-caption d-md-block">
-          <p>Camarón en salsa de ajillo</p>
+          <p><?php echo $texto_traducido["gale"][42] ?></p>
         </div>
       </div>
     

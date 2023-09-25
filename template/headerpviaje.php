@@ -1,5 +1,7 @@
 <?php session_start();
 
+include_once("./language/script.php");
+$texto_traducido = GetTextoTraducido("viaje");
 ?>
 <!doctype html>
 <html lang="en">
@@ -105,7 +107,7 @@
           <nav class="menu" style="    background-color: #082032;
 ">
               <ul >
-                <li  > Dónde ir  <span class="fa-solid fa-caret-down"> </span>
+                <li  > <?php echo $texto_traducido["header"][0] ?>  <span class="fa-solid fa-caret-down"> </span>
                      <!-- aqui va el codigo del submenu del mapa -->
                     <div class=" menu_map submenu">
                       <ul class="list_show ">
@@ -181,31 +183,29 @@
                     
                 </li>
 
-                  <li class="nav-item"><span> </span><a class="nav-link" href="agenda_fiestas.php">Agenda de Fiesta</a></li>
+                  <li class="nav-item"><span> </span><a class="nav-link" href="agenda_fiestas.php"><?php echo $texto_traducido["header"][1] ?></a></li>
                   
-                  <li>Galeria Turística <span class="fa-solid fa-caret-down"> </span>
+                  <li><?php echo $texto_traducido["header"][2] ?> <span class="fa-solid fa-caret-down"> </span>
                     <ul class=" submenu submenu2">
-                      <li><span class="fa-solid fa-caret-right"></span><a href="galeria_turistica_santa_elena.php"> Atractivos Turísticos</a></li>
-                      <li><span class="fa-solid fa-caret-right"></span><a href="tradiciones_santa_elena.php"  >Leyendas y tradiciones</a></li>
-                      <li><span class="fa-solid fa-caret-right"></span><a href="galeria__gastronomia.php">Gastronomía</a></li>
+                      <li><span class="fa-solid fa-caret-right"></span><a href="galeria_turistica_santa_elena.php"> <?php echo $texto_traducido["subheader"][0] ?></a></li>
+                      <li><span class="fa-solid fa-caret-right"></span><a href="tradiciones_santa_elena.php"  ><?php echo $texto_traducido["subheader"][1] ?></a></li>
+                      <li><span class="fa-solid fa-caret-right"></span><a href="galeria__gastronomia.php"><?php echo $texto_traducido["subheader"][2] ?></a></li>
                     </ul>
                   </li>
 
-                  <li>Planifica tu viaje <span class="fa-solid fa-caret-down"> </span>
+                  <li><?php echo $texto_traducido["header"][3] ?> <span class="fa-solid fa-caret-down"> </span>
                   
                   <ul class=" submenu submenu2">
-                      <li><span class="fa-solid fa-caret-right"></span><a href="home_como_llegar.php">  ¿Cómo llegar?  </a></li>
-                      <li><span class="fa-solid fa-caret-right"></span><a href="home_donde_alojarse.php"  >¿Dónde alojarse? </a></li>
+                      <li><span class="fa-solid fa-caret-right"></span><a href="home_como_llegar.php">  <?php echo $texto_traducido["subheader"][3] ?>  </a></li>
+                      <li><span class="fa-solid fa-caret-right"></span><a href="home_donde_alojarse.php"  ><?php echo $texto_traducido["subheader"][4] ?> </a></li>
                       
-                      <li><span class="fa-solid fa-caret-right"></span><a href="home_itinerarios.php">Itinerario</a></li>
+                      <li><span class="fa-solid fa-caret-right"></span><a href="home_itinerarios.php"><?php echo $texto_traducido["subheader"][5] ?></a></li>
                       
-                      <li><span class="fa-solid fa-caret-right"></span><a href="home_tiempo.php">Tiempo    </a></li>
+                      <li><span class="fa-solid fa-caret-right"></span><a href="home_tiempo.php"><?php echo $texto_traducido["subheader"][6] ?>   </a></li>
                     </ul>
                  </li>
-                  
                  
-                  
-                  
+                 
                   <li>
                     <button type="button" class="btnLogin" data-bs-toggle="modal"  data-bs-target="#staticBackdropLogin" >
                       <i class="fa fa-user" aria-hidden="true"></i>
@@ -225,7 +225,11 @@
                       }?>
                       
                   </li>
-
+                  <li>
+              <?php GetSelectLanguage() ?>
+            </li>
+            <?php GetScriptSelectLanguage() ?>
+          </ul>
               </ul>
           </nav>
       </div>
@@ -316,7 +320,7 @@
     #psw ,
     #contrasenia{
    -webkit-text-security: disc; /* Safari y algunos navegadores basados en WebKit */
-   text-security: disc; /* Navegadores que soportan la propiedad text-security */
+   -text-security: disc; /* Navegadores que soportan la propiedad text-security */
 }
 
 </style>

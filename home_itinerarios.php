@@ -4,7 +4,7 @@
       <div style="text-align: center;" class="banner-tiempo">
         <div>
           <br><br>
-          <h3 style="text-align: center;" class="titulo-llegar">Itinerarios</h3>
+          <h3 style="text-align: center;" class="titulo-llegar"><?php echo $texto_traducido["subheader"][5] ?></h3>
         </div>
       </div>
     </section>
@@ -17,13 +17,13 @@
     <br>
     <br>
     <section>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Reserva de Experiencias</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][0] ?></b></h1>
         <br>
         <p class="paAe" style="text-align: justify; font-size: 17px;">
-          En la provincia de Santa Elena vivirás una experiencia única, donde podrás conocer más sobre su gente, sus atractivo naturales y culturales, las diferentes actividades y degustar sabores únicos, con nuestros folletos podrás descubrir lo mejor de esta bella provincia.        </p>
+        <?php echo $texto_traducido["iti"][1] ?> </p>
         </p>
         <br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Generalidades "Las Núñez"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][2] ?> "Las Núñez"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/generalidades_lasnunez1.png" alt="" style="width: 80%; border-radius: 15px;">
@@ -34,7 +34,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center ">
-        <a class="btn btn-primary btn-lg" style="height:50px; font-size:18px;padding-top:12px ; margin-right:12px" href="pdf/lasnunez/las_nunez.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+        <a class="btn btn-primary btn-lg" style="height:50px; font-size:18px;padding-top:12px ; margin-right:12px" href="pdf/lasnunez/las_nunez.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
         <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -47,7 +47,7 @@
 
     <section>
     <br><br><br><br>
-    <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Atractivos naturales y culturales "Las Núnez"</b></h1>
+    <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][5] ?> "Las Núnez"</b></h1>
     <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/atractivos_naturales_culturales_lasnunez1.png" alt="" class="img-fluid rounded">
@@ -58,7 +58,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-        <a class="btn btn-primary btn-lg" href="pdf/lasnunez/atractivos_naturales_culturales.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+        <a class="btn btn-primary btn-lg" href="pdf/lasnunez/atractivos_naturales_culturales.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
         <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -74,7 +74,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Actividades, gastronomía y cultura "Las Núñez"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][6] ?> "Las Núñez"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/actividades_gastronomia_cultura_lasnunez1.png" alt="" style="width: 80%; border-radius: 15px;">
@@ -85,7 +85,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/lasnunez/actividades_gastronomia_cultura.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/lasnunez/actividades_gastronomia_cultura.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -101,7 +101,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Tríptico - Las Núñez</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][7] ?> - Las Núñez</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/triptico_lasnunez1.jpeg" alt="" style="width: 80%; border-radius: 15px;">
@@ -112,7 +112,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/lasnunez/triptico_las_nunez.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/lasnunez/triptico_las_nunez.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -126,7 +126,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Atractivos naturales y culturales "Anconcito"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][5] ?> "Anconcito"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/atractivosNaturales_anconcito1.png" alt="" style="width: 80%; border-radius: 15px;">
@@ -137,7 +137,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/anconcito/Atractivos_naturales_culturales.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/anconcito/Atractivos_naturales_culturales.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -151,7 +151,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Generalidades "Anconcito"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][2] ?> "Anconcito"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/generalidades_anconcito1.jpg" alt="" style="width: 80%; border-radius: 15px;">
@@ -162,7 +162,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/anconcito/Actividades_culturas.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/anconcito/Actividades_culturas.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -177,7 +177,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Actividades, gastronomía y cultura "Anconcito"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][6] ?> "Anconcito"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/generalidades_anconcito1.jpg" alt="" style="width: 80%; border-radius: 15px;">
@@ -188,7 +188,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/anconcito/Gastronomia_Anconcito.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/anconcito/Gastronomia_Anconcito.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -203,14 +203,14 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Atractivos naturales y culturales "Montañita"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][5] ?> "Montañita"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/atractivos_naturales_culturales_montanita.jpeg" alt="" style="width: 80%; border-radius: 15px;">
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/montanita/atractivos-naturales-montanita.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/montanita/atractivos-naturales-montanita.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -226,14 +226,14 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Generalidades "Montañita"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][2] ?> "Montañita"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/generalidades_montanita.jpeg" alt="" style="width: 80%; border-radius: 15px;">
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/montanita/generalidades-montanita.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/montanita/generalidades-montanita.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -249,14 +249,14 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Actividades, gastronomía y cultura "Montañita"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][6] ?> "Montañita"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/actividades_gastronomia_cultura_montanita.jpeg" alt="" style="width: 80%; border-radius: 15px;">
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/montanita/gastronomia-montanita.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/montanita/gastronomia-montanita.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -272,7 +272,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Atractivos naturales y culturales "Olón"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][5] ?> "Olón"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/atractivos_naturales_olon1.png" alt="" style="width: 80%; border-radius: 15px;">
@@ -283,7 +283,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/olon/Atractivos_Naturales_Culturales.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/olon/Atractivos_Naturales_Culturales.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -300,7 +300,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Generalidades "Olón"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][2] ?> "Olón"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/generalidades_olon1.png" alt="" style="width: 80%; border-radius: 15px;">
@@ -311,7 +311,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/olon/Generalidades_Olón.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/olon/Generalidades_Olón.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -328,14 +328,14 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Actividades, gastronomía y cultura "Olón"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][6] ?> "Olón"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/gastronomia_olon.jpeg" alt="" style="width: 80%; border-radius: 15px;">
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/olon/Gastronomía.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/olon/Gastronomía.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -352,7 +352,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Cultura "Olón"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][8] ?> "Olón"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/cultura_olon1.jpeg" alt="" style="width: 80%; border-radius: 15px;">
@@ -363,7 +363,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/olon/Cultura.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/olon/Cultura.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -380,14 +380,14 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Itinerario full day "Olón"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][9] ?> "Olón"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/Itinerario_full_day_olon.jpg" alt="" style="width: 80%; border-radius: 15px;">
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/olon/Itinerario_Full_Day.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/olon/Itinerario_Full_Day.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -404,14 +404,14 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Itinerario Viajes "Olón"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][10] ?> "Olón"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/Itinerario_viajes_olon.jpg" alt="" style="width: 80%; border-radius: 15px;">
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/olon/Itinerario_Viajes.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/olon/Itinerario_Viajes.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -429,7 +429,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Atractivos naturales y culturales "La Entra y La Rinconada"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][5] ?> "La Entra y La Rinconada"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/atractivos_naturales_entrada_y_rinconada1.png" alt="" style="width: 80%; border-radius: 15px;">
@@ -440,7 +440,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/laentrada/atractivos_naturales_culturales.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/laentrada/atractivos_naturales_culturales.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -457,7 +457,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Actividades, gastronomía y cultura "La Entra y La Rinconada"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][6] ?> "La Entra y La Rinconada"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/gastronomia_entada_y_rinconada1.png" alt="" style="width: 80%; border-radius: 15px;">
@@ -468,7 +468,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/laentrada/gastronomia_cultura.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/laentrada/gastronomia_cultura.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -485,7 +485,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Triptico "Curía"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][7] ?> "Curía"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/Triptico_Folleto_Comuna_Curia1.jpg" alt="" style="width: 80%; border-radius: 15px;">
@@ -496,7 +496,7 @@
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/curia/Triptico_Folleto_Comuna_Curia.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/curia/Triptico_Folleto_Comuna_Curia.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
           if(!isset($_SESSION['user'])) {
             echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -513,7 +513,7 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Itinerario "San José"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["subheader"][5] ?> "San José"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/itinerario_sanjose1.jpg" alt="" style="width: 80%; border-radius: 15px;">
@@ -542,14 +542,14 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Atractivos Naturales y Culturales "Ancón"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][5] ?> "Ancón"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/atractivos_naturales_ancon1.jpg" alt="" style="width: 80%; border-radius: 15px;">
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/ancon/atractivos_naturales_culturales.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/ancon/atractivos_naturales_culturales.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
             if(!isset($_SESSION['user'])) {
               echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";
@@ -566,14 +566,14 @@
 
     <section>
         <br><br><br><br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Establecimientos turísticos "Ancón"</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["iti"][11] ?> "Ancón"</b></h1>
         <br>
         <div class="mx-auto text-center">
             <img src="imagenes/planifica_tu_viaje/establecimientos_turisticos_ancon.jpg" alt="" style="width: 80%; border-radius: 15px;">
         </div>
         <br><br>
         <div class="botonesPdf text-center">
-          <a class="btn btn-primary btn-lg" href="pdf/ancon/establecimientos_turisticos.pdf" target="_blank">Ver en línea</a><br class="espacio"><br class="espacio">
+          <a class="btn btn-primary btn-lg" href="pdf/ancon/establecimientos_turisticos.pdf" target="_blank"><?php echo $texto_traducido["iti"][3] ?></a><br class="espacio"><br class="espacio">
           <?php 
             if(!isset($_SESSION['user'])) {
               echo "<a class='btn btn-primary btn-lg' style='color: #fff;' onclick='verificarSesion()'>Descargar archivo</a>";

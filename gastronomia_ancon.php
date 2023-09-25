@@ -1,6 +1,6 @@
 <?php include_once './template/header.php';?>
 <div class="mb-3">
-<a href="./galeria__gastronomia.php" class=" flechas"  ><i class="fa-solid fa-circle-arrow-left"></i> Regresar</a>
+<a href="./galeria__gastronomia.php" class=" flechas"  ><i class="fa-solid fa-circle-arrow-left"></i> <?php echo $texto_traducido["gale"][7] ?></a>
 </div>
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
@@ -12,9 +12,8 @@
       </a>
     
       <div class="card-body card-body-3">
-        <h5 class="card-title">Ceviche Mixto</h5>
-        <p class="card-text" style="text-align:justify;">El ceviche mixto preparado básicamente con pescado, camarón, pulpo y concha negra, preparada con tomate y cebolla, acompañada de chifles y condimentos al gusto. </p>
-      </div>
+        <h5 class="card-title"><?php echo $texto_traducido["gale"][32] ?></h5>
+        <p class="card-text" style="text-align:justify;"><?php echo $texto_traducido["gale"][33] ?></div>
     </div>
 
   </div>
@@ -25,9 +24,8 @@
       </a>
   
       <div class="card-body card-body-3">
-        <h5 class="card-title">Ceviche de camarón</h5>
-        <p class="card-text" style="text-align:justify;">Su origen se basa en su cercanía de las zonas pesqueras poseen todo tipo de mariscos, su presentación es con vegetales y camarones con limón acompañado con arroz, patacones, aguacate, ají, entre otros.</p>
-      </div>
+        <h5 class="card-title"><?php echo $texto_traducido["gale"][34] ?></h5>
+        <p class="card-text" style="text-align:justify;"><?php echo $texto_traducido["gale"][35] ?></div>
     </div>
   </div>
   
@@ -39,9 +37,8 @@
 
       </a>
             <div class="card-body ">
-        <h5 class="card-title">Arroz marinero</h5>
-        <p class="card-text" style="text-align:justify;">  El arroz marinero, también conocido como arroz con mariscos, es un plato muy popular no solo en las islas Galápagos y Ecuador, sino en toda América Latina. Es un plato tradicional de las zonas costeras y, por este motivo, se encuentra entre los principales. Es conocido por sus ingredientes principales: camarón, calamar, conchas, mejillones, langosta y langostino.</p>
-      </div>
+        <h5 class="card-title"><?php echo $texto_traducido["gale"][36] ?></h5>
+        <p class="card-text" style="text-align:justify;">  <?php echo $texto_traducido["gale"][37] ?> </div>
     </div>
   </div>
 </div>
