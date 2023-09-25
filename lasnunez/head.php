@@ -132,7 +132,7 @@ $texto_traducido = GetTextoTraducido("../language/la_nunez");
                                 </li>
                                 <li><a class="dropdown-item" href="lasnunez_planificatuviaje_hoteles.php"><?php echo $texto_traducido["header"]["subtitle-4"][1] ?></a>
                                 <li>
-                                <li><a class="dropdown-item" href="lasnunezreservadeexperiencias.php"><?php echo $texto_traducido["header"]["subtitle-4"][2] ?></a>
+                                <!-- <li><a class="dropdown-item" href="lasnunezreservadeexperiencias.php"><?php echo $texto_traducido["header"]["subtitle-4"][2] ?></a> -->
                                 </li>
                                 <li><a class="dropdown-item" href="tiempolasnunez.php"><?php echo $texto_traducido["header"]["subtitle-4"][3] ?></a>
                                 </li>
