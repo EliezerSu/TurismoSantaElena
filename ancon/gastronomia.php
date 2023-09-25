@@ -6,7 +6,7 @@
   <section class="section section-sm section-first bg-default text-md-left">
     <div class="container">
       <div class="container">
-        <center><h2>Gastronomía</h2></center>
+        <center><h2><?php echo $texto_traducido["header"]["subtitle-1"][2] ?></h2></center>
       </div>
       <div class="row row-50 justify-content-center align-items-xl-center">
         <div class="col-md-10 col-lg-5 col-xl-6">
@@ -22,7 +22,7 @@
         </div>
         <div class="col-md-10 col-lg-7 col-xl-6">
           
-          <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b>Gastronomía en Ancón</b></h1>
+          <h1 class="text-spacing-25 font-weight-normal title-opacity-9" ><b><?php echo $texto_traducido["header"]["subtitle-1"][2] ?> en Ancón</b></h1>
           
           <!-- Bootstrap tabs-->
           <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -35,9 +35,7 @@
               <div class="tab-pane fade show active" id="tabs-4-1">
                 
                 <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';
-                ">
-                  Ancón, además de contar con una riqueza cultural, histórica y paisajística, también te ofrece una variedad de platos exóticos. Mediante un concurso de gastronomía impulsado por el gobierno parroquial en el año 2016, se escogió al arroz con mariscos y ensalada agridulce como el plato que identifique a la parroquia San José de Ancón.
-
+                "><?php echo $texto_traducido["body-gastronomy"][0] ?>
                 </p>
                 
               </div>
@@ -84,7 +82,7 @@
 
   <section>
         <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
-            <h2>Restaurantes</h2>
+            <h2><?php echo $texto_traducido["body-gastronomy"][2] ?></h2>
             <br>
         </div>
         <div class="container-card">
@@ -92,8 +90,8 @@
                 <div class="contenido-card">
                     <h3 style="font-size: 25px;"><b>Café inglés</b></h3>
                     <p class="mb-3">
-                    <b>Dirección:</b> Calle 4 barrio central. <br>
-                    <b>Teléfono:</b> 0959095085.
+                    <b><?php echo $texto_traducido["body-gastronomy"][3] ?>:</b> Calle 4 barrio central. <br>
+                    <b><?php echo $texto_traducido["body-gastronomy"][4] ?>:</b> 0959095085.
                     </p>
                     <a href="../PaginaValoraciones.php?img=ancon/imagenes/ancon/0950_cafe.jpg">
                       <img src="imagenes/ancon/0950_cafe.jpg" alt="">
@@ -105,8 +103,8 @@
                 <div class="contenido-card">
                     <h3 style="font-size: 25px;"><b>Doña Cecy</b></h3>
                     <p class="mb-3">
-                    <b>Dirección:</b> Brisas del mar - Sector tigre. <br>
-                    <b>Teléfono:</b> 0994722593.     
+                    <b><?php echo $texto_traducido["body-gastronomy"][3] ?>:</b> Brisas del mar - Sector tigre. <br>
+                    <b><?php echo $texto_traducido["body-gastronomy"][4] ?>:</b> 0994722593.     
                     </p>
                     <a href="../PaginaValoraciones.php?img=ancon/imagenes/ancon/0951_cecy.jpg">
                       <img src="imagenes/ancon/0951_cecy.jpg" alt="">
@@ -118,8 +116,8 @@
                 <div class="contenido-card">
                     <h3 style="font-size: 25px;"><b>El Barranco</b></h3>
                     <p class="mb-3">
-                    <b>Dirección:</b> Barrio Inglés 261, Queen Elizabeth Ancón. <br>
-                    <b>Teléfono:</b> 0978920999.
+                    <b><?php echo $texto_traducido["body-gastronomy"][3] ?>:</b> Barrio Inglés 261, Queen Elizabeth Ancón. <br>
+                    <b><?php echo $texto_traducido["body-gastronomy"][4] ?>:</b> 0978920999.
                     </p>
                     <a href="../PaginaValoraciones.php?img=ancon/imagenes/ancon/0952_barranco.jpg">
                       <img src="imagenes/ancon/0952_barranco.jpg" alt="">
@@ -130,8 +128,8 @@
                 <div class="contenido-card">
                     <h3 style="font-size: 25px;"><b>Pizzata</b></h3>
                     <p class="mb-3">
-                    <b>Dirección:</b> Barrio Inglés. <br><br>
-                    <b>Teléfono:</b> 0968817481.    
+                    <b><?php echo $texto_traducido["body-gastronomy"][3] ?>:</b> Barrio Inglés. <br><br>
+                    <b><?php echo $texto_traducido["body-gastronomy"][4] ?>:</b> 0968817481.    
                     </p>
                     <a href="../PaginaValoraciones.php?img=ancon/imagenes/ancon/0953_pizzata.jpg">
                       <img src="imagenes/ancon/0953_pizzata.jpg" alt="">
@@ -147,8 +145,8 @@
                 <div class="contenido-card">
                     <h3 style="font-size: 25px;"><b>Previa Maradona</b></h3>
                     <p class="mb-1">
-                    <b>Dirección:</b> Barrio Guayaquil, Canchom. <br>
-                    <b>Teléfono:</b> 0991523008.
+                    <b><?php echo $texto_traducido["body-gastronomy"][3] ?>:</b> Barrio Guayaquil, Canchom. <br>
+                    <b><?php echo $texto_traducido["body-gastronomy"][4] ?>:</b> 0991523008.
                     </p>
                     <a href="../PaginaValoraciones.php?img=ancon/imagenes/ancon/0954_maradona.jpeg">
                       <img src="imagenes/ancon/0954_maradona.jpeg" alt="">
@@ -159,8 +157,8 @@
                 <div class="contenido-card">
                     <h3 style="font-size: 25px;"><b>Ancón Brevery</b></h3>
                     <p class="mb-1">
-                    <b>Dirección:</b> Barrio Central av. del petrolero. <br>
-                    <b>Teléfono:</b> 0959568676.     
+                    <b><?php echo $texto_traducido["body-gastronomy"][3] ?>:</b> Barrio Central av. del petrolero. <br>
+                    <b><?php echo $texto_traducido["body-gastronomy"][4] ?>:</b> 0959568676.     
                     </p>
                     <a href="../PaginaValoraciones.php?img=ancon/imagenes/ancon/0955_brewery.jpg">
                       <img src="imagenes/ancon/0955_brewery.jpg" alt="">
@@ -172,8 +170,8 @@
                 <div class="contenido-card">
                     <h3 style="font-size: 25px;"><b>The cookie station</b></h3>
                     <p class="mb-1">
-                    <b>Dirección:</b> Av. Queen Elizabeth, casa 547. <br>
-                    <b>Teléfono:</b> 2906633.
+                    <b><?php echo $texto_traducido["body-gastronomy"][3] ?>:</b> Av. Queen Elizabeth, casa 547. <br>
+                    <b><?php echo $texto_traducido["body-gastronomy"][4] ?>:</b> 2906633.
                     </p>
                     <a href="../PaginaValoraciones.php?img=ancon/imagenes/ancon/0956_cookie.jpg">
                       <img src="imagenes/ancon/0956_cookie.jpg" alt="">

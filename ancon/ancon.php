@@ -10,8 +10,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Un día en Ancón podría cambiar tus energías</h6>
-                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Visita</span><span class="font-weight-bold"> Ancón</span></h2>
+                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][2] ?></h6>
+                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][3] ?></span><span class="font-weight-bold"> Ancón</span></h2>
               </div>
             </div>
           </div>
@@ -22,8 +22,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Vive bajo los rayos de sol, nada en el mar y bebe aire salvaje</h6>
-                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Ven</span><span class="font-weight-bold"> y disfruta</span></h2>
+                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][3] ?></h6>
+                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][4] ?></span><span class="font-weight-bold"> <?php echo $texto_traducido["swapper"][1] ?></span></h2>
               </div>
             </div>
           </div>
@@ -34,8 +34,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10">
-                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Si vas a tirar la toalla, que sea en la playa</h6>
-                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Disfruta</span><span class="font-weight-bold"> en Ancón</span></h2>
+                <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["swapper"][0] ?></h6>
+                <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span><?php echo $texto_traducido["swapper"][1] ?></span><span class="font-weight-bold"> <?php echo $texto_traducido["swapper"][6] ?></span></h2>
               </div>
             </div>
           </div>
@@ -56,10 +56,7 @@
           <hr  class="w-50 d-block d-ms-none mx-auto" style="border-bottom: 3px solid #01b3a7; margin-bottom:35px;"> 
           <div class="row align-items-center">
             <div class="col-lg-8 text-center">
-              <p class="lead mb-4 w-50 text-justify mx-auto" style="font-size: 17px; font-family: 'Montserrat';">
-              La parroquia San José de Ancón está ubicada al sur del cantón Santa Elena al que pertenece. A
-              pocos kilómetros de la cabecera parroquial se encuentran dos comunas llamadas El Tambo y
-              Prosperidad.
+              <p class="lead mb-4 w-50 text-justify mx-auto" style="font-size: 17px; font-family: 'Montserrat';"> <?php echo $texto_traducido["body"][0] ?>
               </p>
               <div class="product-big-price-wrap"><span class="product-big-price"></span></div>
             </div>
@@ -77,7 +74,7 @@
   <!--Seccion 1-->
   <section class="section section-sm section-first bg-default text-md-left">
     <div class="container">
-    <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Qué visitar en Ancón?</b></h1>
+    <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["swapper"][6] ?></b></h1>
     <br>
       <div class="row row-50 justify-content-center align-items-xl-center">
         <div class="col-md-10 col-lg-5 col-xl-6">
@@ -100,28 +97,17 @@
           <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
             <!-- Nav tabs-->
             <ul class="nav nav-tabs" >
-              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab" >Descripción</a></li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2" data-toggle="tab">Detalle</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab" ><?php echo $texto_traducido["swapper"][8] ?></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2" data-toggle="tab"><?php echo $texto_traducido["swapper"][9] ?></a></li>
             </ul>
             <!-- Tab panes-->
             <div class="tab-content">
               <div class="tab-pane fade show active" id="tabs-4-1">
-                <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-                Cuenta con unas montañas de tierra muy interesantes para escalar. Sus paisajes son
-                hermosos, con un cielo siempre celeste que logra en los atardeceres espectaculares de
-                tonos naranja. Algarrobos, cullulles, muyuyos, aromos, cascoles, ciruelas, junquillos,
-                ceibos y pitajayas, forman parte de la flora que se puede disfrutar en esta playa. 
+                <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["body"][1] ?>
                 </p>
               </div>
               <div class="tab-pane fade" id="tabs-4-2">
-                <p style = "text-align: left; font-size: 17px; font-family: 'Montserrat';">
-                Longitud: 78 km2. <br>
-                Color de arena: Gris. <br>
-                Condiciones de baño: Fuertes corrientes. <br>
-                Grado de urbanización: Aislada de la ciudad. <br>
-                Acceso: En vehículo. <br>
-                Usos de la playa: Es recomendada para quién le guste practicar deportes en el
-                mar, como pesca deportiva y el surf. <br>
+                <p style = "text-align: left; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["body"][2] ?>
                 </p>   
               </div>
             </div>
@@ -154,25 +140,20 @@
           <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
             <!-- Nav tabs-->
             <ul class="nav nav-tabs" >
-              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-3" data-toggle="tab" >Descripción</a></li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-4" data-toggle="tab">Detalle</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-3" data-toggle="tab" ><?php echo $texto_traducido["swapper"][8] ?></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-4" data-toggle="tab"><?php echo $texto_traducido["swapper"][9] ?></a></li>
             </ul>
             <!-- Tab panes-->
             <div class="tab-content">
               <div class="tab-pane fade show active" id="tabs-4-3">
                 
-                <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-                Atractivo patrimonial fue construido por la empresa Anglo Y constantemente ha sido modificado y restaurado por la empresa Pacifpetrol, debido a que por el tiempo se estaba degradando, sin embargo, se lo considera como un lugar turístico, niños y adultos descansan, y a su vez pueden realizar actividades y recreación, así mismo su ubicación hace que este atractivo sea un punto de visita puesto que está cerca de otros lugares de interés.
+                <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["body"][3] ?>
                 </p>
                 
               </div>
               
               <div class="tab-pane fade" id="tabs-4-4">
-                <p style = "text-align: left; font-size: 17px; font-family: 'Montserrat';">
-                Tipo de patrimonio: Parque. <br>
-                Ubicación: Avenida petrolera “Principal”. <br>
-                Elementos distintivos: Luneta del parque central, monumento a la madre Anconense, placas en memoria al
-                general Eloy Alfaro y al capitán Don Macario Ubilla.
+                <p style = "text-align: left; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["body"][4] ?>
                 </p>   
             </div>
           </div>
@@ -204,26 +185,20 @@
           <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
             <!-- Nav tabs-->
             <ul class="nav nav-tabs" >
-              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-5" data-toggle="tab" >Descripción</a></li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-6" data-toggle="tab">Detalle</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-5" data-toggle="tab" ><?php echo $texto_traducido["swapper"][8] ?></a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-6" data-toggle="tab"><?php echo $texto_traducido["swapper"][9] ?></a></li>
             </ul>
             <!-- Tab panes-->
             <div class="tab-content">
               <div class="tab-pane fade show active" id="tabs-4-5">
                 
-                <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-                Este recurso nos permite trascender en la épica historia petrolera de Ancón, conocido
-                como un lugar turístico a orillas del mar.
+                <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["body"][5] ?>
                 </p>
                 
               </div>
               
               <div class="tab-pane fade" id="tabs-4-6">
-                <p style = "text-align: left; font-size: 17px; font-family: 'Montserrat';">
-                Año de construcción: 1911. <br>
-                Ubicación: Vía a Anconcito. <br>
-                Elementos distintivos: Este balancín se encuentra a orillas de la playa Acapulco, su estado es de conservación
-                por su historia como primera perforación de petróleo en Ancón.
+                <p style = "text-align: left; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["body"][6] ?>
                 </p>   
             </div>
           </div>
