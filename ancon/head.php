@@ -70,38 +70,36 @@ $texto_traducido = GetTextoTraducido("../language/ancon");
         <div style="background-color: #082032;" class="collapse navbar-collapse" id="menu">
           <ul style="background-color: #082032;" class="navbar-nav d-flex mx-auto  text-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="ancon.php">Acerca de Holiiii</a>
+              <a class="nav-link active" aria-current="page" href="ancon.php"><?php echo $texto_traducido["header"][0] ?></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="anconquevisitar.php">¿Qué visitar?</a>
+              <a class="nav-link" href="anconquevisitar.php"><?php echo $texto_traducido["header"][1] ?></a>
             </li>
 
             <li class="nav-item dropdown">
               <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                ¿Qué hacer?
+              <?php echo $texto_traducido["header"][2] ?>
               </a>
 
               <ul class="dropdown-menu bg-secondary text-center" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item font__size" href="deportes.php">Deportes y aventuras</a>
+                <li><a class="dropdown-item font__size" href="deportes.php"><?php echo $texto_traducido["header"]["subtitle-1"][0] ?></a>
                 <li>
-                <li><a class="dropdown-item font__size" href="cultura.php">Culturas y tradiciones</a>
+                <li><a class="dropdown-item font__size" href="cultura.php"><?php echo $texto_traducido["header"]["subtitle-1"][1] ?></a>
                 <li>
-                <li><a class="dropdown-item font__size" href="gastronomia.php">Gastronomía</a>
+                <li><a class="dropdown-item font__size" href="gastronomia.php"><?php echo $texto_traducido["header"]["subtitle-1"][2] ?></a>
                 <li>
-                <li><a class="dropdown-item font__size" href="rutas.php">Rutas y excursiones</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Planifica tu viaje
+              <?php echo $texto_traducido["header"][3] ?>
               </a>
 
               <ul class="dropdown-menu bg-secondary text-center" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="anconcomollegar.php">¿Cómo Llegar?</a></li>
-                <li><a class="dropdown-item" href="anconquedarse.php">¿Dónde alojarse?</a>
+                <li><a class="dropdown-item" href="anconcomollegar.php"><?php echo $texto_traducido["header"]["subtitle-1"][4] ?></a></li>
+                <li><a class="dropdown-item" href="anconquedarse.php"><?php echo $texto_traducido["header"]["subtitle-1"][5] ?></a>
                 <li>
-                <li><a class="dropdown-item" href="itinerarios.php">Itinerarios</a></li>
-                <li><a class="dropdown-item" href="tiempo.php">Tiempo</a></li>
+                <li><a class="dropdown-item" href="itinerarios.php"><?php echo $texto_traducido["header"]["subtitle-1"][6] ?></a></li>
               </ul>
             </li>
 
@@ -161,18 +159,18 @@ $texto_traducido = GetTextoTraducido("../language/ancon");
                                                                                                               } ?></span>
 
             <div class="mb-3">
-              <label for="" class=""> <i class="fa fa-user" aria-hidden="true"></i> Usuario</label>
+              <label for="" class=""> <i class="fa fa-user" aria-hidden="true"></i> <?php echo $texto_traducido["header"][4] ?></label>
 
               <input type="text" class="form-control" name="user" id="user" placeholder="Usuario">
             </div>
 
             <div class="mb-3">
-              <label for="" class=""> <i class="fa-solid fa-key"></i>Contraseña</label>
+              <label for="" class=""> <i class="fa-solid fa-key"></i><?php echo $texto_traducido["header"][5] ?></label>
               <input type="text" class="form-control" name="contrasenia" id="contrasenia" placeholder="contrasenia">
             </div>
             <div class="modal-footer">
 
-              <button type="submit" class="btn  text-white " style="background:#0d6efd; border-radius:5px;">Ingresar</button>
+              <button type="submit" class="btn  text-white " style="background:#0d6efd; border-radius:5px;"><?php echo $texto_traducido["header"][7] ?></button>
 
 
             </div>

@@ -7,8 +7,8 @@
     <br>
 
     <div class="container">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Cómo llegar?</b></h1><br>
-            <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"> La parroquia San José de Ancón se encuentra ubicada en el cantón Santa Elena, con sus límites al Norte con Santa Elena, Sur con el océano pacífico, al Este con la parroquia Atahualpa y al Oeste con las parroquias Anconcito y José Luis Tamayo. <b>¿No sabes cómo llegar?</b> A continuación, te mostramos como arribar desde un autobús a la parroquia San José de Ancón desde distintos sitios, las líneas, precios y tiempo de su viaje:
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["header"]["subtitle-1"][4] ?></b></h1><br>
+            <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"><?php echo $texto_traducido["planyourtrip"]["subtitle-1"] ?>
             </p> 
     </div>
 
@@ -18,7 +18,7 @@
     <section>
         <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
             <img style="vertical-align: text-left; width: 600; height: 100px;" src="imagenes/ancon/0044_avion.png">
-            <h2>Aerolíneas</h2>
+            <h2><?php echo $texto_traducido["planyourtrip"][2] ?></h2>
             <br>
         </div>
         <div class="container-card">
@@ -27,45 +27,45 @@
                     <h3  ><b>Avianca</b></h3>
                     <br>
                     <p class="mb-2">
-                    Reservas: 1-800-003434                  <br>
+                    <?php echo $texto_traducido["planyourtrip"][4] ?>: 1-800-003434                  <br>
                     WhatsApp: +593 (9) 68555555             <br>
-                    Reclamos: +593 (2) 3978216              <br>
-                    Oficina: Junín 440 y Córdova           
+                    <?php echo $texto_traducido["planyourtrip"][27] ?>: +593 (2) 3978216              <br>
+                    <?php echo $texto_traducido["planyourtrip"][8] ?>: Junín 440 y Córdova           
                    
                     </p>
-                    <a href="https://www.avianca.com/ec/es/" target="_blank">Visitar</a>
+                    <a href="https://www.avianca.com/ec/es/" target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3 style="font-size: 32px;"><b>American Airlines</b></h3>
                     <p class="mb-2">
-                    Reservas: +539 (4) 2598800              <br>
-                    Reclamos: +593 (4) 2169253              <br>
-                    Carga: +593 (4) 6017439                 <br>
-                    Oficina: Policentro, cdla. Kennedy      
+                    <?php echo $texto_traducido["planyourtrip"][4] ?>: +539 (4) 2598800              <br>
+                    <?php echo $texto_traducido["planyourtrip"][27] ?>: +593 (4) 2169253              <br>
+                    <?php echo $texto_traducido["planyourtrip"][26] ?>: +593 (4) 6017439                 <br>
+                    <?php echo $texto_traducido["planyourtrip"][8] ?>: Policentro, cdla. Kennedy      
                     </p>
-                    <a href="https://www.aa.com/homePage.do?locale=es_EC"  target="_blank">Visitar</a>
+                    <a href="https://www.aa.com/homePage.do?locale=es_EC"  target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card card-vuelo ">
                     <h3><b>KLM</b></h3><br>
                     <p class="mb-5">
-                    Reservas: 1-800-000944      <br>
+                    <?php echo $texto_traducido["planyourtrip"][4] ?>: 1-800-000944      <br>
                     Whatsapp: +31 206490787     
                     </p>
-                    <a href="https://www.klm.com.ar/"  class="mt-5" target="_blank">Visitar</a>
+                    <a href="https://www.klm.com.ar/"  class="mt-5" target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
             <div class="card ">
                 <div class="contenido-card">
                     <h3><b>Latam</b></h3><br>
                     <p class="mb-5">
-                    Reservas: 1-800-000527                  <br>
-                    Oficina: Mall del sol, planta baja      
+                    <?php echo $texto_traducido["planyourtrip"][4] ?>: 1-800-000527                  <br>
+                    <?php echo $texto_traducido["planyourtrip"][8] ?>: Mall del sol, planta baja      
                     </p>
-                    <a href="https://www.latamairlines.com/ec/es" class="mt-4" target="_blank">Visitar</a>
+                    <a href="https://www.latamairlines.com/ec/es" class="mt-4" target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
         
@@ -80,7 +80,7 @@
     <section>
         <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
             <img style="vertical-align: text-left; width: 600; height: 100px;" src="imagenes/ancon/0046_auto.png">
-            <h2>Automóvil</h2>
+            <h2><?php echo $texto_traducido["title_"] ?></h2>
             <br>
         </div>
         <div class="container-card">
@@ -89,29 +89,29 @@
                     <h3><b>Budget</b></h3>
                     <br>
                     <p>
-                    Contacto: (02) 382-2340             <br>
-                    Precio: 1 día desde $50              <br>
+                    <?php echo $texto_traducido["planyourtrip"][11] ?>: (02) 382-2340             <br>
+                    <?php echo $texto_traducido["planyourtrip"][12] ?>: 1 día desde $50              <br>
                     </p>
-                    <a href="https://www.budget.com.ec/Inicio" target="_blank">Visitar</a>
+                    <a href="https://www.budget.com.ec/Inicio" target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Rent cars</b></h3><br>
                     <p>
-                    Precio: 1 día desde $37                      <br><br>
+                    <?php echo $texto_traducido["planyourtrip"][12] ?>: 1 día desde $37                      <br><br>
                     </p>
-                    <a href="https://www.rentcars.com/es/" target="_blank">Visitar</a>
+                    <a href="https://www.rentcars.com/es/" target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
             <div class="card">
                 <div class="contenido-card">
                     <h3><b>Hertz</b></h3><br>
                     <p>
-                    Contacto: +593-2-3829559                    <br>
-                    Precio: 1 día desde $50 
+                    <?php echo $texto_traducido["planyourtrip"][11] ?>: +593-2-3829559                    <br>
+                    <?php echo $texto_traducido["planyourtrip"][12] ?>: 1 día desde $50 
                     </p>
-                    <a href="https://www.hertz.com/rentacar/reservation/" target="_blank">Visitar</a>
+                    <a href="https://www.hertz.com/rentacar/reservation/" target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
             
@@ -122,10 +122,10 @@
                     <h3><b>Europcar</b></h3>
                     <br>
                     <p>
-                    Precio: 1 día desde $37                      <br>
-                    Contacto: 911 505 000                       <br>
+                    <?php echo $texto_traducido["planyourtrip"][12] ?>: 1 día desde $37                      <br>
+                    <?php echo $texto_traducido["planyourtrip"][11] ?>: 911 505 000                       <br>
                     </p>
-                    <a href="https://www.europcar.es/es-es" target="_blank">Visitar</a>
+                    <a href="https://www.europcar.es/es-es" target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
             <div style="color: white;">
@@ -135,9 +135,9 @@
                 <div class="contenido-card">
                     <h3><b>Kayak</b></h3><br>
                     <p>
-                    Precio: 1 día desde $40                     <br><br>
+                    <?php echo $texto_traducido["planyourtrip"][12] ?>: 1 día desde $40                     <br><br>
                     </p>
-                    <a href="https://www.kayak.com.ec" target="_blank">Visitar</a>
+                    <a href="https://www.kayak.com.ec" target="_blank"><?php echo $texto_traducido["btn_"] ?></a>
                 </div>
             </div>
         </div>
@@ -148,7 +148,7 @@
     <section>
         <div class="tituloPrincipal wow fadeInRight" style="text-align:center;">
             <img style="vertical-align: text-left; width: 600; height: 100px;" src="imagenes/ancon/0045_bus.png">
-            <h2>Cooperativas</h2>
+            <h2><?php echo $texto_traducido["title-1"] ?></h2>
             <br>
         </div>
         <div class="container-card">
@@ -173,16 +173,16 @@
     </section>
 
     <br>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Autobús</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["title_3"] ?></b></h1>
     <br> 
 
     <div class="container">
         <table>
             <thead style="text-align: center;">
                 <tr >
-                    <th>Ruta</th>
+                    <th><?php echo $texto_traducido["planyourtrip"][29] ?></th>
                     <th>Frecuencia</th>
-                    <th>Precios</th>
+                    <th><?php echo $texto_traducido["planyourtrip"][12] ?>s</th>
                 </tr>
             </thead>
             
@@ -212,9 +212,8 @@
     <br>
 
     <div class="container">
-            <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Auto</b></h1><br>
-            <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"> 
-                Si realizas tu viaje en tu vehículo propio desde el cantón Santa Elena deberás tomar la carretera vía Ancón, pasando por el Tambo y Prosperidad, tendrá un aproximado de 15 min de viaje, como se muestra en el mapa a continuación.
+            <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["title_"] ?></b></h1><br>
+            <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"> <?php echo $texto_traducido["planyourtrip"]["subtitle-2"] ?>
             </p>        
     </div>
 
@@ -228,17 +227,16 @@
     </div>
 
     <div class="container">
-            <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>¿Cómo moverse?</b></h1><br> 
-            <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"> 
-            Te brindamos información sobre la distancia, conexiones y tiempo con las diferentes ciudades del Ecuador, para que puedas organizar un maravilloso viaje.
+            <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["planyourtrip"][0] ?></b></h1><br> 
+            <p style = "text-align: justify; font-size: 17px;font-family: 'Montserrat';"> <?php echo $texto_traducido["planyourtrip"]["subtitle-2"] ?>
             </p>        
     </div>
 
     <table>
             <tr >
-                <th>Provincia</th>
-                <th>Distancia</th>
-                <th>Tiempo</th>
+                <th><?php echo $texto_traducido["planyourtrip"][31] ?></th>
+                <th><?php echo $texto_traducido["planyourtrip"][32] ?></th>
+                <th><?php echo $texto_traducido["planyourtrip"][18] ?></th>
             </tr>
             <tr>
                 <td>Azuay</td>
@@ -281,12 +279,9 @@
 
     <div class="container">
         <center><img src="imagenes/ancon/0043_info.png" alt=""></center>
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Información</b></h1><br>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["title_5"] ?></b></h1><br>
         <br>
-        <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';">
-        Información sobre sanidad, cajeros de bancos, cooperativas de taxi, seguridad,
-        supermercados que serán complementarios para tu visita en la parroquia de San José de
-        Ancón.
+        <p style = "text-align: justify; font-size: 17px; font-family: 'Montserrat';"><?php echo $texto_traducido["planyourtrip"]["subtitle-3"] ?>
         </p>
     </div>
 
@@ -298,9 +293,9 @@
             <center><img src="imagenes/ancon/0039_farmacia.png" alt=""></center>
                 <p style = "text-align: center; font-size: 17px; font-family: 'Montserrat';"><b>Hospital IESS Ancón</b></p>
                 <p style = "text-align: center; font-size: 15px; font-family: 'Montserrat';">
-                Dirección: M4GV+GJH, Ancón. <br>
-                Teléfono: 0959485481.       <br>
-                Horario: 24 horas.          <br>
+                <?php echo $texto_traducido["planyourtrip"][19] ?>: M4GV+GJH, Ancón. <br>
+                <?php echo $texto_traducido["planyourtrip"][20] ?>: 0959485481.       <br>
+                <?php echo $texto_traducido["planyourtrip"][18] ?>: 24 horas.          <br>
                 </p>
             </div>
             <div class="col" style="border: 1px solid black; margin: 20px;">
@@ -332,8 +327,8 @@
             <center><img src="imagenes/ancon/0042_upc.png" alt=""></center>
                 <p style = "text-align: center; font-size: 17px; font-family: 'Montserrat';"><b>Ubicación del UPC</b></p>
                 <p style = "text-align: center; font-size: 15px; font-family: 'Montserrat';">
-                Dirección: M4GX+JHV, Ancón. <br>
-                Horario: 24 horas.
+                <?php echo $texto_traducido["planyourtrip"][19] ?>: M4GX+JHV, Ancón. <br>
+                <?php echo $texto_traducido["planyourtrip"][18] ?>: 24 horas.
                 </p>
             </div>
             
