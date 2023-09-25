@@ -576,7 +576,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Fiesta de la Parroquia - Anconcito</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][0] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -595,11 +595,7 @@
             <div class="descripcion__galeria ">
 
               <p style="text-align: justify; font-size: 18px;font-family: 'Montserrat'; margin: 0 2%;">
-                Las calles de la parroquia se llenan de color, ya que en este mes exactamente el 18 de diciembre
-                son las fiestas de Parroquialización, donde con diversos programas y actos como el Pregón
-                de inicio de festividades, la elección de Reina, carreras ciclísticas, el desfile cívico estudiantil
-                y el gran baile de gala, se conmemoran un año más de Parroquialización de Anconcito.
-
+                <?php echo $texto_traducido["tradicion_pop"][1] ?>
               </p>
             </div>
         </section>
@@ -614,7 +610,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Día de los Difuntos - Anconcito</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][2] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -631,10 +627,7 @@
           <div class="Contenido__galeria">
             <div class="descripcion__galeria ">
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%;">
-                El 2 de noviembre es su tradición emblemática, que cada año se incrementa, con la visita de turistas
-                de la zona y de todo el país, incluso de extranjeros, por tradición las familias ofrendan a las almas
-                los alimentos que en vida les gustaba y estos son obsequiados a quienes llegar al hogar del difunto
-                se presentan o identifican con la frase “Ángeles somos del cielo venimospan pedimos”.
+                <?php echo $texto_traducido["tradicion_pop"][3] ?>
 
 
               </p>
@@ -651,7 +644,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Fiesta María Inmaculada-San José</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][4] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -668,11 +661,7 @@
           <div class="Contenido__galeria">
             <div class="descripcion__galeria ">
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%; ">
-                Las celebraciones para la virgen María Inmaculado se inician desde el día 5, 6, 7 y 8 de diciembre.
-                Este Evento Religiosa se lo realiza para rendir homenaje a la santísima Virgen María Inmaculada.
-                En estas fiestas se realizan diferentes tipos de actividades para celebrar junto en la comuna
-                y con los invitados he visitantes, se realiza un Pregón, presentaciones culturales de diferentes grupos,
-                show artístico, Juegos deportico, quema de castillos y baile público, misa, recorrido de la virgen.
+                <?php echo $texto_traducido["tradicion_pop"][5] ?>
               </p>
             </div>
         </section>
@@ -687,7 +676,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Fiestas San Francisco de Asís</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][6] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -706,10 +695,7 @@
             <div class="descripcion__galeria ">
 
               <p style="text-align: justify; font-size: 18px;font-family: 'Montserrat'; margin: 0 2%;">
-                La fiesta a San Francisco de Asís es una manifestación que ha sido mantenida por la fe, misma que los ha llevado a permanecer unidos
-                durante esta larga trayectoria, donde cada 12 de octubre celebran a su patrono San Francisco de Asís
-                con distintas actividades y juegos tradicionales, como: el palo encebado, quema de castillo,
-                procesión de la imagen y baile público.
+                <?php echo $texto_traducido["tradicion_pop"][7] ?>
               </p>
 
             </div>
@@ -725,7 +711,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Día de los Difuntos - San José</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][8] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -744,11 +730,7 @@
             <div class="descripcion__galeria ">
 
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%; ">
-                Los días 1 y 2 de noviembre se celebra el día de los difuntos que es una tradición que se realiza
-                en varios lugares de la provincia de Santa Elena, y San José no es la excepción, esta tradición
-                trata de conmemorar la partida de los difuntos y se tiene la creencia que ellos vienen a comer a
-                sus hogares, razón por la que se realizan mesas con diferentes alimentos los cuales son después
-                repartidos a las personas que llegan a pedir diciendo “ángeles somos del cielo venimos, pan pedimos”.
+              <?php echo $texto_traducido["tradicion_pop"][9] ?>
               </p>
             </div>
         </section>
@@ -763,7 +745,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Fiesta del Pescador - Ancón</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][10] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -781,11 +763,7 @@
           <div class="Contenido__galeria">
             <div class="descripcion__galeria ">
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%;">
-                Los pescadores hacen un breve receso a sus jordanas de trabajo para agradecer por la bendición de vida,
-                salud y trabajo a quienes consideran su "Patrona", la santísima virgen María “Virgen del Pescador".
-                La tradición es que después de la misa, se da paso a la procesión en el mar de las embarcaciones que
-                son engalanadas e invitan a la ciudadanía hacer un recorrido, detrás del barco que transporta la
-                imagen de la virgen del Pescador, luego se culmina con un gran baile popular en el puerto pesquero.
+              <?php echo $texto_traducido["tradicion_pop"][11] ?>
 
               </p>
             </div>
@@ -801,7 +779,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">San José de Ancón</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][12] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -818,10 +796,7 @@
           <div class="Contenido__galeria">
             <div class="descripcion__galeria ">
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%;">
-                En la comuna se pueden conocer varias tradiciones y festividades, entre ellas están las fiestas patronales, las cuales se dan los días
-                16, 17, 18 y 19 del mes de marzo en donde se celebra al “Patrono San José”, se realizan misas,
-                juegos tradicionales y el baile típico de la zona para que sus habitantes y turistas disfruten
-                de aquellas actividades que se realizan.
+              <?php echo $texto_traducido["tradicion_pop"][13] ?>
               </p>
             </div>
         </section>
@@ -836,7 +811,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal"> Inmaculado Corazón - La Entrada</h3>
+          <h3 class="titumodal"> <?php echo $texto_traducido["tradicion_pop"][14] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -855,10 +830,7 @@
             <div class="descripcion__galeria ">
 
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%;">
-                Se realiza el evento conocido como el balconazo, en donde se invita a cantantes que deleiten con sus canciones
-                a la comunidad. También se realizan juegos deportivos como es el indor tanto de hombre como mujeres.
-                Además, se realiza el evento del baile público para que la comuna disfrute de un momento de músicas
-                bailables y se hacen misas de bautizos, así como también del baile público.
+              <?php echo $texto_traducido["tradicion_pop"][15] ?>
               </p>
             </div>
         </section>
@@ -874,7 +846,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Sagrado corazón de Jesús</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][16] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -893,11 +865,7 @@
             <div class="descripcion__galeria ">
 
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%;">
-                El Sagrado Corazón de Jesús es una devoción católica referida al corazón de Jesucristo,
-                como un símbolo de amor divino.
-                La devoción al sagrado corazón tuvo su origen en una corriente mística centrada.
-                Se celebra el viernes siguiente a la solemnidad del Corpus Christi,
-                casi como para sugerirnos que la Eucaristía, no es otra cosa que el corazón mismo de Jesús
+              <?php echo $texto_traducido["tradicion_pop"][17] ?>
               </p>
             </div>
         </section>
@@ -913,7 +881,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Día de los Difuntos - La Entrada</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][18] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -932,10 +900,7 @@
             <div class="descripcion__galeria ">
 
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%; ">
-                Consiste en preparar las comidas que degustaban sus seres queridos en vida. Entre los platos más
-                representativos que se sirven en las mesas son: el moro de lenteja, colada morada, colada de arroz
-                con panela, picante de pescado, panes, algunas frutas, y el tradicional aguardiente de caña.
-                El primer día de este evento hacen recorridos los niños, mientras que el segundo día lo realizan los adultos.
+              <?php echo $texto_traducido["tradicion_pop"][19] ?>
 
               </p>
             </div>
@@ -952,7 +917,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Fiesta a la sra. Lourdes- San José<h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][20] ?><h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -969,11 +934,7 @@
           <div class="Contenido__galeria">
             <div class="descripcion__galeria ">
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%;">
-                Nuestra Señora de Lourdes tiene una tradición arraigada de milagros atribuidos a su intercesión
-                de sanaciones de problemas de salud y en favor de personas desahuciadas, por lo que es la patrona
-                de los enfermos. En las sucesivas apariciones a Bernardita, la Virgen le pidió penitencia,
-                oración por los pecadores y rezó el rosario con ella, además de expresarle su deseo de que
-                en la gruta se erigiera una capilla, donde actualmente se encuentra el famoso Santuario de Lourdes.
+              <?php echo $texto_traducido["tradicion_pop"][21] ?>
               </p>
             </div>
         </section>
@@ -989,7 +950,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">
-          <h3 class="titumodal">Día de Difuntos - Las Núñez</h3>
+          <h3 class="titumodal"><?php echo $texto_traducido["tradicion_pop"][22] ?></h3>
         </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -1006,17 +967,8 @@
           </figure>
           <div class="Contenido__galeria">
             <div class="descripcion__galeria ">
-
-
               <p style="text-align: justify; font-size: 18px; font-family: 'Montserrat'; margin: 0 2%;">
-                Los habitantes de la comuna las Núñez tienen varias festividades, entre ellas las fiestas patronales, las cuales se
-                realizan el 2 de octubre donde se celebra a “San Francisco de Asís”; el 31 de mayo la visita de la
-                virgen a su prima Santa Isabel; el 8 de diciembre fundación de la comuna San Francisco de las Núñez.
-                Como tradición el Día de los difuntos, que se celebra el 1 y 2 de noviembre de cada año,
-                donde las familias colocan en mesas comidas que les gustaban a los difuntos.
-
-
-
+              <?php echo $texto_traducido["tradicion_pop"][23] ?>
               </p>
             </div>
         </section>
