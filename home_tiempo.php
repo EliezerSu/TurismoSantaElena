@@ -11,7 +11,7 @@
 
         <div>
             <br><br>
-            <h3 style="text-align: center;" class="titulo-llegar">Tiempo</h3>
+            <h3 style="text-align: center;" class="titulo-llegar"><?php echo $texto_traducido["clim"][0] ?></h3>
         </div>
 
     </div>
@@ -24,23 +24,23 @@
 
         <div class="tituloPrincipal wow fadeInRight text-center mx-auto">
             <img style="vertical-align:  text-left; width: 600; height: 190px;" src="imagenes/planifica_tu_viaje/0464_verano.png" id="como moverse"><br>
-            <h2>Tiempo en verano</h2>
+            <h2><?php echo $texto_traducido["clim"][1] ?></h2>
         </div>
         <div class=" wow fadeInRight">
-            <p style="padding-left: 10%; padding-right: 10%; font-size: 19px;" class="contente__font1">Utilizar ropa abrigada como abrigos calentadores o gorros, la temperatura no es muy baja, el frío es leve, pero si se recomienda utilizar ropa abrigada cuando se vaya a visitar los atractivos en esta temporada</p>
+            <p style="padding-left: 10%; padding-right: 10%; font-size: 19px;" class="contente__font1"><?php echo $texto_traducido["clim"][2] ?></p>
         </div>
     </div>
     <section>
         <table class="table table-striped col-5 mx-auto text-center">
             <thead class="thead-dark">
                 <tr>
-                    <th scope="col">Meses</th>
-                    <th scope="col">Temperatura</th>
+                    <th scope="col"><?php echo $texto_traducido["clim"][3] ?></th>
+                    <th scope="col"><?php echo $texto_traducido["clim"][4] ?></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Junio a Noviembre</td>
+                    <td><?php echo $texto_traducido["clim"][5] ?></td>
                     <td>22 °C</td>
                 </tr>
 
@@ -56,11 +56,11 @@
 
         <div class="tituloPrincipal wow fadeInRight text-center mx-auto">
             <img style="vertical-align: text-left; width: 600; height: 190px;" src="imagenes/planifica_tu_viaje/0465_invierno.png" id="como moverse"><br>
-            <h2>Tiempo en invierno</h2>
+            <h2><?php echo $texto_traducido["clim"][6] ?></h2>
         </div>
         <div class=" wow fadeInRight">
             <p style="padding-left: 10%; padding-right: 10%; font-size: 19px;" class="contente__font1">
-                Utilizar ropa como camisetas cortas, pantalonetas, gorras, bloqueador solar, sombrilla, llevar agua, esta temporada es la época en donde la temperatura es muy alta y se recomienda estar hidratado al momento de visitar los atractivos</p>
+            <?php echo $texto_traducido["clim"][7] ?></p>
         </div>
     </div>
 
@@ -69,13 +69,13 @@
         <table class=" table table-striped col-5 mx-auto text-center">
             <thead class="thead-dark">
                 <tr>
-                    <th scope="col">Meses</th>
-                    <th scope="col">Temperatura</th>
+                    <th scope="col"><?php echo $texto_traducido["clim"][3] ?></th>
+                    <th scope="col"><?php echo $texto_traducido["clim"][4] ?></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Diciembre a Mayo</td>
+                    <td><?php echo $texto_traducido["clim"][8] ?></td>
                     <td>26 °C</td>
                 </tr>
 
