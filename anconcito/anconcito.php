@@ -174,25 +174,25 @@
         <h2><?php echo $texto_traducido["body"][18] ?></h2>
         <img src="imagenes/anconcito/0062_deportes.jpg" alt="" />
         <p class="tamPar"><?php echo $texto_traducido["body"][19] ?></p>
-        <a href="lasnunezdeportesaventuras.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
+        <a href="desportesanconcito.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
       </div>
       <div class="tabla hover">
         <h2><?php echo $texto_traducido["body"][20] ?></h2>
         <img src="imagenes/anconcito/0063_culturas.jpg" alt="" />
         <p class="tamPar"><?php echo $texto_traducido["body"][21] ?></p>
-        <a href="lasnunezculturatradiciones.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
+        <a href="culturaanconcito.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
       </div>
       <div class="tabla">
         <h2 id="gas"><?php echo $texto_traducido["body"][22] ?></h2>
         <img src="imagenes/anconcito/0064_gastronimia.jpg" alt="" />
         <p class="tamPar"><?php echo $texto_traducido["body"][23] ?></p>
-        <a href="lasnunezgastronomia.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
+        <a href="gastronomiaanconcito.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
       </div>
       <div class="tabla">
         <h2><?php echo $texto_traducido["body"][24] ?></h2>
         <img src="imagenes/anconcito/0065_rutas.jpg" alt="" />
         <p class="tamPar"><?php echo $texto_traducido["body"][25] ?></p>
-        <a href="lasnunezrutasyexcursiones.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
+        <a href="rutasanconcito.php" class="boton"><?php echo $texto_traducido["body"][12] ?></a>
       </div>
     </div>
   </section>
