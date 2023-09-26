@@ -3,7 +3,7 @@
 <?php include("boton.php"); ?>
 <section class="section section-sm section-first bg-default text-md-left">
   <div class="container">
-    <h3 class="titulogente">Curía lugar paradisíaco</h3>
+    <h3 class="titulogente"><?php echo $texto_traducido["curi"][0] ?></h3>
     <div class="row row-50 justify-content-center align-items-xl-center">
       <div class="col-md-10 col-lg-5 col-xl-6">
         <div class="slider1">
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="col-md-10 col-lg-7 col-xl-6">
-        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b>Playa virgen</b></h1>
+        <h1 class="text-spacing-25 font-weight-normal title-opacity-9"><b><?php echo $texto_traducido["curi"][1] ?></b></h1>
         <!-- Bootstrap tabs-->
         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
           <!-- Nav tabs-->
@@ -22,11 +22,11 @@
           <div class="tab-content">
             <div class="tab-pane fade show active" id="tabs-4-1">
               <p style="text-align: justify; font-size: 17px;">
-                La comuna Curía en la actualidad oferta el turismo de sol y playa, son varios los motivos por los que los turistas llegan a este destino como lo es el de esparcimiento y de descanso, ideal para pasarla en unión con toda la familia debido al ambiente tranquilo que hay en la zona, dentro de sus atractivos turísticos se encuentran la playa, el bosque, tradiciones y costumbres, la gastronomía y el mirador turístico natural que en la actualidad se está adecuado para la observación del paisaje de la zona, se destacan las aperturas de temporada, ferias artesanales, fiestas patronales y de la comunidad, atractivos con un índice de potencial alto, considerando así por su valor natural.
-              </p>
+              <?php echo $texto_traducido["curi"][2] ?>
+            </p>
               <p style="text-align: justify; font-size: 17px;">
-                Además, cuenta con diferentes servicios complementarios de hospedaje y alimentación, a esto se le añade la amabilidad de su gente al momento de comunicarse con un turista o visitante que se interesa por conocer la localidad, estando siempre predispuestos a ayudar en diversas situaciones que se presenten durante la estancia de estos y a su vez brindándole la hospitalidad necesaria para hacerles sentir como en casa.
-              </p>
+              <?php echo $texto_traducido["curi"][3] ?>
+             </p>
             </div>
           </div>
         </div>

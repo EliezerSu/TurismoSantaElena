@@ -198,6 +198,23 @@ $texto = [
             "subtitle-1" => "Cuenta con el servicio de: a/c, wifi,  restaurante – cafetería, piscina.",
             "subtitle-2" => "Horarios de atención: Se realiza bajo reserva, sin embargo, los días de jueves a domingo está abierto las 24 horas",
         ],
+        "histo" => [
+            "comuna",
+            "Historia",
+            "Olón era un recinto de casas pequeñas cuyo material predominante era la pajiza. Era un pueblo aislado en donde el único acceso era por la playa. En las noches se alumbraban con velas, esto remontando a la época de 1960.",
+            "Se realizaba cacería y sus nativos se alimentaban del producto de la caza de venado o guanta, las personas se bañaban en ríos debido a la inexistencia de agua potable.",
+            "Datos geográficos",
+            "Los límites geográficos de Olón son:",
+            "Norte:",
+            "Sur:",
+            "Este: ",
+            "Oeste:",
+            "División política y ubicación",
+            "Se caracteriza por la presencia de una hermosa, cálida y extensa playa apta para el turismo de descanso y deportivo, también posee la Cordillera Chongón Colonche más su exquisita gastronomía.",
+            "Está ubicado exactamente entre las playas de Montañita y Curía, en la parroquia Manglaralto. Se encuentra a 73 kilómetros de la capital de Santa Elena.",
+            "Apellidos autóctonos de la comuna Olón.",
+            "Apellidos autóctonos"
+        ],
         "hotels-info" => [
            "
             El “Hotel susibon” cuenta con los siguientes servicios:
@@ -350,6 +367,7 @@ $texto = [
         "title_1" => "Gastronomía",
         "title_2" => "Generalidades de Olón",
     ],
+    
 
 
 
@@ -466,6 +484,23 @@ $texto = [
             "Camping",
             "Boat ride",
             "Hiking",
+        ],
+        "histo" => [
+            "commune",
+             "History",
+             "Olón was an area of small houses whose predominant material was straw. It was an isolated town where the only access was through the beach. At night they were lit with candles, dating back to the 1960s.",
+             "Hunting was carried out and its natives fed on the product of hunting deer or guanta, people bathed in rivers due to the lack of drinking water.",
+             "Geographical data",
+             "The geographical limits of Olón are:",
+             "North:",
+             "South:",
+             "This: ",
+             "West:",
+             "Political division and location",
+             "It is characterized by the presence of a beautiful, warm and extensive beach suitable for leisure and sports tourism, it also has the Chongón Colonche Mountain Range plus its exquisite gastronomy.",
+             "It is located exactly between the beaches of Montañita and Curía, in the Manglaralto parish. It is located 73 kilometers from the capital of Santa Elena.",
+             "Native surnames of the Olón commune.",
+             "Native surnames"
         ],
         "body-routes" => [
             "

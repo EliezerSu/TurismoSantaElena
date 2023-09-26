@@ -8,8 +8,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-10">
-                    <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta de los encantos de este hermoso paraiso</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow">Visita</span><span class="font-weight-bold text-shadow"> La Entrada y Rinconada</span></h2>
+                    <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["body"][12] ?> </h6>
+                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow"><?php echo $texto_traducido["body"][18] ?> </span><span class="font-weight-bold text-shadow"> <?php echo $texto_traducido["body"][13] ?> </span></h2>
                   </div>
                 </div>
               </div>
@@ -20,8 +20,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-10">
-                    <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0">ven y disfruta</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow">Deleitate de</span><span class="font-weight-bold text-shadow"> nuestro clima tropical</span></h2>
+                    <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["body"][14] ?> </h6>
+                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow"><?php echo $texto_traducido["body"][15] ?> </span><span class="font-weight-bold text-shadow"> <?php echo $texto_traducido["body"][16] ?> </span></h2>
                   </div>
                 </div>
               </div>
@@ -33,8 +33,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-10">
-                    <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0">Disfruta del encanto de nuestra hermosa playa</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow">Disfruta</span><span class="font-weight-bold text-shadow"> en familia</span></h2>
+                    <h6 class="text-uppercase text-shadow" data-caption-animate="fadeInRight" data-caption-delay="0"><?php echo $texto_traducido["body"][17] ?> </h6>
+                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span class="font-weight-bold text-shadow"><?php echo $texto_traducido["body"][18] ?> </span><span class="font-weight-bold text-shadow"> <?php echo $texto_traducido["body"][19] ?> </span></h2>
                   </div>
                 </div>
               </div>
@@ -50,13 +50,13 @@
       <section>
         <div class="text-center">
           <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
-              <h2 style="text-align: center;color:#122638">Acerca de nuestra comuna</h2>
+              <h2 style="text-align: center;color:#122638"><?php echo $texto_traducido["body"][2] ?></h2>
               <hr  class="w-50 d-block d-ms-none mx-auto" style="border-bottom: 3px solid #01b3a7; margin-bottom:35px;"> 
           </div>
             <p class="text-responsive col-10 mx-auto " style = "text-align: justify; font-size: 17px; margin-bottom: 50px;">
 
 
-            La comuna La Entrada cuenta con una de las playas más increíbles de la provincia de Santa Elena, al estar rodeada de paisajes naturales emblemáticos, compuesta de arena y piedra de color grisácea y fina, posee aguas de fuerte oleaje. Por su ubicación no recibe una afluencia masiva de visitantes, al ser una playa aislada del entorno rural. Se puede acceder mediante vehículo desde la carretera vía E15 o llamada ruta del Spondylus. En la playa donde se puede practicar surf, bodyboard, pesca deportiva y pesca artesanal. 
+            <?php echo $texto_traducido["body"][1] ?> 
 
             </p>
               
@@ -79,22 +79,22 @@
             </div>
              
             <p class="text-responsive col-10 mx-auto" style = "text-align: justify; font-size: 17px;  margin-top: 50px;">
-              Es un entorno natural enclavado en la cordillera Chongón colonche que cuenta con río y acantilados bajos que le dan un paisaje majestuoso que invita al visitante al disfrute en unas aguas de color turquesa y de cálidas temperaturas durante todo el año. La población está presta atender de manera amable y servicial a turistas y visitantes. 
-            </p>
+            <?php echo $texto_traducido["body"][3] ?>
+                      </p>
               <br>
             <p class="text-responsive col-10 mx-auto" style = "text-align: justify; font-size: 17px; margin-bottom: 50px; ">
-              Es por ello que la comuna es conocida como un pueblo dedicado a la pesca y al comercio de sus productos como principales platos típicos que venden para el degustar de los que visitan la comuna La Entrada y venta de principales productos del diario vivir sus casas pintorescas y llamativas hacen este lugar un lugar de cultura y visita turística.
-            </p>
+            <?php echo $texto_traducido["body"][4] ?>
+                      </p>
 
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
-              <h2 style="text-align: center;color:#122638">Personalidades significativas</h2>
+              <h2 style="text-align: center;color:#122638"><?php echo $texto_traducido["body"][5] ?></h2>
               <hr  class="w-50 d-block d-ms-none mx-auto" style="border-bottom: 3px solid #01b3a7; margin-bottom:35px;"> 
             </div>
 
                   
             <p class="text-responsive col-10 mx-auto" style = "text-align: justify; font-size: 17px; margin-bottom: 50px; margin-top: 50px">
-            Entre los pobladores resalta la señora María Ester Quirumbay Neira, quien es una de las primeras pobladoras de la comuna La entrada, ella es oriunda de una comuna aledaña, misma que dejó su pueblo (Libertador Bolívar) para unirse a su amado esposo, quien se dedicaba a la agricultura. Es ahí donde comenzó la historia de su vida, en una comunidad donde solo había 5 casas, cuyos habitantes se dedicaban a la pesca. 
-            </p>
+            <?php echo $texto_traducido["body"][6] ?>
+                      </p>
             
             <div class="container-fluid d-flex align-items-center">
               <article class="thumbnail thumbnail-mary col-5 mx-auto">
@@ -116,16 +116,16 @@
 
       
             <p class="text-responsive col-10 mx-auto" style = "text-align: justify; font-size: 17px;  margin-top: 50px; margin-bottom: 50px;">
-            Actualmente, vive con su esposo, Jorge Flores, en una pequeña pintoresca casa de la comuna. Por su avanzada edad y condiciones, María Ester de 92 años y Jorge Flores de 82 años no dedican más su tiempo a actividades laborales, razón por la cual esta pareja de convivientes asegura estar predispuesta a diálogos con visitantes o turistas que deseen conocer acerca de su comuna. Siempre con mucha empatía y alegría, que es lo que los caracteriza.
-            </p>
+            <?php echo $texto_traducido["body"][7] ?>
+                      </p>
 
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
-              <h2 style="text-align: center;color:#122638">Datos geográficos  </h2>
+              <h2 style="text-align: center;color:#122638"><?php echo $texto_traducido["body"][8] ?>  </h2>
               <hr  class="w-50 d-block d-ms-none mx-auto" style="border-bottom: 3px solid #01b3a7; margin-bottom:35px;"> 
             </div>
             <p class="text-responsive col-10 mx-auto" style = "text-align: justify; font-size: 17px;">
-            La comuna La Entrada es un pintoresco pueblo de la parroquia Manglaralto de la provincia de Santa Elena, perteneciente al mismo cabildo junto a la comuna Rinconada. Tiene una población de aproximadamente 700 habitantes y posee un clima cálido de 16 °C de temperatura en verano y hasta 28 °C en invierno. Entre sus principales actividades se encuentra la pesca, la cual es utilizada para la venta de platos típicos a disposición de turistas. 
-            </p>
+            <?php echo $texto_traducido["body"][9] ?>
+                      </p>
 
             <div class="container-fluid d-flex align-items-center" style=" margin-bottom: 50px; margin-top: 50px">
               <article class="thumbnail thumbnail-mary col-5 mx-auto">
@@ -145,12 +145,12 @@
              
             </div>
             <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
-              <h2 style="text-align: center;color:#122638">Acontecimientos históricos </h2>
+              <h2 style="text-align: center;color:#122638"><?php echo $texto_traducido["body"][10] ?> </h2>
               <hr  class="w-50 d-block d-ms-none mx-auto" style="border-bottom: 3px solid #01b3a7; margin-bottom:35px;"> 
             </div>
             <p class="text-responsive col-10 mx-auto" style = "text-align: justify; font-size: 17px;">
-            En 1994 se construyó la primera iglesia en La comuna La Entrada denominada Corazón de Jesús, desde ahí se comenzó a vivir festividades de entorno religioso y unión de sus comuneros. La Entrada tiene más de 85 murales, esto se da gracias al proyecto Casitas de Colores que es un realce en la fachada del pueblo, que convirtió a la comuna en un lugar llamativo y acogedor para turistas nacionales y extranjeros.
-            </p>
+            <?php echo $texto_traducido["body"][11] ?>
+                     </p>
               
             <div class="container-fluid d-flex align-items-center" style=" margin-bottom: 50px; margin-top: 50px">
               <article class="thumbnail thumbnail-mary col-5 mx-auto">

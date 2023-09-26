@@ -119,7 +119,14 @@ $texto = [
             "Utilizar ropa como camisetas cortas, pantalonetas, gorras, bloqueador solar, sombrilla, llevar agua, esta temporada es la época en donde la temperatura es muy alta y se recomienda estar hidratado al momento de visitar los atractivos",
             "Diciembre a Mayo",
             "Tiempo hoy",
-        ]
+        ],
+        "curi" => [
+            "Curía lugar paradisíaco",
+            "Playa virgen",
+            "La comuna Curía en la actualidad oferta el turismo de sol y playa, son varios los motivos por los que los turistas llegan a este destino como lo es el de esparcimiento y de descanso, ideal para pasarla en unión con toda la familia debido al ambiente tranquilo que hay en la zona, dentro de sus atractivos turísticos se encuentran la playa, el bosque, tradiciones y costumbres, la gastronomía y el mirador turístico natural que en la actualidad se está adecuado para la observación del paisaje de la zona, se destacan las aperturas de temporada, ferias artesanales, fiestas patronales y de la comunidad, atractivos con un índice de potencial alto, considerando así por su valor natural.",
+            "Además, cuenta con diferentes servicios complementarios de hospedaje y alimentación, a esto se le añade la amabilidad de su gente al momento de comunicarse con un turista o visitante que se interesa por conocer la localidad, estando siempre predispuestos a ayudar en diversas situaciones que se presenten durante la estancia de estos y a su vez brindándole la hospitalidad necesaria para hacerles sentir como en casa.",
+            ""
+        ],
     ],
     "en" =>
     [
@@ -237,6 +244,13 @@ $texto = [
             "Use clothing such as short t-shirts, shorts, hats, sunscreen, umbrella, carry water, this season is the time when the temperature is very high and it is recommended to be hydrated when visiting the attractions",
             "December to May",
             "Weather today",
-        ]
+        ],
+        "curi" => [
+            "Curia paradise place",
+             "virgin beach",
+             "The Curía commune currently offers sun and beach tourism, there are several reasons why tourists come to this destination, such as recreation and rest, ideal for spending time together with the whole family due to the environment. quiet that there is in the area, among its tourist attractions are the beach, the forest, traditions and customs, gastronomy and the natural tourist viewpoint that is currently suitable for observing the landscape of the area, the seasonal openings, craft fairs, patron saint and community festivals, attractions with a high potential index, thus considering their natural value.",
+             "In addition, it has different complementary accommodation and food services, to this is added the kindness of its people when communicating with a tourist or visitor who is interested in getting to know the town, always being willing to help in various situations that arise. present during their stay and at the same time providing the necessary hospitality to make them feel at home.",
+             ""
+        ],
     ]
 ];
