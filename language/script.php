@@ -21,11 +21,11 @@ function GetSelectLanguage(): void
             id="languageSelect" 
             style="
                 width: 150px;
-	            height: 50px;
 	            font-size: 16px;
 	            text-transform: uppercase;
-	            padding: 15px;
-	            border-radius: 15px;
+	            border: none;
+                background-color: #082032;
+                color: white;
             ">
         ';
     foreach ($languages as $language) {
