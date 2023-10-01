@@ -116,7 +116,7 @@ $texto_traducido = GetTextoTraducido("../language/sanjose");
                   <li><a class="dropdown-item " href="tiemposanjose.php"><?php echo $texto_traducido["header"]["subtitle-2"][3] ?></a></li>
                 </ul>
               </li>
-              <li>
+              <li class="d-flex">
                 <?php GetSelectLanguage() ?>
               </li>
             </ul>

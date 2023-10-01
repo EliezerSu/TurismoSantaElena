@@ -170,7 +170,7 @@ $texto_traducido = GetTextoTraducido("home");
 
             </li>
 
-            <li>
+            <li class="d-flex">
               <?php GetSelectLanguage() ?>
             </li>
             <?php GetScriptSelectLanguage() ?>

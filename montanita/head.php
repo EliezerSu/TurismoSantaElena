@@ -92,7 +92,7 @@ $texto_traducido = GetTextoTraducido("../language/montanita");
 
                                   
                               </ul>
-                              <li>
+                              <li class="d-flex">
                               <?php GetSelectLanguage() ?>
                               </li>
                               </ul>

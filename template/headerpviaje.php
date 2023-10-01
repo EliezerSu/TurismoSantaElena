@@ -225,7 +225,7 @@ $texto_traducido = GetTextoTraducido("viaje");
                       }?>
                       
                   </li>
-                  <li>
+                  <li class="d-flex">
               <?php GetSelectLanguage() ?>
             </li>
             <?php GetScriptSelectLanguage() ?>

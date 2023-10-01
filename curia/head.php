@@ -134,7 +134,7 @@ $texto_traducido = GetTextoTraducido("../language/curia");
                 <li><a class="dropdown-item" href="tiempocuria.php"><?php echo $texto_traducido["header"]["subtitle-1"][7] ?></a></li>
               </ul>
             </li>
-            <li>
+            <li class="d-flex">
               <?php GetSelectLanguage() ?>
             </li>
           </ul>

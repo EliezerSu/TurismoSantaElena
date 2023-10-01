@@ -89,7 +89,7 @@ $texto_traducido = GetTextoTraducido("../language/olon");
                                    
                                 </ul>
                             </li>
-                          <li>
+                          <li class="d-flex">
                             <?php GetSelectLanguage() ?>
                           </li>
                         </ul>

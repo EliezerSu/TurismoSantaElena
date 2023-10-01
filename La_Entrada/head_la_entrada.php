@@ -123,7 +123,7 @@ $texto_traducido = GetTextoTraducido("../language/la_entrada");
 
               </ul>
             </li>
-            <li>
+            <li class="d-flex">
               <?php GetSelectLanguage() ?>
             </li>
           </ul>
